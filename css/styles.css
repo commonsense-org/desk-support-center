@@ -1,6 +1,7 @@
-/* line 1, ../sass/base.scss */
-h2 {
-  color: yellow !important; }
+/* line 2, ../sass/base.scss */
+body #helptopics {
+  text-align: center;
+  color: #3a3a3a; }
 
 @media (min-width: 768px) {
   /* line 1, ../sass/_768up.scss */
