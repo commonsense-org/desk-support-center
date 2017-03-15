@@ -1,0 +1,8 @@
+h2 {
+  color: blue !important; }
+
+@media (min-width: 768px) {
+  h1 {
+    color: red; } }
+
+/*# sourceMappingURL=styles.css.map */
