@@ -1,6 +1,6 @@
 /* line 1, ../sass/base.scss */
 h2 {
-  color: red !important; }
+  color: yellow !important; }
 
 @media (min-width: 768px) {
   /* line 1, ../sass/_768up.scss */
