@@ -1,11 +1,22 @@
-/* line 2, ../sass/base.scss */
+/* line 3, ../sass/base.scss */
 body #helptopics {
   text-align: center;
   color: #3a3a3a; }
-
-@media (min-width: 768px) {
-  /* line 1, ../sass/_768up.scss */
-  h1 {
-    color: red; } }
+/* line 7, ../sass/base.scss */
+body .kb_topic_name {
+  color: #1e800d; }
+/* line 12, ../sass/base.scss */
+body #support-main {
+  width: 100%;
+  float: none; }
+/* line 18, ../sass/base.scss */
+body #support-side {
+  float: none;
+  clear: left;
+  margin: 0;
+  width: 100%; }
+/* line 24, ../sass/base.scss */
+body #footer {
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */

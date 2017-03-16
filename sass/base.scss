@@ -1,6 +1,27 @@
+@import './variables.scss';
 body {
 	#helptopics {
 		text-align: center;
 		color: #3a3a3a;
+	}
+	.kb_topic_name {
+		color: #1e800d;
+	}
+
+	// main content
+	#support-main {
+		width: 100%;
+		float: none;
+	}
+
+	// contact us section
+	#support-side {
+		float: none;
+		clear: left;
+		margin: 0;
+		width: 100%;
+	}
+	#footer {
+		display: none;
 	}
 }
