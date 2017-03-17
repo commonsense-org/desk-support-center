@@ -16,7 +16,7 @@ body #support-main {
   font-family: "Lato", sans-serif; }
   /* line 20, ../sass/base.scss */
   body #support-main .dashboard > h3 {
-    color: #3a3a3a;
+    color: #3a3a3a !important;
     font-size: 32px; }
   /* line 25, ../sass/base.scss */
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-4 {
@@ -24,18 +24,19 @@ body #support-main {
     color: #3a3a3a; }
     /* line 29, ../sass/base.scss */
     body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl {
-      font-family: "Lato:700", sans-serif; }
-    /* line 32, ../sass/base.scss */
+      font-family: "Lato", sans-serif;
+      font-weight: bold; }
+    /* line 33, ../sass/base.scss */
     body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row {
       margin: 0;
       padding-bottom: 15px; }
-/* line 41, ../sass/base.scss */
+/* line 42, ../sass/base.scss */
 body #support-side {
   float: none;
   clear: left;
   margin: 0;
   width: 100%; }
-/* line 47, ../sass/base.scss */
+/* line 48, ../sass/base.scss */
 body #footer {
   display: none; }
 
