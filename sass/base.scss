@@ -18,6 +18,14 @@ body {
 	}
 	.row-2, .row-3, .row-4 {
 		font-size: 1.5em;
+		.col-sm-12 {
+			.header-hl {
+				font-weight: bold;
+			}
+			.row {
+				padding-bottom: 15px;
+			}
+		}
 	}
 
 	// contact us section

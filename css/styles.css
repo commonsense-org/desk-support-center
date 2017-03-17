@@ -15,13 +15,19 @@ body #support-main {
 /* line 19, ../sass/base.scss */
 body .row-2, body .row-3, body .row-4 {
   font-size: 1.5em; }
-/* line 24, ../sass/base.scss */
+  /* line 22, ../sass/base.scss */
+  body .row-2 .col-sm-12 .header-hl, body .row-3 .col-sm-12 .header-hl, body .row-4 .col-sm-12 .header-hl {
+    font-weight: bold; }
+  /* line 25, ../sass/base.scss */
+  body .row-2 .col-sm-12 .row, body .row-3 .col-sm-12 .row, body .row-4 .col-sm-12 .row {
+    padding-bottom: 15px; }
+/* line 32, ../sass/base.scss */
 body #support-side {
   float: none;
   clear: left;
   margin: 0;
   width: 100%; }
-/* line 30, ../sass/base.scss */
+/* line 38, ../sass/base.scss */
 body #footer {
   display: none; }
 
