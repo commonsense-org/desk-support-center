@@ -17,7 +17,7 @@ body #support-main {
   /* line 20, ../sass/base.scss */
   body #support-main .dashboard > h3 {
     color: #3a3a3a !important;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif !important;
     font-size: 32px;
     line-height: 40px;
     text-align: center; }
