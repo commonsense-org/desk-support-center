@@ -1,24 +1,27 @@
 /* line 3, ../sass/base.scss */
+body .wrapper {
+  width: 100%; }
+/* line 6, ../sass/base.scss */
 body #helptopics {
   text-align: center;
   color: #3a3a3a; }
-/* line 7, ../sass/base.scss */
+/* line 10, ../sass/base.scss */
 body .kb_topic_name {
   color: #1e800d; }
-/* line 12, ../sass/base.scss */
+/* line 15, ../sass/base.scss */
 body #support-main {
   width: 100%;
   float: none; }
-/* line 16, ../sass/base.scss */
+/* line 19, ../sass/base.scss */
 body .row-2, body .row-3, body .row-4 {
   font-size: 1.5em; }
-/* line 21, ../sass/base.scss */
+/* line 24, ../sass/base.scss */
 body #support-side {
   float: none;
   clear: left;
   margin: 0;
   width: 100%; }
-/* line 27, ../sass/base.scss */
+/* line 30, ../sass/base.scss */
 body #footer {
   display: none; }
 
