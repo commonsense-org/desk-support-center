@@ -16,17 +16,23 @@ body {
 		width: 100%;
 		float: none;
 		font-family: $lato;
-	}
-	.row-2, .row-3, .row-4 {
-		font-size: 20px;
-		color: $black;
-		.col-sm-12 {
-			.header-hl {
-				font-family: $lato-bold;
+		.dashboard {
+			> h3 {
+				color: $black;
+				font-size: 32px;
 			}
-			.row {
-				margin: 0;
-				padding-bottom: 15px;
+		}
+		.row-2, .row-3, .row-4 {
+			font-size: 20px;
+			color: $black;
+			.col-sm-12 {
+				.header-hl {
+					font-family: $lato-bold;
+				}
+				.row {
+					margin: 0;
+					padding-bottom: 15px;
+				}
 			}
 		}
 	}
