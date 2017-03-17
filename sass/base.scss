@@ -15,9 +15,11 @@ body {
 	#support-main {
 		width: 100%;
 		float: none;
+		font-family: $lato;
 	}
 	.row-2, .row-3, .row-4 {
-		font-size: 1.5em;
+		font-size: 20px;
+		color: $black;
 		.col-sm-12 {
 			.header-hl {
 				font-weight: bold;
