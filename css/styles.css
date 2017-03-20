@@ -61,7 +61,7 @@ body {
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {
-      padding: 40px 25px 0 25px; }
+      padding-top: 40px; }
       body #support-main .dashboard > h3 {
         border-bottom: 0;
         color: #3a3a3a !important;
@@ -73,8 +73,7 @@ body {
       body #support-main .dashboard table tr td h4 {
         color: #1e800d !important; }
     body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 20px 25px 20px;
       font-size: 20px;
       color: #3a3a3a; }
       body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl, body #support-main .row-5 .col-sm-12 .header-hl, body #support-main .row-6 .col-sm-12 .header-hl, body #support-main .row-7 .col-sm-12 .header-hl {
