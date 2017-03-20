@@ -5,6 +5,8 @@ body {
     display: none; }
   body .wrapper {
     width: 100%; }
+  body .row {
+    margin: 0; }
   body #helptopics {
     text-align: center;
     color: #3a3a3a; }
@@ -81,7 +83,7 @@ body {
       body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row {
         margin: 0;
         padding-bottom: 15px; }
-    body #support-main .row-3 .col-sm-12 {
+    body #support-main .row-3 {
       border-bottom: 1px solid #ddd; }
     body #support-main .row-4 {
       text-align: center; }

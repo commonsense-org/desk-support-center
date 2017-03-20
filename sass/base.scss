@@ -7,6 +7,9 @@ body {
 	.wrapper {
 		width: 100%;
 	}
+	.row {
+		margin: 0;
+	}
 	#helptopics {
 		text-align: center;
 		color: #3a3a3a;
@@ -111,8 +114,9 @@ body {
 			}
 		}
 		.row-3 {
+			border-bottom: 1px solid #ddd;
 			.col-sm-12 {
-				border-bottom: 1px solid $grey;
+				// border-bottom: 1px solid $grey;
 			}
 		}
 		.row-4 {
