@@ -82,6 +82,8 @@ body {
       body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row, body #support-main .row-5 .col-sm-12 .row, body #support-main .row-6 .col-sm-12 .row, body #support-main .row-7 .col-sm-12 .row {
         margin: 0;
         padding-bottom: 15px; }
+    body #support-main .row-1 {
+      padding: 20px 40px 20px; }
     body #support-main .row-3 {
       border-bottom: 1px solid #ddd; }
     body #support-main .row-4 {
