@@ -9,12 +9,16 @@ body #helptopics {
 body .kb_topic_name {
   color: #1e800d; }
 body #support-header {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   body #support-header h2 {
-    color: #ffffff;
+    color: #ffffff !important;
     text-shadow: none !important; }
   body #support-header .support-search-big {
     border: 0; }
+  body #support-header form .outer {
+    width: 90%;
+    margin: 0 auto; }
   body #support-header form .inner {
     border-radius: 25px; }
   body #support-header form #support-search-submit {
@@ -23,6 +27,8 @@ body #support-main {
   width: 100%;
   float: none;
   font-family: "Lato", sans-serif; }
+  body #support-main .support-body {
+    border: 0; }
   body #support-main .dashboard > h3 {
     border-bottom: 0;
     color: #3a3a3a !important;
