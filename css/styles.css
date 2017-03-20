@@ -1,45 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
-/* line 3, ../sass/base.scss */
-body .wrapper {
+body #company-header, body #support-side {
+  display: none; }
+body #company-header.wrapper, body #support-header.wrapper {
   width: 100%; }
-/* line 6, ../sass/base.scss */
 body #helptopics {
   text-align: center;
   color: #3a3a3a; }
-/* line 10, ../sass/base.scss */
 body .kb_topic_name {
   color: #1e800d; }
-/* line 15, ../sass/base.scss */
 body #support-main {
   width: 100%;
   float: none;
   font-family: "Lato", sans-serif; }
-  /* line 20, ../sass/base.scss */
   body #support-main .dashboard > h3 {
+    border-bottom: 0;
     color: #3a3a3a !important;
     font-family: "Lato", sans-serif !important;
     font-size: 32px;
     line-height: 40px;
     text-align: center; }
-  /* line 28, ../sass/base.scss */
+  body #support-main .dashboard table {
+    color: #1e800d; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-4 {
     font-size: 20px;
     color: #3a3a3a; }
-    /* line 32, ../sass/base.scss */
     body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl {
       font-family: "Lato", sans-serif;
       font-weight: bold; }
-    /* line 36, ../sass/base.scss */
     body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row {
       margin: 0;
       padding-bottom: 15px; }
-/* line 45, ../sass/base.scss */
+  body #support-main .row-4 {
+    text-align: center; }
+    body #support-main .row-4 .header-hl {
+      font-size: 1.3em; }
+    body #support-main .row-4 .row:not(.header-hl) {
+      color: #1e800d; }
 body #support-side {
   float: none;
   clear: left;
   margin: 0;
   width: 100%; }
-/* line 51, ../sass/base.scss */
 body #footer {
   display: none; }
 

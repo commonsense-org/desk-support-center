@@ -1,6 +1,6 @@
 @import './variables.scss';
 body {
-	#company-header {
+	#company-header, #support-side {
 		display: none;
 	}
 	#company-header.wrapper, #support-header.wrapper {
@@ -44,6 +44,15 @@ body {
 					margin: 0;
 					padding-bottom: 15px;
 				}
+			}
+		}
+		.row-4 {
+			text-align: center;
+			.header-hl {
+				font-size: 1.3em;
+			}
+			.row:not(.header-hl) {
+				color: $green_links;
 			}
 		}
 	}
