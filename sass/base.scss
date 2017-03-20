@@ -77,7 +77,7 @@ body {
 			border: 0;
 		}
 		.dashboard {
-			padding: 40px 0;
+			padding: 40px 0 0;
 			> h3 {
 				border-bottom: 0;
 				color: $black!important;
@@ -129,12 +129,16 @@ body {
 		}
 		.row-5 {
 			background-color: #e6e7e3;
+			.col-sm-12 {
+				padding: 35px 20px 35px;
+			}
 		}
 		.row-6 {
 			background-color: $green;
 			.col-sm-12 {
 				padding: 35px 20px 35px;
 				color: $white;
+				text-align: center;
 				> div:nth-of-type(3) {
 					border: 1px solid $white;
 					border-radius: 25px;

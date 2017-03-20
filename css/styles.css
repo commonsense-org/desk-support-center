@@ -61,7 +61,7 @@ body {
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {
-      padding: 40px 0; }
+      padding: 40px 0 0; }
       body #support-main .dashboard > h3 {
         border-bottom: 0;
         color: #3a3a3a !important;
@@ -92,11 +92,14 @@ body {
         color: #1e800d; }
     body #support-main .row-5 {
       background-color: #e6e7e3; }
+      body #support-main .row-5 .col-sm-12 {
+        padding: 35px 20px 35px; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {
         padding: 35px 20px 35px;
-        color: #ffffff; }
+        color: #ffffff;
+        text-align: center; }
         body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) {
           border: 1px solid #ffffff;
           border-radius: 25px; }
