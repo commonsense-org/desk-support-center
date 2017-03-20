@@ -20,11 +20,13 @@ body {
 		h2 {
 			color: $white!important;
 			text-shadow: none!important;
+			font-family: $lato!important;
 		}
 		.support-search-big {
 			border: 0;
 		}
 		form {
+			font-family: $lato!important;
 			.outer {
 				width: 90%;
 				margin: 0 auto;

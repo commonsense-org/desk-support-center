@@ -15,17 +15,20 @@ body {
     margin-bottom: 0; }
     body #support-header h2 {
       color: #ffffff !important;
-      text-shadow: none !important; }
+      text-shadow: none !important;
+      font-family: "Lato", sans-serif !important; }
     body #support-header .support-search-big {
       border: 0; }
-    body #support-header form .outer {
-      width: 90%;
-      margin: 0 auto; }
-    body #support-header form .inner {
-      width: 100%;
-      border-radius: 25px; }
-    body #support-header form #support-search-submit {
-      display: none; }
+    body #support-header form {
+      font-family: "Lato", sans-serif !important; }
+      body #support-header form .outer {
+        width: 90%;
+        margin: 0 auto; }
+      body #support-header form .inner {
+        width: 100%;
+        border-radius: 25px; }
+      body #support-header form #support-search-submit {
+        display: none; }
   body #support-main {
     width: 100%;
     float: none;
