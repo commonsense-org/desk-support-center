@@ -69,10 +69,7 @@ body {
 		width: 100%;
 		float: none;
 		font-family: $lato;
-		.col-sm-12 {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
+
 		.support-body {
 			border: 0;
 		}
@@ -98,6 +95,8 @@ body {
 			}
 		}
 		.row-2, .row-3, .row-4 {
+			padding-top: 20px;
+			padding-bottom: 20px;
 			font-size: 20px;
 			color: $black;
 			.col-sm-12 {

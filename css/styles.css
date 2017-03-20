@@ -56,9 +56,6 @@ body {
     width: 100%;
     float: none;
     font-family: "Lato", sans-serif; }
-    body #support-main .col-sm-12 {
-      padding-top: 20px;
-      padding-bottom: 20px; }
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {
@@ -74,6 +71,8 @@ body {
       body #support-main .dashboard table tr td h4 {
         color: #1e800d !important; }
     body #support-main .row-2, body #support-main .row-3, body #support-main .row-4 {
+      padding-top: 20px;
+      padding-bottom: 20px;
       font-size: 20px;
       color: #3a3a3a; }
       body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl {
