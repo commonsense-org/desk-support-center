@@ -1,6 +1,6 @@
 @import './variables.scss';
 body {
-	font-family: $lato;
+	font-family: $lato!important;
 	#company-header, #support-side {
 		display: none;
 	}
