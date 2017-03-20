@@ -17,10 +17,10 @@ body {
 	#support-header {
 		padding: 25px 0 40px;
 		margin-bottom: 0;
-		background: -webkit-linear-gradient(left, #10cc71, #028bc6); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(right, #10cc71, #028bc6); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(right, #10cc71, #028bc6); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(to right, #10cc71, #028bc6); /* Standard syntax */
+		background: -webkit-linear-gradient(left, #028bc6, #10cc71)!important; /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(right, #028bc6, #10cc71)!important; /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(right, #028bc6, #10cc71)!important; /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(to right, #028bc6, #10cc71)!important; /* Standard syntax */
 		text-align: center;
 		h2 {
 			color: $white!important;
@@ -29,9 +29,11 @@ body {
 		}
 		.support-search-big {
 			border: 0;
+			background: transparent!important;
 		}
 		form {
 			font-family: $lato!important;
+			margin-bottom: 0;
 			.outer {
 				width: 90%;
 				margin: 0 auto;

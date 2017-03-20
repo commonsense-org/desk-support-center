@@ -13,13 +13,13 @@ body {
   body #support-header {
     padding: 25px 0 40px;
     margin-bottom: 0;
-    background: -webkit-linear-gradient(left, #10cc71, #028bc6);
+    background: -webkit-linear-gradient(left, #028bc6, #10cc71) !important;
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #10cc71, #028bc6);
+    background: -o-linear-gradient(right, #028bc6, #10cc71) !important;
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #10cc71, #028bc6);
+    background: -moz-linear-gradient(right, #028bc6, #10cc71) !important;
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #10cc71, #028bc6);
+    background: linear-gradient(to right, #028bc6, #10cc71) !important;
     /* Standard syntax */
     text-align: center; }
     body #support-header h2 {
@@ -27,9 +27,11 @@ body {
       text-shadow: none !important;
       font-family: "Lato", sans-serif !important; }
     body #support-header .support-search-big {
-      border: 0; }
+      border: 0;
+      background: transparent !important; }
     body #support-header form {
-      font-family: "Lato", sans-serif !important; }
+      font-family: "Lato", sans-serif !important;
+      margin-bottom: 0; }
       body #support-header form .outer {
         width: 90%;
         margin: 0 auto; }
