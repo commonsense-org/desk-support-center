@@ -10,7 +10,7 @@ body .kb_topic_name {
   color: #1e800d; }
 body #support-header {
   text-align: center; }
-  body #support-header > h2 {
+  body #support-header h2 {
     color: #ffffff;
     text-shadow: none !important; }
   body #support-header .support-search-big {
