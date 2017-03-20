@@ -28,14 +28,19 @@ body {
         width: 100%;
         border-radius: 25px; }
         body #support-header form .inner #question-mask {
+          top: 30%;
+          padding-left: 10px;
           text-align: left;
-          font-size: 0.7em; }
+          font-size: 1em; }
         body #support-header form .inner #support-search-submit {
           display: none; }
     body #support-header .popular-searches {
       color: #ffffff; }
       body #support-header .popular-searches span {
-        text-decoration: underline; }
+        color: #ffffff; }
+        body #support-header .popular-searches span a {
+          text-decoration: underline;
+          color: #ffffff; }
   body #support-main {
     width: 100%;
     float: none;
@@ -50,7 +55,7 @@ body {
       line-height: 40px;
       text-align: center;
       font-family: "Lato", sans-serif; }
-    body #support-main .dashboard table {
+    body #support-main .dashboard table tr td h4 {
       color: #1e800d; }
     body #support-main .row-2, body #support-main .row-3, body #support-main .row-4 {
       font-size: 20px;
