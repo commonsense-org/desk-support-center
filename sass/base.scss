@@ -1,5 +1,6 @@
 @import './variables.scss';
 body {
+	font-family: $lato;
 	#company-header, #support-side {
 		display: none;
 	}
@@ -53,6 +54,7 @@ body {
 				font-size: 32px;
 				line-height: 40px;
 				text-align: center;
+				font-family: $lato;
 			}
 			table {
 				color: $green_links
@@ -70,6 +72,11 @@ body {
 					margin: 0;
 					padding-bottom: 15px;
 				}
+			}
+		}
+		.row-3 {
+			.col-sm-12 {
+				border-bottom: 1px solid $grey;
 			}
 		}
 		.row-4 {
