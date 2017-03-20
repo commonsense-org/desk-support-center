@@ -98,6 +98,8 @@ body {
         border-radius: 50%;
         background-color: #ffffff;
         color: #1e800d; }
+        body #support-main .row-5 .col-xs-8 > div {
+          padding: 4%; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {

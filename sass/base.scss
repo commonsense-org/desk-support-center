@@ -136,6 +136,9 @@ body {
 		    border-radius: 50%;
 				background-color: $white;
 				color: $green_links;
+				> div {
+					padding: 4%;
+				}
 			}
 		}
 		.row-6 {
