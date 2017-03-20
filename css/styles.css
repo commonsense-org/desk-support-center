@@ -94,6 +94,12 @@ body {
       background-color: #e6e7e3; }
     body #support-main .row-6 {
       background-color: #249A10; }
+      body #support-main .row-6 .col-sm-12 {
+        padding: 35px 20px 35px;
+        color: #ffffff; }
+        body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) {
+          border: 1px solid #ffffff;
+          border-radius: 25px; }
     body #support-main .row-7 {
       background-color: #3a3a3a; }
   body #support-side {

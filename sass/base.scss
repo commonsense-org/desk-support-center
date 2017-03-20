@@ -132,6 +132,14 @@ body {
 		}
 		.row-6 {
 			background-color: $green;
+			.col-sm-12 {
+				padding: 35px 20px 35px;
+				color: $white;
+				> div:nth-of-type(3) {
+					border: 1px solid $white;
+					border-radius: 25px;
+				}
+			}
 		}
 		.row-7 {
 			background-color: $black;
