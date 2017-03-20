@@ -73,7 +73,7 @@ body {
       body #support-main .dashboard table tr td h4 {
         color: #1e800d !important; }
     body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
-      padding-top: 20px 25px 20px;
+      padding: 20px 25px 20px;
       font-size: 20px;
       color: #3a3a3a; }
       body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl, body #support-main .row-5 .col-sm-12 .header-hl, body #support-main .row-6 .col-sm-12 .header-hl, body #support-main .row-7 .col-sm-12 .header-hl {
@@ -91,7 +91,6 @@ body {
       body #support-main .row-4 .row:not(.header-hl) {
         color: #1e800d; }
     body #support-main .row-5 {
-      padding: 35px 20px 35px;
       background-color: #e6e7e3; }
       body #support-main .row-5 .col-sm-12 {
         padding: 35px 20px 35px; }
