@@ -11,7 +11,8 @@ body .kb_topic_name {
 body #support-header {
   text-align: center; }
   body #support-header > h2 {
-    color: #ffffff; }
+    color: #ffffff;
+    text-shadow: none !important; }
 body #support-main {
   width: 100%;
   float: none;
