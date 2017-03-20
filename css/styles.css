@@ -20,6 +20,7 @@ body #support-header {
     width: 90%;
     margin: 0 auto; }
   body #support-header form .inner {
+    width: 100%;
     border-radius: 25px; }
   body #support-header form #support-search-submit {
     display: none; }
