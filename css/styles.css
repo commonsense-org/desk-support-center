@@ -101,8 +101,12 @@ body {
         color: #ffffff;
         text-align: center; }
         body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) {
+          width: 66%;
+          padding: 8px;
           border: 1px solid #ffffff;
-          border-radius: 25px; }
+          margin: 40px auto 0;
+          border-radius: 25px;
+          font-size: 1em; }
     body #support-main .row-7 {
       color: #ffffff;
       background-color: #3a3a3a; }
