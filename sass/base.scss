@@ -97,7 +97,7 @@ body {
 				}
 			}
 		}
-		.row-2, .row-3, .row-4 {
+		.row-2, .row-3, .row-4, .row-5, .row-6, .row-7 {
 			padding-top: 20px;
 			padding-bottom: 20px;
 			font-size: 20px;
@@ -127,6 +127,15 @@ body {
 			.row:not(.header-hl) {
 				color: $green_links;
 			}
+		}
+		.row-5 {
+			background-color: #e6e7e3;
+		}
+		.row-6 {
+			background-color: $green;
+		}
+		.row-7 {
+			background-color: $black;
 		}
 	}
 

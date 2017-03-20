@@ -72,15 +72,15 @@ body {
         font-family: "Lato", sans-serif; }
       body #support-main .dashboard table tr td h4 {
         color: #1e800d !important; }
-    body #support-main .row-2, body #support-main .row-3, body #support-main .row-4 {
+    body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
       padding-top: 20px;
       padding-bottom: 20px;
       font-size: 20px;
       color: #3a3a3a; }
-      body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl {
+      body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl, body #support-main .row-5 .col-sm-12 .header-hl, body #support-main .row-6 .col-sm-12 .header-hl, body #support-main .row-7 .col-sm-12 .header-hl {
         font-family: "Lato", sans-serif;
         font-weight: bold; }
-      body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row {
+      body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row, body #support-main .row-5 .col-sm-12 .row, body #support-main .row-6 .col-sm-12 .row, body #support-main .row-7 .col-sm-12 .row {
         margin: 0;
         padding-bottom: 15px; }
     body #support-main .row-3 {
@@ -91,6 +91,12 @@ body {
         font-size: 1.3em; }
       body #support-main .row-4 .row:not(.header-hl) {
         color: #1e800d; }
+    body #support-main .row-5 {
+      background-color: #e6e7e3; }
+    body #support-main .row-6 {
+      background-color: #249A10; }
+    body #support-main .row-7 {
+      background-color: #3a3a3a; }
   body #support-side {
     float: none;
     clear: left;
