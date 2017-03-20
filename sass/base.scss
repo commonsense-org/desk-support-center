@@ -131,6 +131,9 @@ body {
 			// padding: 35px 20px 35px;
 			background-color: #e6e7e3;
 			.col-xs-8 {
+		    height: 250px;
+		    width: 250px;
+		    border-radius: 50%;
 				background-color: $white;
 				color: $green_links;
 			}
