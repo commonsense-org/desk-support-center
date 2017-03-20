@@ -61,7 +61,7 @@ body {
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {
-      padding-top: 40px; }
+      padding-top: 40px 0; }
       body #support-main .dashboard > h3 {
         border-bottom: 0;
         color: #3a3a3a !important;
