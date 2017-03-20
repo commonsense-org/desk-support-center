@@ -56,6 +56,9 @@ body {
     width: 100%;
     float: none;
     font-family: "Lato", sans-serif; }
+    body #support-main .col-sm-12 {
+      padding-top: 20px;
+      padding-bottom: 20px; }
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {

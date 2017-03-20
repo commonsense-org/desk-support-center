@@ -69,6 +69,10 @@ body {
 		width: 100%;
 		float: none;
 		font-family: $lato;
+		.col-sm-12 {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
 		.support-body {
 			border: 0;
 		}
