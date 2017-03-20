@@ -131,13 +131,16 @@ body {
 			// padding: 35px 20px 35px;
 			background-color: #e6e7e3;
 			.col-xs-8 {
-		    height: 250px;
-		    width: 250px;
+		    height: 210px;
+		    width: 210px;
 		    border-radius: 50%;
 				background-color: $white;
 				color: $green_links;
 				> div {
-					padding: 4%;
+					top: 23%;
+					position: relative;
+					text-align: center;
+					padding: 0 15px;
 				}
 			}
 		}

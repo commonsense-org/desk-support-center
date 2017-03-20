@@ -93,13 +93,16 @@ body {
     body #support-main .row-5 {
       background-color: #e6e7e3; }
       body #support-main .row-5 .col-xs-8 {
-        height: 250px;
-        width: 250px;
+        height: 210px;
+        width: 210px;
         border-radius: 50%;
         background-color: #ffffff;
         color: #1e800d; }
         body #support-main .row-5 .col-xs-8 > div {
-          padding: 4%; }
+          top: 23%;
+          position: relative;
+          text-align: center;
+          padding: 0 15px; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {
