@@ -17,6 +17,8 @@ body #support-header {
     border: 0; }
   body #support-header form .inner {
     border-radius: 25px; }
+  body #support-header form #support-search-submit {
+    display: none; }
 body #support-main {
   width: 100%;
   float: none;
