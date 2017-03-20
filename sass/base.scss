@@ -1,6 +1,9 @@
 @import './variables.scss';
 body {
-	.wrapper {
+	#company-header {
+		display: none;
+	}
+	#company-header.wrapper, #support-header.wrapper {
 		width: 100%;
 	}
 	#helptopics {
