@@ -13,7 +13,12 @@ body {
 	.kb_topic_name {
 		color: #1e800d;
 	}
-
+	#support-header {
+		text-align: center;
+		> h2 {
+			color: $white;
+		}
+	}
 	// main content
 	#support-main {
 		width: 100%;

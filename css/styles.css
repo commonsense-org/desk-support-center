@@ -8,6 +8,10 @@ body #helptopics {
   color: #3a3a3a; }
 body .kb_topic_name {
   color: #1e800d; }
+body #support-header {
+  text-align: center; }
+  body #support-header > h2 {
+    color: #ffffff; }
 body #support-main {
   width: 100%;
   float: none;
