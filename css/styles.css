@@ -27,8 +27,15 @@ body {
       body #support-header form .inner {
         width: 100%;
         border-radius: 25px; }
-      body #support-header form #support-search-submit {
-        display: none; }
+        body #support-header form .inner #question-mask {
+          text-align: left;
+          font-size: 0.7em; }
+        body #support-header form .inner #support-search-submit {
+          display: none; }
+    body #support-header .popular-searches {
+      color: #ffffff; }
+      body #support-header .popular-searches span {
+        text-decoration: underline; }
   body #support-main {
     width: 100%;
     float: none;

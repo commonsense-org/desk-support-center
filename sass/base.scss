@@ -34,9 +34,20 @@ body {
 			.inner {
 				width: 100%;
 				border-radius: 25px;
+				#question-mask {
+					text-align: left;
+					font-size: 0.7em;
+				}
+				#support-search-submit {
+					display: none;
+				}
 			}
-			#support-search-submit {
-				display: none;
+
+		}
+		.popular-searches {
+			color: $white;
+			span {
+				text-decoration: underline;
 			}
 		}
 	}
