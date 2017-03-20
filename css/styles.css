@@ -91,6 +91,7 @@ body {
       body #support-main .row-4 .row:not(.header-hl) {
         color: #1e800d; }
     body #support-main .row-5 {
+      padding: 35px 20px 35px;
       background-color: #e6e7e3; }
       body #support-main .row-5 .col-sm-12 {
         padding: 35px 20px 35px; }
