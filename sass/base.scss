@@ -15,8 +15,13 @@ body {
 		color: #1e800d;
 	}
 	#support-header {
-		text-align: center;
+		padding: 25px 0 40px;
 		margin-bottom: 0;
+		background: -webkit-linear-gradient(left, #10cc71, #028bc6); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(right, #10cc71, #028bc6); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(right, #10cc71, #028bc6); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(to right, #10cc71, #028bc6); /* Standard syntax */
+		text-align: center;
 		h2 {
 			color: $white!important;
 			text-shadow: none!important;
@@ -79,7 +84,7 @@ body {
 				tr {
 					td {
 						h4 {
-							color: $green_links
+							color: $green_links!important;
 						}
 					}
 				}
