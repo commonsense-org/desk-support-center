@@ -19,6 +19,14 @@ body {
 			color: $white;
 			text-shadow: none!important;
 		}
+		.support-search-big {
+			border: 0;
+		}
+		form {
+			.inner {
+				border-radius: 25px;
+			}
+		}
 	}
 	// main content
 	#support-main {

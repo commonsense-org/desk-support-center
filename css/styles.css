@@ -13,6 +13,10 @@ body #support-header {
   body #support-header > h2 {
     color: #ffffff;
     text-shadow: none !important; }
+  body #support-header .support-search-big {
+    border: 0; }
+  body #support-header form .inner {
+    border-radius: 25px; }
 body #support-main {
   width: 100%;
   float: none;
