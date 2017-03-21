@@ -114,6 +114,7 @@ body {
         bottom: 0px;
         position: relative; }
         body #support-main .row-5 .slick-target .slick-prev:before {
+          content: " ";
           background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
           -ms-transform: rotate(7deg);
           /* IE 9 */
@@ -131,7 +132,7 @@ body {
           background-size: cover;
           display: inline-block;
           height: 26px;
-          content: ""; }
+          content: " "; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {
