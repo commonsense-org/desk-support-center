@@ -151,6 +151,10 @@ body {
 					overflow-x: hidden;
 					.slick-slide {
 						width: 210xp;
+						display: none;
+						&.slick-current {
+							display: block;
+						}
 					}
 				}
 			}
