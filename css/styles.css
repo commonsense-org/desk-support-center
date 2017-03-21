@@ -122,6 +122,7 @@ body {
           border-radius: 25px;
           font-size: 1em; }
     body #support-main .row-7 {
+      display: none;
       color: #ffffff;
       background-color: #3a3a3a; }
   body #support-side {

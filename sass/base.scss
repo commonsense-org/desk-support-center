@@ -180,7 +180,9 @@ body {
 				}
 			}
 		}
+		// footer, hidden during protest
 		.row-7 {
+			display: none;
 			color: $white;
 			background-color: $black;
 		}
