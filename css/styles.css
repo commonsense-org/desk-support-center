@@ -108,6 +108,15 @@ body {
             position: relative;
             text-align: center;
             padding: 0 15px; }
+      body #support-main .row-5 .slick-target .slick-prev {
+        top: 118px;
+        bottom: 0px;
+        position: relative; }
+      body #support-main .row-5 .slick-target .slick-next {
+        position: relative;
+        z-index: 999999;
+        top: -110px;
+        left: 303px; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {

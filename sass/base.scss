@@ -152,6 +152,17 @@ body {
 				}
 			}
 			.slick-target {
+				.slick-prev {
+					top: 118px;
+			    bottom: 0px;
+			    position: relative;
+				}
+				.slick-next {
+			    position: relative;
+			    z-index: 999999;
+			    top: -110px;
+			    left: 303px;
+				}
 				.slick-list {
 					// overflow-x: hidden;
 					.slick-slide {
