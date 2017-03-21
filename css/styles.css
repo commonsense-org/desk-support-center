@@ -97,12 +97,10 @@ body {
     body #support-main .row-5 {
       background-color: #e6e7e3; }
       body #support-main .row-5 .col-xs-8 {
-        height: 210px;
-        width: 210px;
-        border-radius: 50%;
-        background-color: #ffffff;
         color: #1e800d; }
         body #support-main .row-5 .col-xs-8 > .container {
+          height: 210px;
+          width: 210px;
           border-radius: 50%;
           background-color: #ffffff; }
           body #support-main .row-5 .col-xs-8 > .container > div {
