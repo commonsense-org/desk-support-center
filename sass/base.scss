@@ -153,8 +153,8 @@ body {
 			}
 			.slick-target {
 				.slick-prev {
-					top: 118px;
-					left: 0;
+					top: 125px;
+					left: -1%;
 			    bottom: 0px;
 			    position: relative;
 			    &:before {
@@ -171,7 +171,7 @@ body {
 				.slick-next {
 			    position: relative;
 			    z-index: 999999;
-			    top: -110px;
+			    top: 95%
 			    left: 303px;
 	        &:before {
 	        	display: inline-block;
