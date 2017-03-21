@@ -105,6 +105,8 @@ body {
           position: relative;
           text-align: center;
           padding: 0 15px; }
+      body #support-main .row-5 .slick-target .slick-list {
+        overflow-x: hidden; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {

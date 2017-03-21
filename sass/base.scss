@@ -146,6 +146,11 @@ body {
 					padding: 0 15px;
 				}
 			}
+			.slick-target {
+				.slick-list {
+					overflow-x: hidden;
+				}
+			}
 		}
 		.row-6 {
 			background-color: $green;
