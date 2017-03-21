@@ -159,8 +159,8 @@ body {
 			    position: relative;
 			    &:before {
 			    	display: inline-block;
-			    	height: 50px;
-			    	width: 28px;
+			    	height: 32px;
+			    	width: 18px;
 			    	content: " ";
 			    	background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
 			    	-ms-transform: rotate(7deg); /* IE 9 */
@@ -175,10 +175,10 @@ body {
 			    left: 303px;
 	        &:before {
 	        	display: inline-block;
-  			    width: 28px;
+  			    width: 18px;
   	        background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-  	        background-size: cover;
-  	        height: 50px;
+  	        // background-size: cover;
+  	        height: 32px;
   	        content: " ";
 	        }
 				}

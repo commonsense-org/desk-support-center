@@ -115,8 +115,8 @@ body {
         position: relative; }
         body #support-main .row-5 .slick-target .slick-prev:before {
           display: inline-block;
-          height: 50px;
-          width: 28px;
+          height: 32px;
+          width: 18px;
           content: " ";
           background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
           -ms-transform: rotate(7deg);
@@ -131,10 +131,9 @@ body {
         left: 303px; }
         body #support-main .row-5 .slick-target .slick-next:before {
           display: inline-block;
-          width: 28px;
+          width: 18px;
           background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-          background-size: cover;
-          height: 50px;
+          height: 32px;
           content: " "; }
     body #support-main .row-6 {
       background-color: #249A10; }
