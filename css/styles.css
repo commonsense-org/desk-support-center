@@ -3,6 +3,8 @@ body {
   font-family: "Lato", sans-serif !important; }
   body #company-header, body #support-side {
     display: none; }
+  body #company-support-portal {
+    padding-bottom: 0; }
   body .wrapper {
     width: 100%; }
   body .row {
