@@ -127,8 +127,8 @@ body {
       body #support-main .row-5 .slick-target .slick-next {
         position: relative;
         z-index: 999999;
-        top: 95%;
-        left: 303px; }
+        top: 303px;
+        left: 95%; }
         body #support-main .row-5 .slick-target .slick-next:before {
           display: inline-block;
           width: 18px;
