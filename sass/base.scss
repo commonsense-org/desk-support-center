@@ -149,6 +149,9 @@ body {
 			.slick-target {
 				.slick-list {
 					overflow-x: hidden;
+					.slick-slide {
+						width: 210xp;
+					}
 				}
 			}
 		}
