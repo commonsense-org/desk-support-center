@@ -154,8 +154,13 @@ body {
 			.slick-target {
 				.slick-prev {
 					top: 118px;
+					left: 0;
 			    bottom: 0px;
 			    position: relative;
+			    &:before {
+			    	content: '';
+			    	background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+			    }
 				}
 				.slick-next {
 			    position: relative;
