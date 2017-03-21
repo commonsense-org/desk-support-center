@@ -114,24 +114,27 @@ body {
         bottom: 0px;
         position: relative; }
         body #support-main .row-5 .slick-target .slick-prev:before {
+          display: inline-block;
+          height: 42px;
+          width: 26px;
           content: " ";
           background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
           -ms-transform: rotate(7deg);
           /* IE 9 */
           -webkit-transform: rotate(7deg);
           /* Chrome, Safari, Opera */
-          transform: rotate(7deg); }
+          transform: rotate(180deg); }
       body #support-main .row-5 .slick-target .slick-next {
         position: relative;
         z-index: 999999;
         top: -110px;
         left: 303px; }
         body #support-main .row-5 .slick-target .slick-next:before {
+          display: inline-block;
           width: 26px;
           background-image: url(../../images/right_button.png);
           background-size: cover;
-          display: inline-block;
-          height: 26px;
+          height: 42px;
           content: " "; }
     body #support-main .row-6 {
       background-color: #249A10; }
