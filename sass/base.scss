@@ -139,11 +139,15 @@ body {
 		    border-radius: 50%;
 				background-color: $white;
 				color: $green_links;
-				> div {
-					top: 23%;
-					position: relative;
-					text-align: center;
-					padding: 0 15px;
+				> .container {
+			    border-radius: 50%;
+					background-color: $white;
+					> div {
+						top: 23%;
+						position: relative;
+						text-align: center;
+						padding: 0 15px;
+					}
 				}
 			}
 			.slick-target {
