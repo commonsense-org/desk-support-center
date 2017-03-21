@@ -105,13 +105,6 @@ body {
           position: relative;
           text-align: center;
           padding: 0 15px; }
-      body #support-main .row-5 .slick-target .slick-list {
-        overflow-x: hidden; }
-        body #support-main .row-5 .slick-target .slick-list .slick-slide {
-          width: 210xp;
-          display: none; }
-          body #support-main .row-5 .slick-target .slick-list .slick-slide.slick-current {
-            display: block; }
     body #support-main .row-6 {
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {

@@ -148,12 +148,12 @@ body {
 			}
 			.slick-target {
 				.slick-list {
-					overflow-x: hidden;
+					// overflow-x: hidden;
 					.slick-slide {
-						width: 210xp;
-						display: none;
+						// width: 210xp;
+
 						&.slick-current {
-							display: block;
+
 						}
 					}
 				}
