@@ -158,8 +158,11 @@ body {
 			    bottom: 0px;
 			    position: relative;
 			    &:before {
-			    	content: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+			    	// content: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
 			    	background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+			    	-ms-transform: rotate(7deg); /* IE 9 */
+	    	    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	    	    transform: rotate(7deg);
 			    }
 				}
 				.slick-next {
@@ -167,6 +170,14 @@ body {
 			    z-index: 999999;
 			    top: -110px;
 			    left: 303px;
+	        &:before {
+  			    width: 26px;
+  	        background-image: url(../../images/right_button.png);
+  	        background-size: cover;
+  	        display: inline-block;
+  	        height: 26px;
+  	        content: "";
+	        }
 				}
 				.slick-list {
 					// overflow-x: hidden;
