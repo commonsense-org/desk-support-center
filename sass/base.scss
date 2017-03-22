@@ -157,6 +157,9 @@ body {
 				}
 			}
 			.slick-target {
+				.slick-arrow {
+					z-index: 99999;
+				}
 				.slick-prev {
 					top: 125px;
 					left: -1%;

@@ -114,6 +114,8 @@ body {
             position: relative;
             text-align: center;
             padding: 0 15px; }
+      body #support-main .row-5 .slick-target .slick-arrow {
+        z-index: 99999; }
       body #support-main .row-5 .slick-target .slick-prev {
         top: 125px;
         left: -1%;
@@ -210,7 +212,6 @@ body {
         height: 280px;
         margin: 0; }
         body #support-main .row-5 .slick-target .container-hl > div {
-          top: 36%;
           padding: 0 30px; }
         body #support-main .row-5 .slick-target .container-hl:hover {
           color: #ffffff;
