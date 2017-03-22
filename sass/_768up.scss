@@ -21,12 +21,18 @@ body {
 		.row-2, .row-3 {
 			display: inline-block;
 			width: 30%;
+			height: 520px;
+		}
+		.row-1 {
+			padding-bottom: 60px;
+			margin-bottom: 60px;
 		}
 		.row-3 {
 			border-bottom: 0;
 		}
 		.row-4 {
-			padding: 0 0;
+			padding: 60px 0;
+			border-top: 1px solid #ddd;
 			.col-sm-12 {
 				.header-hl {
 					color: $black;

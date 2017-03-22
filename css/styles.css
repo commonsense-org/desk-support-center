@@ -172,11 +172,16 @@ body {
     width: 44%; }
   body #support-main .row-2, body #support-main .row-3 {
     display: inline-block;
-    width: 30%; }
+    width: 30%;
+    height: 520px; }
+  body #support-main .row-1 {
+    padding-bottom: 60px;
+    margin-bottom: 60px; }
   body #support-main .row-3 {
     border-bottom: 0; }
   body #support-main .row-4 {
-    padding: 0 0; }
+    padding: 60px 0;
+    border-top: 1px solid #ddd; }
     body #support-main .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;
