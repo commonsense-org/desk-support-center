@@ -152,6 +152,8 @@ body {
 				}
 			}
 			.slick-target {
+				margin-left: 130px;
+				margin-left: 12vw;
 				.slick-prev {
 					top: 125px;
 					left: -1%;
@@ -195,6 +197,7 @@ body {
 			}
 		}
 		.row-6 {
+			max-height: 96px;
 			background-color: $green;
 			.col-sm-12 {
 				padding: 35px 0 35px;
