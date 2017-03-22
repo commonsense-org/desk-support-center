@@ -98,12 +98,12 @@ body {
       background-color: #e6e7e3; }
       body #support-main .row-5 .col-xs-8 {
         color: #1e800d; }
-        body #support-main .row-5 .col-xs-8 > .container {
+        body #support-main .row-5 .col-xs-8 > .container-hl {
           height: 210px;
           width: 210px;
           border-radius: 50%;
           background-color: #ffffff; }
-          body #support-main .row-5 .col-xs-8 > .container > div {
+          body #support-main .row-5 .col-xs-8 > .container-hl > div {
             top: 23%;
             position: relative;
             text-align: center;
@@ -127,7 +127,7 @@ body {
       body #support-main .row-5 .slick-target .slick-next {
         position: relative;
         z-index: 999999;
-        top: 303px;
+        top: -103px;
         left: 95%; }
         body #support-main .row-5 .slick-target .slick-next:before {
           display: inline-block;

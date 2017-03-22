@@ -138,7 +138,7 @@ body {
 			background-color: #e6e7e3;
 			.col-xs-8 {
 				color: $green_links;
-				> .container {
+				> .container-hl {
 					height: 210px;
 					width: 210px;
 			    border-radius: 50%;
@@ -171,7 +171,7 @@ body {
 				.slick-next {
 			    position: relative;
 			    z-index: 999999;
-			    top:  303px;
+			    top: -103px;
 			    left: 95%;
 	        &:before {
 	        	display: inline-block;
