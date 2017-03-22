@@ -1,6 +1,22 @@
 @import './variables.scss';
 body {
+	#support-header {
+
+		h2 {
+			margin-bottom: 20px;
+			font-size: 40px;
+		}
+		form {
+			.outer {
+				width: 44%;
+			}
+		}
+	}
 	#support-main {
+		.row-1, .row-2 {
+			display: inline-block;
+			width: 30%;
+		}
 		.row-4 {
 			padding: 60px 0;
 			.col-sm-12 {

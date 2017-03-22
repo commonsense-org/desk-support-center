@@ -162,6 +162,14 @@ body {
 
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
+  body #support-header h2 {
+    margin-bottom: 20px;
+    font-size: 40px; }
+  body #support-header form .outer {
+    width: 44%; }
+  body #support-main .row-1, body #support-main .row-2 {
+    display: inline-block;
+    width: 30%; }
   body #support-main .row-4 {
     padding: 60px 0; }
     body #support-main .row-4 .col-sm-12 .header-hl {
