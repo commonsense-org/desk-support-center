@@ -170,6 +170,8 @@ body {
     font-size: 40px; }
   body #support-header form .outer {
     width: 44%; }
+    body #support-header form .outer .popular-searches {
+      padding-top: 20px; }
   body #support-main .row-2, body #support-main .row-3 {
     display: inline-block;
     width: 30%;
@@ -182,6 +184,8 @@ body {
   body #support-main .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
+    body #support-main .row-4 .row:last-of-type {
+      padding-bottom: 0; }
     body #support-main .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;

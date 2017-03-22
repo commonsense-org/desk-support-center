@@ -9,6 +9,9 @@ body {
 		form {
 			.outer {
 				width: 44%;
+				.popular-searches {
+					padding-top: 20px;
+				}
 			}
 		}
 	}
@@ -33,6 +36,11 @@ body {
 		.row-4 {
 			padding: 60px 0;
 			border-top: 1px solid #ddd;
+			.row {
+				&:last-of-type {
+					padding-bottom: 0;
+				}
+			}
 			.col-sm-12 {
 				.header-hl {
 					color: $black;
