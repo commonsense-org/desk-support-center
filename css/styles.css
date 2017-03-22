@@ -167,9 +167,13 @@ body {
     font-size: 40px; }
   body #support-header form .outer {
     width: 44%; }
+  body #support-main .row-1, body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
+    padding: 60px 60px 60px; }
   body #support-main .row-2, body #support-main .row-3 {
     display: inline-block;
     width: 30%; }
+  body #support-main .row-3 {
+    border-bottom: 0; }
   body #support-main .row-4 {
     padding: 60px 0; }
     body #support-main .row-4 .col-sm-12 .header-hl {
