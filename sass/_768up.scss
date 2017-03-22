@@ -5,6 +5,16 @@ body {
 			.slick-target {
 				margin-left: 130px;
 				margin-left: 12vw;
+				.container-hl {
+					&:hover {
+						color: $white;
+						background-color: $green;
+						> div {
+							position: absolute;
+
+						}
+					}
+				}
 			}
 		}
 		.row-6 {
@@ -28,6 +38,7 @@ body {
 						background-color: $white;
 						color: $green;
 						font-size: 16px;
+						font-weight: bold;
 					}
 				}
 			}
