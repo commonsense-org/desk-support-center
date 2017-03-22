@@ -76,14 +76,14 @@ body {
         border-bottom: 0; }
         body #support-main .dashboard table tr td h4 {
           color: #1e800d !important; }
-    body #support-main .row-1, body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
+    body #support-main .row-1, body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
       padding: 20px 25px 20px;
       font-size: 20px;
       color: #3a3a3a; }
-      body #support-main .row-1 .col-sm-12 .header-hl, body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl, body #support-main .row-5 .col-sm-12 .header-hl, body #support-main .row-6 .col-sm-12 .header-hl, body #support-main .row-7 .col-sm-12 .header-hl {
+      body #support-main .row-1 .col-sm-12 .header-hl, body #support-main .row-2 .col-sm-12 .header-hl, body #support-main .row-3 .col-sm-12 .header-hl, body #support-main .row-3a .col-sm-12 .header-hl, body #support-main .row-3b .col-sm-12 .header-hl, body #support-main .row-3c .col-sm-12 .header-hl, body #support-main .row-4 .col-sm-12 .header-hl, body #support-main .row-5 .col-sm-12 .header-hl, body #support-main .row-6 .col-sm-12 .header-hl, body #support-main .row-7 .col-sm-12 .header-hl {
         font-family: "Lato", sans-serif;
         font-weight: bold; }
-      body #support-main .row-1 .col-sm-12 .row, body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row, body #support-main .row-5 .col-sm-12 .row, body #support-main .row-6 .col-sm-12 .row, body #support-main .row-7 .col-sm-12 .row {
+      body #support-main .row-1 .col-sm-12 .row, body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-3a .col-sm-12 .row, body #support-main .row-3b .col-sm-12 .row, body #support-main .row-3c .col-sm-12 .row, body #support-main .row-4 .col-sm-12 .row, body #support-main .row-5 .col-sm-12 .row, body #support-main .row-6 .col-sm-12 .row, body #support-main .row-7 .col-sm-12 .row {
         margin: 0;
         padding-bottom: 15px; }
     body #support-main .row-1 {
@@ -172,11 +172,12 @@ body {
     width: 44%; }
     body #support-header form .outer .popular-searches {
       padding-top: 20px; }
-  body #support-main .row-2, body #support-main .row-3 {
+  body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c {
     display: inline-block;
     width: 30%;
     height: 520px; }
   body #support-main .row-1 {
+    padding-left: 40px;
     padding-bottom: 60px;
     margin-bottom: 60px; }
   body #support-main .row-3 {
@@ -194,10 +195,13 @@ body {
     padding: 60px 25px; }
     body #support-main .row-5 .slick-target {
       margin-left: 130px;
-      margin-left: 12vw; }
+      margin-left: 6vw; }
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
         height: 280px; }
+        body #support-main .row-5 .slick-target .container-hl > div {
+          top: 36%;
+          padding: 0 30px; }
         body #support-main .row-5 .slick-target .container-hl:hover {
           color: #ffffff;
           background-color: #249A10; }
