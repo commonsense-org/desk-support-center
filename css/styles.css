@@ -171,7 +171,9 @@ body {
     body #support-main .row-6 .col-sm-12 {
       width: 75%;
       padding-top: 20px;
-      padding-left: 9vw; }
+      padding-bottom: 0;
+      margin-left: 10%;
+      margin-left: 9vw; }
       body #support-main .row-6 .col-sm-12 > div {
         display: inline-block;
         font-size: 28px;
