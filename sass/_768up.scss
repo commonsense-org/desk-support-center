@@ -12,13 +12,14 @@ body {
 			}
 		}
 		.row-5 {
+			padding: 60px 25px;
 			.slick-target {
 				margin-left: 130px;
 				margin-left: 12vw;
 				.container-hl {
+					width: 280px;
+					height: 280px;
 					&:hover {
-						width: 280px;
-						height: 280px;
 						color: $white;
 						background-color: $green;
 					}
