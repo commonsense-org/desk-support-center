@@ -162,18 +162,18 @@ body {
 
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
-  #support-main .row-5 .slick-target {
+  body #support-main .row-5 .slick-target {
     margin-left: 130px;
     margin-left: 12vw; }
-  #support-main .row-6 {
+  body #support-main .row-6 {
     max-height: 96px; }
-    #support-main .row-6 .col-sm-12 {
+    body #support-main .row-6 .col-sm-12 {
       padding-top: 10px; }
-      #support-main .row-6 .col-sm-12 > div {
+      body #support-main .row-6 .col-sm-12 > div {
         display: inline-block;
         font-size: 28px;
         line-height: 34px; }
-        #support-main .row-6 .col-sm-12 > div:nth-of-type(3) {
+        body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) {
           width: 172px;
           height: 48px;
           margin-left: 150px;
