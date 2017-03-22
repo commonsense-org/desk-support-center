@@ -56,7 +56,7 @@ body {
 				margin-left: 130px;
 				margin-left: 6vw;
 				transition: 200ms;
-				-webkit-transition-delay: 200ms;
+				-webkit-transition: 200ms;
 				.container-hl {
 					width: 280px;
 					height: 280px;
@@ -68,7 +68,7 @@ body {
 						color: $white;
 						background-color: $green;
 						transition: 200ms; /* delays for 1 second */
-						-webkit-transition-delay: 200ms;
+						-webkit-transition: 200ms;
 					}
 				}
 				.row {

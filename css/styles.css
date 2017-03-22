@@ -197,7 +197,7 @@ body {
       margin-left: 130px;
       margin-left: 6vw;
       transition: 200ms;
-      -webkit-transition-delay: 200ms; }
+      -webkit-transition: 200ms; }
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
         height: 280px; }
@@ -209,7 +209,7 @@ body {
           background-color: #249A10;
           transition: 200ms;
           /* delays for 1 second */
-          -webkit-transition-delay: 200ms; }
+          -webkit-transition: 200ms; }
       body #support-main .row-5 .slick-target .row {
         font-weight: bold; }
   body #support-main .row-6 {
