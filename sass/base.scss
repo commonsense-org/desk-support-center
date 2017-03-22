@@ -93,6 +93,7 @@ body {
 			table {
 				tr {
 					td {
+						border-bottom: 0;
 						h4 {
 							color: $green_links!important;
 						}
@@ -117,6 +118,7 @@ body {
 		}
 		.row-1 {
 			padding: 20px 40px 20px;
+			border-bottom: 1px solid #CCC;
 		}
 		.row-3 {
 			border-bottom: 1px solid #ddd;

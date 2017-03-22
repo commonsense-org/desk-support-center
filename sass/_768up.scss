@@ -16,7 +16,7 @@ body {
 		.dashboard {
 		}
 		.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 {
-			padding: 60px 60px 60px;
+			// padding: 60px 60px 60px;
 		}
 		.row-2, .row-3 {
 			display: inline-block;
@@ -26,7 +26,7 @@ body {
 			border-bottom: 0;
 		}
 		.row-4 {
-			padding: 60px 0;
+			padding: 0 0;
 			.col-sm-12 {
 				.header-hl {
 					color: $black;
