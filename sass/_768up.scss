@@ -11,7 +11,9 @@ body {
 			padding: 20px 0 8px;
 			max-height: 96px;
 			.col-sm-12 {
-				padding-top: 10px;
+				width: 75%;
+				padding-top: 20px;
+				padding-left: 9vw;
 				> div {
 					display: inline-block;
 					font-size: 28px;
@@ -19,7 +21,7 @@ body {
 					&:nth-of-type(3) {
 						width: 172px;
 						height: 48px;
-						margin-left: 150px;
+						margin-left: 35px;
 						margin-top: 0;
 						background-color: $white;
 						color: $green;
