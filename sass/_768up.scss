@@ -1,15 +1,30 @@
 @import './variables.scss';
 body {
 	#support-main {
+		.row-4 {
+			padding: 60px 0;
+			.col-sm-12 {
+				.header-hl {
+					color: $black;
+					font-size: 32px;
+					line-height: 28px;
+				}
+			}
+		}
 		.row-5 {
 			.slick-target {
 				margin-left: 130px;
 				margin-left: 12vw;
 				.container-hl {
 					&:hover {
+						width: 280px;
+						height: 280px;
 						color: $white;
 						background-color: $green;
 					}
+				}
+				.row {
+					font-weight: bold;
 				}
 			}
 		}

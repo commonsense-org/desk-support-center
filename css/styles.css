@@ -162,12 +162,22 @@ body {
 
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
+  body #support-main .row-4 {
+    padding: 60px 0; }
+    body #support-main .row-4 .col-sm-12 .header-hl {
+      color: #3a3a3a;
+      font-size: 32px;
+      line-height: 28px; }
   body #support-main .row-5 .slick-target {
     margin-left: 130px;
     margin-left: 12vw; }
     body #support-main .row-5 .slick-target .container-hl:hover {
+      width: 280px;
+      height: 280px;
       color: #ffffff;
       background-color: #249A10; }
+    body #support-main .row-5 .slick-target .row {
+      font-weight: bold; }
   body #support-main .row-6 {
     padding: 20px 0 8px;
     max-height: 96px; }
