@@ -104,6 +104,7 @@ body {
         body #support-main .row-5 .col-xs-8 > .container-hl {
           height: 210px;
           width: 210px;
+          margin: 0 auto;
           border-radius: 50%;
           background-color: #ffffff; }
           body #support-main .row-5 .col-xs-8 > .container-hl > div {
@@ -204,7 +205,8 @@ body {
       -webkit-transition: 200ms; }
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
-        height: 280px; }
+        height: 280px;
+        margin: 0; }
         body #support-main .row-5 .slick-target .container-hl > div {
           top: 36%;
           padding: 0 30px; }
