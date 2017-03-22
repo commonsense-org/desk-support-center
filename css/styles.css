@@ -108,38 +108,34 @@ body {
             position: relative;
             text-align: center;
             padding: 0 15px; }
-      body #support-main .row-5 .slick-target {
-        margin-left: 130px;
-        margin-left: 12vw; }
-        body #support-main .row-5 .slick-target .slick-prev {
-          top: 125px;
-          left: -1%;
-          bottom: 0px;
-          position: relative; }
-          body #support-main .row-5 .slick-target .slick-prev:before {
-            display: inline-block;
-            height: 32px;
-            width: 18px;
-            content: " ";
-            background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-            -ms-transform: rotate(7deg);
-            /* IE 9 */
-            -webkit-transform: rotate(7deg);
-            /* Chrome, Safari, Opera */
-            transform: rotate(180deg); }
-        body #support-main .row-5 .slick-target .slick-next {
-          position: relative;
-          z-index: 999999;
-          top: -103px;
-          left: 95%; }
-          body #support-main .row-5 .slick-target .slick-next:before {
-            display: inline-block;
-            width: 18px;
-            background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-            height: 32px;
-            content: " "; }
+      body #support-main .row-5 .slick-target .slick-prev {
+        top: 125px;
+        left: -1%;
+        bottom: 0px;
+        position: relative; }
+        body #support-main .row-5 .slick-target .slick-prev:before {
+          display: inline-block;
+          height: 32px;
+          width: 18px;
+          content: " ";
+          background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+          -ms-transform: rotate(7deg);
+          /* IE 9 */
+          -webkit-transform: rotate(7deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(180deg); }
+      body #support-main .row-5 .slick-target .slick-next {
+        position: relative;
+        z-index: 999999;
+        top: -103px;
+        left: 95%; }
+        body #support-main .row-5 .slick-target .slick-next:before {
+          display: inline-block;
+          width: 18px;
+          background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+          height: 32px;
+          content: " "; }
     body #support-main .row-6 {
-      max-height: 96px;
       background-color: #249A10; }
       body #support-main .row-6 .col-sm-12 {
         padding: 35px 0 35px;
@@ -165,6 +161,11 @@ body {
     display: none; }
 
 @media (min-width: 768px) {
-  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i"); }
+  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
+  #support-main .row-5 .slick-target {
+    margin-left: 130px;
+    margin-left: 12vw; }
+  #support-main .row-6 {
+    max-height: 96px; } }
 
 /*# sourceMappingURL=styles.css.map */

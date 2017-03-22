@@ -1,1 +1,14 @@
 @import './variables.scss';
+
+#support-main {
+
+	.row-5 {
+		.slick-target {
+			margin-left: 130px;
+			margin-left: 12vw;
+		}
+	}
+	.row-6 {
+		max-height: 96px;
+	}
+}
