@@ -180,8 +180,12 @@ body {
     padding-left: 40px;
     padding-bottom: 60px;
     margin-bottom: 60px; }
+  body #support-main .row-2 {
+    margin-left: 5%; }
   body #support-main .row-3 {
     border-bottom: 0; }
+  body #support-main .row-3b {
+    margin-left: 5%; }
   body #support-main .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
