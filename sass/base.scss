@@ -141,13 +141,15 @@ body {
 			.col-xs-8 {
 				color: $green_links;
 				> .container-hl {
+					display: table;
 					height: 210px;
 					width: 210px;
 					margin: 0 auto;
 			    border-radius: 50%;
 					background-color: $white;
 					> div {
-						top: 23%;
+				    vertical-align: middle;
+				    display: table-cell;
 						position: relative;
 						text-align: center;
 						padding: 0 15px;

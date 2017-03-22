@@ -102,13 +102,15 @@ body {
       body #support-main .row-5 .col-xs-8 {
         color: #1e800d; }
         body #support-main .row-5 .col-xs-8 > .container-hl {
+          display: table;
           height: 210px;
           width: 210px;
           margin: 0 auto;
           border-radius: 50%;
           background-color: #ffffff; }
           body #support-main .row-5 .col-xs-8 > .container-hl > div {
-            top: 23%;
+            vertical-align: middle;
+            display: table-cell;
             position: relative;
             text-align: center;
             padding: 0 15px; }
