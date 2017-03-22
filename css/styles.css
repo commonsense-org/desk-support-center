@@ -168,8 +168,6 @@ body {
     body #support-main .row-5 .slick-target .container-hl:hover {
       color: #ffffff;
       background-color: #249A10; }
-      body #support-main .row-5 .slick-target .container-hl:hover > div {
-        position: absolute; }
   body #support-main .row-6 {
     padding: 20px 0 8px;
     max-height: 96px; }
