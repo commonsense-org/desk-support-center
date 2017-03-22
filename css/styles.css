@@ -166,6 +166,8 @@ body {
     margin-left: 130px;
     margin-left: 12vw; }
   #support-main .row-6 {
-    max-height: 96px; } }
+    max-height: 96px; }
+    #support-main .row-6 .col-sm-12 > div {
+      display: inline-block; } }
 
 /*# sourceMappingURL=styles.css.map */

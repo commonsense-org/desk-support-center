@@ -10,5 +10,11 @@
 	}
 	.row-6 {
 		max-height: 96px;
+		.col-sm-12 {
+			> div {
+				display: inline-block;
+
+			}
+		}
 	}
 }
