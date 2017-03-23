@@ -23,6 +23,10 @@ body {
 		}
 		.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 {
 			// padding: 60px 60px 60px;
+			color: $green_links;
+			&:not(.header-hl):hover {
+				color: $green_links;
+			}
 		}
 		.row-2, .row-3, .row-3a, .row-3b, .row-3c, .row-3d {
 			display: inline-block;
@@ -63,10 +67,6 @@ body {
 			.row {
 				&:last-of-type {
 					padding-bottom: 0;
-				}
-				color: $green_links;
-				&:not(.header-hl):hover {
-					color: $green_links;
 				}
 			}
 			.col-sm-12 {
