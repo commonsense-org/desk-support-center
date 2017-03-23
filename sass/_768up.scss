@@ -29,11 +29,11 @@ body {
 			width: 30%;
 			height: 520px;
 			.row {
-				&:not(.header-hl) {
+
 					&::hover {
 						color: $green_links;
 					}
-				}
+
 			}
 		}
 		.row-3b, .row-3c, .row-3d {
