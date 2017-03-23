@@ -28,11 +28,13 @@ body {
 			display: inline-block;
 			width: 30%;
 			height: 520px;
-			.row {
-				color: red;
+			.col-sm-12 {
+				.row {
+					color: red;
 					&:hover {
 						color: $green_links;
 					}
+				}
 			}
 		}
 		.row-3b, .row-3c, .row-3d {
