@@ -33,6 +33,9 @@ body {
 					&:hover {
 						color: $green_links;
 					}
+					&.header-hl {
+						color: $black;
+					}
 				}
 			}
 		}
