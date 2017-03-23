@@ -119,6 +119,17 @@ body {
 		.row-1 {
 			padding: 20px 40px 20px;
 			border-bottom: 1px solid #CCC;
+			table {
+				tbody {
+					tr {
+						td {
+							h5, ul {
+								display: none;
+							}
+						}
+					}
+				}
+			}
 		}
 		.row-3 {
 			border-bottom: 1px solid #ddd;

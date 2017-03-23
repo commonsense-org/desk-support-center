@@ -89,6 +89,8 @@ body {
     body #support-main .row-1 {
       padding: 20px 40px 20px;
       border-bottom: 1px solid #CCC; }
+      body #support-main .row-1 table tbody tr td h5, body #support-main .row-1 table tbody tr td ul {
+        display: none; }
     body #support-main .row-3 {
       border-bottom: 1px solid #ddd; }
     body #support-main .row-4 {
