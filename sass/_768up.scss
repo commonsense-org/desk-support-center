@@ -29,8 +29,8 @@ body {
 			width: 30%;
 			height: 520px;
 			.row {
-
-					&::hover {
+				color: red;
+					&:hover {
 						color: $green_links;
 					}
 
