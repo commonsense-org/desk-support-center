@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+body {
+	#support-header {
+
+	}
+	#support-main {
+		.row-5 {
+			.slick-target {
+				margin-left: 16vw;
+				.col-xs-8 {
+					width: 29%;
+				}
+			}
+		}
+	}
+}

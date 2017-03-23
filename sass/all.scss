@@ -1,4 +1,7 @@
 @import './base.scss';
 @media (min-width: 768px) {
-	@import './768up.scss';
+	@import './_768up.scss';
+}
+@media (min-width: 970px) {
+	@import './_970up.scss'
 }
