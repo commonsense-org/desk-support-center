@@ -181,14 +181,14 @@ body {
       padding-left: 14px; }
   body #support-header .popular-searches {
     padding-top: 20px; }
-  body #support-main .row-1, body #support-main .row-2, body #support-main .row-3, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
-    color: #1e800d; }
-    body #support-main .row-1:not(.header-hl):hover, body #support-main .row-2:not(.header-hl):hover, body #support-main .row-3:not(.header-hl):hover, body #support-main .row-4:not(.header-hl):hover, body #support-main .row-5:not(.header-hl):hover, body #support-main .row-6:not(.header-hl):hover, body #support-main .row-7:not(.header-hl):hover {
-      color: #1e800d; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     display: inline-block;
     width: 30%;
     height: 520px; }
+    body #support-main .row-2 .row, body #support-main .row-3 .row, body #support-main .row-3a .row, body #support-main .row-3b .row, body #support-main .row-3c .row, body #support-main .row-3d .row {
+      color: #1e800d; }
+      body #support-main .row-2 .row:not(.header-hl):hover, body #support-main .row-3 .row:not(.header-hl):hover, body #support-main .row-3a .row:not(.header-hl):hover, body #support-main .row-3b .row:not(.header-hl):hover, body #support-main .row-3c .row:not(.header-hl):hover, body #support-main .row-3d .row:not(.header-hl):hover {
+        color: #1e800d; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     padding-top: 0 !important; }
   body #support-main .row-1 {
