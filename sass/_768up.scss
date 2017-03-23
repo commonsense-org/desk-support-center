@@ -29,8 +29,18 @@ body {
 		.row-1 {
 			padding-left: 25px;
 			padding-bottom: 60px;
+			margin-right: 5%;
 			margin-bottom: 60px;
 			margin-left: 5%;
+			table {
+				tbody {
+					tr {
+						td {
+							padding: 0;
+						}
+					}
+				}
+			}
 		}
 		.row-2 {
 			margin-left: 5%;

@@ -186,8 +186,11 @@ body {
   body #support-main .row-1 {
     padding-left: 25px;
     padding-bottom: 60px;
+    margin-right: 5%;
     margin-bottom: 60px;
     margin-left: 5%; }
+    body #support-main .row-1 table tbody tr td {
+      padding: 0; }
   body #support-main .row-2 {
     margin-left: 5%; }
   body #support-main .row-3 {
