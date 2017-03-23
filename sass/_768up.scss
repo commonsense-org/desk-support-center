@@ -61,6 +61,7 @@ body {
 				&:last-of-type {
 					padding-bottom: 0;
 				}
+				color: $green_links;
 				&:not(.header-hl):hover {
 					color: $green_links;
 				}

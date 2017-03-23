@@ -202,10 +202,12 @@ body {
   body #support-main .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
-    body #support-main .row-4 .row:last-of-type {
-      padding-bottom: 0; }
-    body #support-main .row-4 .row:not(.header-hl):hover {
+    body #support-main .row-4 .row {
       color: #1e800d; }
+      body #support-main .row-4 .row:last-of-type {
+        padding-bottom: 0; }
+      body #support-main .row-4 .row:not(.header-hl):hover {
+        color: #1e800d; }
     body #support-main .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;
