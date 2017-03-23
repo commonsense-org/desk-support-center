@@ -185,6 +185,8 @@ body {
     display: inline-block;
     width: 30%;
     height: 520px; }
+  body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
+    padding-top: 0 !important; }
   body #support-main .row-1 {
     padding-left: 25px;
     padding-bottom: 60px;
