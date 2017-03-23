@@ -177,6 +177,8 @@ body {
     font-size: 40px; }
   body #support-header form .outer {
     width: 44%; }
+    body #support-header form .outer #q {
+      padding-left: 14px; }
   body #support-header .popular-searches {
     padding-top: 20px; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
@@ -202,6 +204,8 @@ body {
     border-top: 1px solid #ddd; }
     body #support-main .row-4 .row:last-of-type {
       padding-bottom: 0; }
+    body #support-main .row-4 .row:not(.header-hl):hover {
+      color: #1e800d; }
     body #support-main .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;
