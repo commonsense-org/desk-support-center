@@ -30,7 +30,9 @@ body {
 			height: 520px;
 			.row {
 				&:not(.header-hl):hover {
-					color: $green_links;
+					&::hover {
+						color: $green_links;
+					}
 				}
 			}
 		}
