@@ -185,10 +185,8 @@ body {
     display: inline-block;
     width: 30%;
     height: 520px; }
-    body #support-main .row-2 .row, body #support-main .row-3 .row, body #support-main .row-3a .row, body #support-main .row-3b .row, body #support-main .row-3c .row, body #support-main .row-3d .row {
+    body #support-main .row-2 .row:not(.header-hl):hover, body #support-main .row-3 .row:not(.header-hl):hover, body #support-main .row-3a .row:not(.header-hl):hover, body #support-main .row-3b .row:not(.header-hl):hover, body #support-main .row-3c .row:not(.header-hl):hover, body #support-main .row-3d .row:not(.header-hl):hover {
       color: #1e800d; }
-      body #support-main .row-2 .row:not(.header-hl):hover, body #support-main .row-3 .row:not(.header-hl):hover, body #support-main .row-3a .row:not(.header-hl):hover, body #support-main .row-3b .row:not(.header-hl):hover, body #support-main .row-3c .row:not(.header-hl):hover, body #support-main .row-3d .row:not(.header-hl):hover {
-        color: #1e800d; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     padding-top: 0 !important; }
   body #support-main .row-1 {

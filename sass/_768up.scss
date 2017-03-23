@@ -29,7 +29,6 @@ body {
 			width: 30%;
 			height: 520px;
 			.row {
-				color: $green_links;
 				&:not(.header-hl):hover {
 					color: $green_links;
 				}
