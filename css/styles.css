@@ -185,10 +185,8 @@ body {
     display: inline-block;
     width: 30%;
     height: 520px; }
-    body #support-main .row-2 .col-sm-12 .row, body #support-main .row-3 .col-sm-12 .row, body #support-main .row-3a .col-sm-12 .row, body #support-main .row-3b .col-sm-12 .row, body #support-main .row-3c .col-sm-12 .row, body #support-main .row-3d .col-sm-12 .row {
-      color: red; }
-      body #support-main .row-2 .col-sm-12 .row:hover, body #support-main .row-3 .col-sm-12 .row:hover, body #support-main .row-3a .col-sm-12 .row:hover, body #support-main .row-3b .col-sm-12 .row:hover, body #support-main .row-3c .col-sm-12 .row:hover, body #support-main .row-3d .col-sm-12 .row:hover {
-        color: #1e800d; }
+    body #support-main .row-2 .col-sm-12 .row:hover, body #support-main .row-3 .col-sm-12 .row:hover, body #support-main .row-3a .col-sm-12 .row:hover, body #support-main .row-3b .col-sm-12 .row:hover, body #support-main .row-3c .col-sm-12 .row:hover, body #support-main .row-3d .col-sm-12 .row:hover {
+      color: #1e800d; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     padding-top: 0 !important; }
   body #support-main .row-1 {
