@@ -170,6 +170,12 @@ body {
   body #footer {
     display: none; }
 
+body .topics .support-body {
+  padding-left: 60px; }
+  body .topics .support-body #breadcrumbs {
+    float: none;
+    padding-left: 20px; }
+
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
   body #support-header h2 {
