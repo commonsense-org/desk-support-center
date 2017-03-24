@@ -264,12 +264,15 @@ body {
 					> div {
 						display: none;
 					}
-					ul {
-						.article {
-							background: none;
-							> p, div {
-								display: none;
-							}
+				}
+				ul {
+					.article {
+						background: none;
+						h4 {
+							color: $green_links;
+						}
+						> p, div {
+							display: none;
 						}
 					}
 				}
