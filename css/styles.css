@@ -180,7 +180,7 @@ body .topics .support-body {
   body .topics .support-body .content #toggle > div {
     display: none; }
   body .topics .support-body .content ul li.article {
-    background: none; }
+    background: none !important; }
     body .topics .support-body .content ul li.article h4 {
       color: #1e800d; }
     body .topics .support-body .content ul li.article > p, body .topics .support-body .content ul li.article div {
