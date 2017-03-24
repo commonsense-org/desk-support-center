@@ -175,7 +175,7 @@ body .topics .support-body {
   body .topics .support-body #breadcrumbs {
     float: none;
     padding-left: 20px; }
-  body .topics .support-body .content .toggle > div {
+  body .topics .support-body .content #toggle > div {
     display: none; }
 
 @media (min-width: 768px) {
