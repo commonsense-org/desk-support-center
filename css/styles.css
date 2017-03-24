@@ -174,7 +174,9 @@ body .topics .support-body {
   padding-left: 60px; }
   body .topics .support-body #breadcrumbs {
     float: none;
-    padding-left: 20px; }
+    padding-left: 20px;
+    font-size: 16px;
+    color: #3a3a3a; }
   body .topics .support-body .content #toggle > div {
     display: none; }
   body .topics .support-body .content ul .article {
