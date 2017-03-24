@@ -177,6 +177,10 @@ body .topics .support-body {
     padding-left: 20px; }
   body .topics .support-body .content #toggle > div {
     display: none; }
+  body .topics .support-body .content #toggle ul .article {
+    background: none; }
+    body .topics .support-body .content #toggle ul .article > p, body .topics .support-body .content #toggle ul .article div {
+      display: none; }
 
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
@@ -266,7 +270,15 @@ body .topics .support-body {
           background-color: #ffffff;
           color: #249A10;
           font-size: 16px;
-          font-weight: bold; } }
+          font-weight: bold; }
+
+  body .topics .support-body {
+    padding-left: 60px; }
+    body .topics .support-body #breadcrumbs {
+      float: none;
+      padding-left: 20px; }
+    body .topics .support-body .content #toggle > div {
+      display: none; } }
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
   body #support-main .row-5 .slick-target {

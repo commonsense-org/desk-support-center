@@ -264,6 +264,14 @@ body {
 					> div {
 						display: none;
 					}
+					ul {
+						.article {
+							background: none;
+							> p, div {
+								display: none;
+							}
+						}
+					}
 				}
 			}
 		}

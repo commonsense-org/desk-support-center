@@ -139,3 +139,23 @@ body {
 		}
 	}
 }
+
+// topic pages below
+body {
+	.topics {
+		.support-body {
+			padding-left: 60px;
+			#breadcrumbs {
+				float: none;
+				padding-left: 20px;
+			}
+			.content {
+				#toggle {
+					> div {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
