@@ -259,6 +259,13 @@ body {
 				float: none;
 				padding-left: 20px;
 			}
+			.content {
+				.toggle {
+					> div {
+						display: none;
+					}
+				}
+			}
 		}
 	}
 }
