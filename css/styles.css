@@ -179,11 +179,11 @@ body .topics .support-body {
     color: #3a3a3a; }
   body .topics .support-body .content #toggle > div {
     display: none; }
-  body .topics .support-body .content ul .article {
+  body .topics .support-body .content ul li.article {
     background: none; }
-    body .topics .support-body .content ul .article h4 {
+    body .topics .support-body .content ul li.article h4 {
       color: #1e800d; }
-    body .topics .support-body .content ul .article > p, body .topics .support-body .content ul .article div {
+    body .topics .support-body .content ul li.article > p, body .topics .support-body .content ul li.article div {
       display: none; }
 
 @media (min-width: 768px) {
