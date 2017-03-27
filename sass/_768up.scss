@@ -142,18 +142,21 @@ body {
 
 // topic pages below
 body {
-	.topics {
-		.support-body {
-			padding-left: 60px;
-			#breadcrumbs {
-				float: none;
-				padding-top: 60px;
-				padding-left: 20px;
-			}
-			.content {
-				#toggle {
-					> div {
-						display: none;
+	#support-main {
+		.topics {
+			.support-body {
+				padding-left: 0;
+				#breadcrumbs {
+					float: none;
+					padding-top: 60px;
+					padding-left: 20px;
+				}
+				.content {
+					padding-left: 0;
+					#toggle {
+						> div {
+							display: none;
+						}
 					}
 				}
 			}

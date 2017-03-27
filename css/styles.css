@@ -276,14 +276,16 @@ body .topics .support-body {
           font-size: 16px;
           font-weight: bold; }
 
-  body .topics .support-body {
-    padding-left: 60px; }
-    body .topics .support-body #breadcrumbs {
+  body #support-main .topics .support-body {
+    padding-left: 0; }
+    body #support-main .topics .support-body #breadcrumbs {
       float: none;
       padding-top: 60px;
       padding-left: 20px; }
-    body .topics .support-body .content #toggle > div {
-      display: none; } }
+    body #support-main .topics .support-body .content {
+      padding-left: 0; }
+      body #support-main .topics .support-body .content #toggle > div {
+        display: none; } }
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
   body #support-main .row-5 .slick-target {
