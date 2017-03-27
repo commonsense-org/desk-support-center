@@ -45,6 +45,9 @@ body {
       body #support-header form .inner {
         width: 100%;
         border-radius: 25px; }
+        body #support-header form .inner #q {
+          padding-top: 7px;
+          padding-left: 10px; }
         body #support-header form .inner #question-mask {
           top: 30%;
           padding-left: 10px;
