@@ -381,7 +381,6 @@ body .topics .wrapper #support-main .support-body {
           font-size: 16px;
           font-weight: bold; }
   body #support-main .row-8 {
-    color: red !important;
     padding-top: 5%;
     padding-bottom: 55px;
     background-color: #2f2f2f;
@@ -398,8 +397,7 @@ body .topics .wrapper #support-main .support-body {
       line-height: 200%;
       padding-bottom: 0; }
     body #support-main .row-8 .col-sm-8 {
-      width: 100%;
-      color: red !important; }
+      width: 100%; }
       body #support-main .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .row:nth-child(1) {
         padding-bottom: 10px; }
       body #support-main .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
