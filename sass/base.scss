@@ -252,31 +252,33 @@ body {
 
 // topic pages below
 body {
-	.topics {
-		.support-body {
-			padding-left: 0;
-			#breadcrumbs {
-				width: 80%;
-				float: none;
-				padding-left: 20px;
-				font-size: 16px;
-				color: $black;
-			}
-			.content {
-				padding: 0;
-				#toggle {
-					> div {
-						display: none;
-					}
+	#support-main {
+		.topics {
+			.support-body {
+				padding-left: 0;
+				#breadcrumbs {
+					width: 80%;
+					float: none;
+					padding-left: 20px;
+					font-size: 16px;
+					color: $black;
 				}
-				ul {
-					li.article {
-						background: none!important;
-						h4 {
-							color: $green_links;
-						}
-						> p, div {
+				.content {
+					padding: 0;
+					#toggle {
+						> div {
 							display: none;
+						}
+					}
+					ul {
+						li.article {
+							background: none!important;
+							h4 {
+								color: $green_links;
+							}
+							> p, div {
+								display: none;
+							}
 						}
 					}
 				}
