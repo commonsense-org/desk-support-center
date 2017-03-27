@@ -259,9 +259,13 @@ body {
 				#breadcrumbs {
 					width: 80%;
 					float: none;
+					padding-top: 40px;
 					padding-left: 20px;
 					font-size: 16px;
 					color: $black;
+					a {
+						color: $black!important;
+					}
 				}
 				.content {
 					padding: 0;
@@ -269,12 +273,15 @@ body {
 						> div {
 							display: none;
 						}
+						h3 {
+							padding-left: 40px;
+						}
 					}
 					ul {
 						li.article {
 							background: none!important;
 							h4 {
-								color: $green_links;
+								color: $green_links!important;
 							}
 							> p, div {
 								display: none;
