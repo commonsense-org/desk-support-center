@@ -30,7 +30,7 @@ body {
       color: #ffffff !important;
       text-shadow: none !important;
       font-family: "Lato", sans-serif !important; }
-    body #support-header .support-search-big {
+    body #support-header .support-search-big, body #support-header .support-search-small {
       border: 0;
       background: transparent !important; }
     body #support-header form {
