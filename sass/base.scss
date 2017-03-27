@@ -253,6 +253,14 @@ body {
 // topic pages below
 body {
 	.topics {
+		#support-header {
+			.support-search-small {
+				position: relative;
+				right: 0;
+				top: 0;
+				width: 100%;
+			}
+		}
 		.wrapper #support-main {
 			.support-body {
 				padding-left: 0;
@@ -293,3 +301,7 @@ body {
 		}
 	}
 }
+/* position: absolute; */
+/* right: 0; */
+/* top: 3px; */
+/* width: 230px; */

@@ -170,6 +170,11 @@ body {
   body #footer {
     display: none; }
 
+body .topics #support-header .support-search-small {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%; }
 body .topics .wrapper #support-main .support-body {
   padding-left: 0; }
   body .topics .wrapper #support-main .support-body #breadcrumbs {
@@ -194,6 +199,10 @@ body .topics .wrapper #support-main .support-body {
       body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }
 
+/* position: absolute; */
+/* right: 0; */
+/* top: 3px; */
+/* width: 230px; */
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
   body #support-header h2 {
