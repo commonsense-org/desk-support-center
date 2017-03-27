@@ -170,28 +170,28 @@ body {
   body #footer {
     display: none; }
 
-body .topics #support-main .support-body {
+body .topics .wrapper #support-main .support-body {
   padding-left: 0; }
-  body .topics #support-main .support-body #breadcrumbs {
+  body .topics .wrapper #support-main .support-body #breadcrumbs {
     width: 80%;
     float: none;
     padding-top: 40px;
     padding-left: 20px;
     font-size: 16px;
     color: #3a3a3a; }
-    body .topics #support-main .support-body #breadcrumbs a {
+    body .topics .wrapper #support-main .support-body #breadcrumbs a {
       color: #3a3a3a !important; }
-  body .topics #support-main .support-body .content {
+  body .topics .wrapper #support-main .support-body .content.articles {
     padding: 0; }
-    body .topics #support-main .support-body .content #toggle > div {
+    body .topics .wrapper #support-main .support-body .content.articles #toggle > div {
       display: none; }
-    body .topics #support-main .support-body .content #toggle h3 {
+    body .topics .wrapper #support-main .support-body .content.articles #toggle h3 {
       padding-left: 40px; }
-    body .topics #support-main .support-body .content ul li.article {
+    body .topics .wrapper #support-main .support-body .content.articles ul li.article {
       background: none !important; }
-      body .topics #support-main .support-body .content ul li.article h4 {
+      body .topics .wrapper #support-main .support-body .content.articles ul li.article h4 {
         color: #1e800d !important; }
-      body .topics #support-main .support-body .content ul li.article > p, body .topics #support-main .support-body .content ul li.article div {
+      body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }
 
 @media (min-width: 768px) {

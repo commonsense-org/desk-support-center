@@ -253,7 +253,7 @@ body {
 // topic pages below
 body {
 	.topics {
-		#support-main {
+		.wrapper #support-main {
 			.support-body {
 				padding-left: 0;
 				#breadcrumbs {
@@ -267,7 +267,7 @@ body {
 						color: $black!important;
 					}
 				}
-				.content {
+				.content.articles {
 					padding: 0;
 					#toggle {
 						> div {
