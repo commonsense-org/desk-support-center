@@ -173,7 +173,7 @@ body {
 body .topics .support-body {
   padding-left: 0; }
   body .topics .support-body #breadcrumbs {
-    width: 280px;
+    width: 80%;
     float: none;
     padding-left: 20px;
     font-size: 16px;
