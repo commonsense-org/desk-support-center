@@ -315,8 +315,11 @@ body .topics .wrapper #support-main .support-body {
     margin-right: 5%;
     margin-bottom: 60px;
     margin-left: 5%; }
-    body #support-main .row-1 table tbody tr td {
-      padding: 0; }
+    body #support-main .row-1 table tbody tr {
+      display: inline-block;
+      width: 50%; }
+      body #support-main .row-1 table tbody tr td {
+        padding: 0; }
   body #support-main .row-2 {
     margin-left: 5%; }
   body #support-main .row-3 {
