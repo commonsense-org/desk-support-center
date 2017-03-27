@@ -177,14 +177,16 @@ body .topics .support-body {
     padding-left: 20px;
     font-size: 16px;
     color: #3a3a3a; }
-  body .topics .support-body .content #toggle > div {
-    display: none; }
-  body .topics .support-body .content ul li.article {
-    background: none !important; }
-    body .topics .support-body .content ul li.article h4 {
-      color: #1e800d; }
-    body .topics .support-body .content ul li.article > p, body .topics .support-body .content ul li.article div {
+  body .topics .support-body .content {
+    padding: 0; }
+    body .topics .support-body .content #toggle > div {
       display: none; }
+    body .topics .support-body .content ul li.article {
+      background: none !important; }
+      body .topics .support-body .content ul li.article h4 {
+        color: #1e800d; }
+      body .topics .support-body .content ul li.article > p, body .topics .support-body .content ul li.article div {
+        display: none; }
 
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
