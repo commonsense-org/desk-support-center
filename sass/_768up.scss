@@ -157,6 +157,13 @@ body {
 						> div {
 							display: none;
 						}
+						li {
+							h4 {
+								a {
+									color: $green_links;
+								}
+							}
+						}
 					}
 				}
 			}

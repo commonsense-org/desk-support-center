@@ -288,7 +288,9 @@ body .topics #support-main .support-body {
     body .topics #support-main .support-body .content {
       padding-left: 0; }
       body .topics #support-main .support-body .content #toggle > div {
-        display: none; } }
+        display: none; }
+      body .topics #support-main .support-body .content #toggle li h4 a {
+        color: #1e800d; } }
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
   body #support-main .row-5 .slick-target {
