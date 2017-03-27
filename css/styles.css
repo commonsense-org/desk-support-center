@@ -381,6 +381,7 @@ body .topics .wrapper #support-main .support-body {
           font-size: 16px;
           font-weight: bold; }
   body #support-main .row-8 {
+    color: red !important;
     padding-top: 5%;
     padding-bottom: 55px;
     background-color: #2f2f2f;
