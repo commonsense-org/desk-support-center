@@ -256,8 +256,6 @@ body .topics #support-header .support-search-small {
   right: 0;
   top: 0;
   width: 100%; }
-  body .topics #support-header .support-search-small:first-of-type {
-    display: none; }
 body .topics .wrapper #support-main .support-body {
   padding-left: 0; }
   body .topics .wrapper #support-main .support-body #breadcrumbs {
