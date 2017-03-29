@@ -59,7 +59,7 @@ body {
 						display: inline-block;
 						width: 50%;
 						td {
-							padding: 0;
+							padding: 0!important;
 						}
 					}
 				}
@@ -120,11 +120,11 @@ body {
 			padding: 20px 0 8px;
 			max-height: 96px;
 			.col-sm-12 {
-				width: 75%;
+				width: 100%;
 				padding-top: 0;
 				padding-bottom: 0;
-				margin-left: 10%;
-				margin-left: 13vw;
+				// margin-left: 10%;
+				// margin-left: 13vw;
 				> div {
 					display: inline-block;
 					font-size: 28px;

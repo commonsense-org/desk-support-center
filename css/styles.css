@@ -319,7 +319,7 @@ body .topics .wrapper #support-main .support-body {
       display: inline-block;
       width: 50%; }
       body #support-main .row-1 table tbody tr td {
-        padding: 0; }
+        padding: 0 !important; }
   body #support-main .row-2 {
     margin-left: 5%; }
   body #support-main .row-3 {
@@ -360,11 +360,9 @@ body .topics .wrapper #support-main .support-body {
     padding: 20px 0 8px;
     max-height: 96px; }
     body #support-main .row-6 .col-sm-12 {
-      width: 75%;
+      width: 100%;
       padding-top: 0;
-      padding-bottom: 0;
-      margin-left: 10%;
-      margin-left: 13vw; }
+      padding-bottom: 0; }
       body #support-main .row-6 .col-sm-12 > div {
         display: inline-block;
         font-size: 28px;
