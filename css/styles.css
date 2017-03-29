@@ -275,7 +275,7 @@ body .topics .wrapper #support-main .support-body {
       padding-left: 40px; }
     body .topics .wrapper #support-main .support-body .content.articles ul li.article {
       background: none !important; }
-      body .topics .wrapper #support-main .support-body .content.articles ul li.article h4 {
+      body .topics .wrapper #support-main .support-body .content.articles ul li.article h4 a {
         color: #1e800d !important; }
       body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }

@@ -419,7 +419,9 @@ body {
 						li.article {
 							background: none!important;
 							h4 {
-								color: $green_links!important;
+								a {
+									color: $green_links!important;
+								}
 							}
 							> p, div {
 								display: none;
