@@ -257,6 +257,11 @@ body {
   body #footer {
     display: none; }
 
+body .topics #pagination .pagination {
+  bottom: 20px;
+  position: relative; }
+  body .topics #pagination .pagination > * {
+    color: #1e800d; }
 body .topics #support-header .support-search-small {
   position: relative;
   right: 0;

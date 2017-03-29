@@ -391,6 +391,15 @@ body {
 // topic pages below
 body {
 	.topics {
+		#pagination {
+			.pagination {
+				bottom: 20px;
+				position: relative;
+				> * {
+					color: $green_links;
+				}
+			}
+		}
 		#support-header {
 			.support-search-small {
 				position: relative;
