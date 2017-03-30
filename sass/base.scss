@@ -455,6 +455,7 @@ body {
 	// unique to search page
 	&.search-page {
 		.content {
+			color: red!important;
 			> * {
 				padding-left: 40px;
 			}
