@@ -292,7 +292,8 @@ body .topics #support-header .support-search-small {
   top: 0;
   width: 100%; }
 body .topics .wrapper #support-main .support-body {
-  padding-left: 0; }
+  padding-left: 0;
+  box-shadow: none; }
   body .topics .wrapper #support-main .support-body #breadcrumbs {
     width: 80%;
     float: none;
