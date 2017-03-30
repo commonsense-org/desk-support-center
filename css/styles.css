@@ -310,7 +310,7 @@ body .topics .wrapper #support-main .support-body {
       body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }
 body .topics.search-page .content > h3 {
-  padding-left: 40px; }
+  padding-left: 40px !important; }
 
 /* position: absolute; */
 /* right: 0; */
