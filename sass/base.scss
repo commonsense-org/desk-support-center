@@ -462,6 +462,14 @@ body {
 		}
 	}
 }
+&.search-page {
+	.content {
+		color: red!important;
+		> * {
+			padding-left: 40px;
+		}
+	}
+}
 /* position: absolute; */
 /* right: 0; */
 /* top: 3px; */
