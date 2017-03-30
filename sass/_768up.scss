@@ -105,10 +105,12 @@ body {
 						padding: 0 30px;
 					}
 					&:hover {
-						color: $white;
 						background-color: $green;
 						transition: 200ms; /* delays for 1 second */
 						-webkit-transition: 200ms;
+						> div a {
+							color: $white;
+						}
 					}
 				}
 				.row {
