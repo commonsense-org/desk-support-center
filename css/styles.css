@@ -302,21 +302,19 @@ body .topics .wrapper #support-main .support-body {
     color: #3a3a3a; }
     body .topics .wrapper #support-main .support-body #breadcrumbs a {
       color: #3a3a3a !important; }
-  body .topics .wrapper #support-main .support-body .content.articles {
+  body .topics .wrapper #support-main .support-body .content.articles, body .topics .wrapper #support-main .support-body .content.article {
     padding: 0; }
-    body .topics .wrapper #support-main .support-body .content.articles > div {
+    body .topics .wrapper #support-main .support-body .content.articles > div, body .topics .wrapper #support-main .support-body .content.article > div {
       padding-left: 40px; }
-    body .topics .wrapper #support-main .support-body .content.articles .title {
-      padding-left: 40px; }
-    body .topics .wrapper #support-main .support-body .content.articles #toggle > div {
+    body .topics .wrapper #support-main .support-body .content.articles #toggle > div, body .topics .wrapper #support-main .support-body .content.article #toggle > div {
       display: none; }
-    body .topics .wrapper #support-main .support-body .content.articles #toggle h3 {
+    body .topics .wrapper #support-main .support-body .content.articles #toggle h3, body .topics .wrapper #support-main .support-body .content.article #toggle h3 {
       padding-left: 40px; }
-    body .topics .wrapper #support-main .support-body .content.articles ul li.article {
+    body .topics .wrapper #support-main .support-body .content.articles ul li.article, body .topics .wrapper #support-main .support-body .content.article ul li.article {
       background: none !important; }
-      body .topics .wrapper #support-main .support-body .content.articles ul li.article h4 a {
+      body .topics .wrapper #support-main .support-body .content.articles ul li.article h4 a, body .topics .wrapper #support-main .support-body .content.article ul li.article h4 a {
         color: #1e800d !important; }
-      body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
+      body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div, body .topics .wrapper #support-main .support-body .content.article ul li.article > p, body .topics .wrapper #support-main .support-body .content.article ul li.article div {
         display: none; }
 body .topics.search-page .content > h3 {
   padding-left: 40px !important; }

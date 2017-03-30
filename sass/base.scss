@@ -456,12 +456,9 @@ body {
 						color: $black!important;
 					}
 				}
-				.content.articles {
+				.content.articles, .content.article {
 					padding: 0;
 					> div {
-						padding-left: 40px;
-					}
-					.title {
 						padding-left: 40px;
 					}
 					#toggle {
