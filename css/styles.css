@@ -495,8 +495,8 @@ body .topics.search-page .content > h3 {
   body #support-main .row-5 .slick-target {
     margin-left: 14vw; }
     body #support-main .row-5 .slick-target .container-hl {
-      width: 240px;
-      height: 240px; } }
+      width: 235px;
+      height: 235px; } }
     @media (min-width: 970px) and (min-width: 1200px) {
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
