@@ -304,11 +304,11 @@ body .topics .wrapper #support-main .support-body {
       color: #3a3a3a !important; }
   body .topics .wrapper #support-main .support-body .content.articles {
     padding: 0; }
+    body .topics .wrapper #support-main .support-body .content.articles > div {
+      padding-left: 40px; }
     body .topics .wrapper #support-main .support-body .content.articles #toggle > div {
       display: none; }
     body .topics .wrapper #support-main .support-body .content.articles #toggle h3 {
-      padding-left: 40px; }
-    body .topics .wrapper #support-main .support-body .content.articles > div {
       padding-left: 40px; }
     body .topics .wrapper #support-main .support-body .content.articles ul li.article {
       background: none !important; }

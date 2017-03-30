@@ -458,6 +458,9 @@ body {
 				}
 				.content.articles {
 					padding: 0;
+					> div {
+						padding-left: 40px;
+					}
 					#toggle {
 						> div {
 							display: none;
@@ -465,9 +468,6 @@ body {
 						h3 {
 							padding-left: 40px;
 						}
-					}
-					> div {
-						padding-left: 40px;
 					}
 					ul {
 						li.article {
