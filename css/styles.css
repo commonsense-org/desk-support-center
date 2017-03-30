@@ -273,7 +273,9 @@ body .topics #support-header form {
     border-radius: 25px; }
     body .topics #support-header form .inner #q {
       padding-top: 7px;
-      padding-left: 10px; }
+      padding-left: 10px;
+      width: 60%;
+      border-radius: 25px; }
     body .topics #support-header form .inner #question-mask {
       top: 30%;
       padding-left: 10px;
