@@ -460,7 +460,7 @@ body {
 				.content.articles, .content.article {
 					color: #3a3a3a;
 					padding: 0;
-					> div:not(.toggle) {
+					> div:not(#toggle) {
 						padding-left: 40px;
 					}
 					#toggle {
