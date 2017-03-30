@@ -306,7 +306,7 @@ body .topics .wrapper #support-main .support-body {
   body .topics .wrapper #support-main .support-body .content.articles, body .topics .wrapper #support-main .support-body .content.article {
     color: #3a3a3a;
     padding: 0; }
-    body .topics .wrapper #support-main .support-body .content.articles > div, body .topics .wrapper #support-main .support-body .content.article > div {
+    body .topics .wrapper #support-main .support-body .content.articles > div:not(.toggle), body .topics .wrapper #support-main .support-body .content.article > div:not(.toggle) {
       padding-left: 40px; }
     body .topics .wrapper #support-main .support-body .content.articles #toggle > div, body .topics .wrapper #support-main .support-body .content.article #toggle > div {
       display: none; }
