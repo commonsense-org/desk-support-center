@@ -290,9 +290,9 @@ body .topics .wrapper #support-main .support-body {
         color: #1e800d !important; }
       body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }
-body.search-page .content {
+body .topics.search-page .content {
   color: red !important; }
-  body.search-page .content > * {
+  body .topics.search-page .content > * {
     padding-left: 40px; }
 
 /* position: absolute; */
