@@ -277,7 +277,8 @@ body .topics #support-header form {
       width: 60%;
       border-radius: 25px;
       font-family: "Lato", sans-serif;
-      font-size: 1em; }
+      font-size: 1em;
+      font-weight: normal; }
     body .topics #support-header form .inner #question-mask {
       top: 30%;
       padding-left: 10px;
