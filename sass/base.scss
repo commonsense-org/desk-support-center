@@ -452,6 +452,14 @@ body {
 			}
 		}
 	}
+	// unique to search page
+	&.search-page {
+		.content {
+			> * {
+				padding-left: 40px;
+			}
+		}
+	}
 }
 /* position: absolute; */
 /* right: 0; */
