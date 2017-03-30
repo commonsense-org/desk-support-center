@@ -309,15 +309,8 @@ body .topics .wrapper #support-main .support-body {
         color: #1e800d !important; }
       body .topics .wrapper #support-main .support-body .content.articles ul li.article > p, body .topics .wrapper #support-main .support-body .content.articles ul li.article div {
         display: none; }
-body .topics.search-page .content {
-  color: red !important; }
-  body .topics.search-page .content > * {
-    padding-left: 40px; }
-
-.search-page .content {
-  color: red !important; }
-  .search-page .content > * {
-    padding-left: 40px; }
+body .topics.search-page .content > h3 {
+  padding-left: 40px; }
 
 /* position: absolute; */
 /* right: 0; */
