@@ -320,6 +320,10 @@ body .topics .wrapper #support-main .support-body {
         display: none; }
 body .topics.search-page .content > h3 {
   padding-left: 40px !important; }
+body .topics.question-page #support-main #breadcrumbs {
+  margin-bottom: 60px; }
+body .topics.question-page #support-main .content .title .meta {
+  display: none; }
 
 /* position: absolute; */
 /* right: 0; */
