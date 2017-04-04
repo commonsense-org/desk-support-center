@@ -509,7 +509,7 @@ body {
 						}
 					}
 					.article-content {
-						> p:first-of-type {
+						> p:nth-of-type(1) {
 							color: $green_links!important;
 						}
 					}
