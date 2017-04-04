@@ -326,7 +326,7 @@ body .topics.question-page #support-main .content .title {
   border-bottom: 0; }
   body .topics.question-page #support-main .content .title .meta {
     display: none; }
-body .topics.question-page #support-main .content .article-content > p:nth-of-type(1) {
+body .topics.question-page #support-main .content .article-content > p:nth-of-type(1) span {
   color: #1e800d !important; }
 
 /* position: absolute; */
