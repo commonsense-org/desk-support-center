@@ -324,6 +324,8 @@ body .topics.question-page #support-main #breadcrumbs {
   margin-bottom: 60px; }
 body .topics.question-page #support-main .content .title .meta {
   display: none; }
+body .topics.question-page #support-main .content .article-content p:first-of-type {
+  color: #1e800d; }
 
 /* position: absolute; */
 /* right: 0; */

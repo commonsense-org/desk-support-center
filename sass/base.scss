@@ -507,6 +507,11 @@ body {
 							display: none;
 						}
 					}
+					.article-content {
+						p:first-of-type {
+							color: $green_links;
+						}
+					}
 				}
 			}
 
