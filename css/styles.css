@@ -322,8 +322,10 @@ body .topics.search-page .content > h3 {
   padding-left: 40px !important; }
 body .topics.question-page #support-main #breadcrumbs {
   margin-bottom: 60px; }
-body .topics.question-page #support-main .content .title .meta {
-  display: none; }
+body .topics.question-page #support-main .content .title {
+  border-bottom: 0; }
+  body .topics.question-page #support-main .content .title .meta {
+    display: none; }
 body .topics.question-page #support-main .content .article-content p:first-of-type {
   color: #1e800d; }
 
