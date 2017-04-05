@@ -352,7 +352,8 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
   font-weight: bold; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span p {
   color: #1e800d;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 0; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(2) {
   padding-top: 60px; }
 
