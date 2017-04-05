@@ -324,10 +324,15 @@ body .topics.question-page #support-main #breadcrumbs {
   margin-bottom: 60px; }
 body .topics.question-page #support-main .content .title {
   border-bottom: 0; }
+  body .topics.question-page #support-main .content .title h3 {
+    font-size: 32px;
+    font-weight: bold; }
   body .topics.question-page #support-main .content .title .meta {
     display: none; }
-body .topics.question-page #support-main .content .article-content > p:nth-of-type(1) span {
-  color: #1e800d !important; }
+body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) {
+  border-bottom: 1px solid #CCC; }
+  body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span p {
+    color: #1e800d; }
 
 /* position: absolute; */
 /* right: 0; */

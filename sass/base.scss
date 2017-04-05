@@ -504,14 +504,21 @@ body {
 				.content {
 					.title {
 						border-bottom: 0;
+						h3 {
+							font-size: 32px;
+							font-weight: bold;
+						}
 						.meta {
 							display: none;
 						}
 					}
 					.article-content {
-						> p:nth-of-type(1) {
+						> div:nth-of-type(1) {
+							border-bottom: 1px solid #CCC;
 							span {
-								color: $green_links!important;
+								p {
+									color: $green_links;
+								}
 							}
 						}
 					}
