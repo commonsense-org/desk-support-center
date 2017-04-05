@@ -515,10 +515,12 @@ body {
 					.article-content {
 						> div {
 							> p:nth-of-type(1) {
+								padding-bottom: 60px;
 								font-size: 32px;
 							}
 						}
 						li, li a {
+							margin-bottom: 8px;
 							color: $green_links;
 							font-weight: bold;
 							list-style: none;
