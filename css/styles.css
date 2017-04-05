@@ -335,7 +335,8 @@ body .topics.question-page #support-main .content .article-content > div > p:nth
   padding-bottom: 60px;
   font-size: 32px; }
 body .topics.question-page #support-main .content .article-content > div:first-of-type {
-  border-bottom: 1px solid #CCC; }
+  border-bottom: 1px solid #CCC;
+  padding-top: 60px; }
 body .topics.question-page #support-main .content .article-content li, body .topics.question-page #support-main .content .article-content li a {
   margin-bottom: 8px;
   color: #1e800d;
