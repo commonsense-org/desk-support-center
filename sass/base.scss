@@ -69,6 +69,7 @@ body {
 
 		}
 		.popular-searches {
+			padding: 1% 5% 0;
 			color: $white;
 			span {
 				a {
@@ -520,6 +521,7 @@ body {
 							> p:nth-of-type(1) {
 								padding-bottom: 60px;
 								font-size: 32px;
+								line-height: 32px;
 							}
 						}
 						> div {
