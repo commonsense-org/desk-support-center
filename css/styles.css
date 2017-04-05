@@ -339,12 +339,17 @@ body .topics.question-page #support-main .content .article-content > div {
   padding-top: 60px;
   padding-bottom: 40px; }
 body .topics.question-page #support-main .content .article-content li, body .topics.question-page #support-main .content .article-content li a {
+  margin-top: 8px;
   margin-bottom: 8px;
   color: #1e800d;
   font-weight: bold;
   list-style: none; }
+body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span span {
+  color: #3a3a3a;
+  font-weight: bold; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span p {
-  color: #1e800d; }
+  color: #1e800d;
+  font-weight: bold; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(2) {
   padding-top: 60px; }
 
