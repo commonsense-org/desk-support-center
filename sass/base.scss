@@ -522,7 +522,7 @@ body {
 								font-size: 32px;
 							}
 						}
-						> div:first-of-type {
+						> div {
 							border-bottom: 1px solid #CCC;
 							padding-top: 60px;
 						}
@@ -533,7 +533,7 @@ body {
 							list-style: none;
 						}
 						> div:nth-of-type(1) {
-							border-bottom: 1px solid #CCC;
+							// border-bottom: 1px solid #CCC;
 							span {
 								p {
 									color: $green_links;
@@ -542,7 +542,7 @@ body {
 						}
 						> div:nth-of-type(2) {
 							padding-top: 60px;
-							border-bottom: 1px solid #CCC;
+							// border-bottom: 1px solid #CCC;
 						}
 					}
 				}
