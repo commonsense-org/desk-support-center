@@ -522,6 +522,9 @@ body {
 								font-size: 32px;
 							}
 						}
+						> div:first-of-type {
+							border-bottom: 1px solid #CCC;
+						}
 						li, li a {
 							margin-bottom: 8px;
 							color: $green_links;
