@@ -320,8 +320,6 @@ body .topics .wrapper #support-main .support-body {
         display: none; }
 body .topics.search-page .content > h3 {
   padding-left: 40px !important; }
-body .topics.question-page a {
-  color: #1e800d !important; }
 body .topics.question-page #support-main #breadcrumbs {
   margin-bottom: 60px; }
 body .topics.question-page #support-main .content .title {
@@ -331,6 +329,8 @@ body .topics.question-page #support-main .content .title {
     font-weight: bold; }
   body .topics.question-page #support-main .content .title .meta {
     display: none; }
+body .topics.question-page #support-main .content .article-content a {
+  color: #1e800d !important; }
 body .topics.question-page #support-main .content .article-content > div > p:nth-of-type(1) {
   padding-bottom: 60px;
   font-size: 32px; }

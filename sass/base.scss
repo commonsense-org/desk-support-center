@@ -497,9 +497,6 @@ body {
 		}
 		// unique to question page or whatever da heck it's called
 		&.question-page {
-			a {
-				color: $green_links!important;
-			}
 			#support-main {
 				#breadcrumbs {
 					margin-bottom: 60px;
@@ -516,6 +513,9 @@ body {
 						}
 					}
 					.article-content {
+						a {
+							color: $green_links!important;
+						}
 						> div {
 							> p:nth-of-type(1) {
 								padding-bottom: 60px;
