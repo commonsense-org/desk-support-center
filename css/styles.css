@@ -344,6 +344,9 @@ body .topics.question-page #support-main .content .article-content li, body .top
   color: #1e800d;
   font-weight: bold;
   list-style: none; }
+body .topics.question-page #support-main .content .article-content ul {
+  margin-top: 10px;
+  margin-left: 0; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span span {
   color: #3a3a3a;
   font-weight: bold; }
