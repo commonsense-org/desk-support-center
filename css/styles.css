@@ -329,6 +329,12 @@ body .topics.question-page #support-main .content .title {
     font-weight: bold; }
   body .topics.question-page #support-main .content .title .meta {
     display: none; }
+body .topics.question-page #support-main .content .article-content > div > p:nth-of-type(1) {
+  font-size: 32px; }
+body .topics.question-page #support-main .content .article-content li, body .topics.question-page #support-main .content .article-content li a {
+  color: #1e800d;
+  font-weight: bold;
+  list-style: none; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) {
   border-bottom: 1px solid #CCC; }
   body .topics.question-page #support-main .content .article-content > div:nth-of-type(1) span p {
