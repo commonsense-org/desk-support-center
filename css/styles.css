@@ -524,6 +524,11 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
         font-size: 8px !important; } }
 
 @media (min-width: 768px) {
+  body .search-page .support-body, body .question-page .support-body {
+    max-width: 700px;
+    margin: 0 auto; }
+    body .search-page .support-body #social-share, body .question-page .support-body #social-share {
+      display: none; }
   body .topics #support-main .support-body {
     padding-left: 0; }
     body .topics #support-main .support-body #breadcrumbs {
