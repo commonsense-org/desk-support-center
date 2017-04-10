@@ -245,6 +245,13 @@ body {
 
 // topic pages below
 body {
+	.search-page, .question-page {
+		max-width: 700px;
+		margin: 0 auto;
+		#social-share {
+			display: none;
+		}
+	}
 	.topics {
 		#support-main {
 			.support-body {
