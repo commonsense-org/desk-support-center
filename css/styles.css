@@ -82,6 +82,7 @@ body {
       body #support-main .dashboard table tr td {
         border-bottom: 0; }
         body #support-main .dashboard table tr td h4 {
+          font-weight: bold;
           color: #1e800d !important; }
     body #support-main .row-1, body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d, body #support-main .row-4, body #support-main .row-5, body #support-main .row-6, body #support-main .row-7 {
       padding: 20px 25px 20px;
