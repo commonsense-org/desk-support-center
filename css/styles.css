@@ -104,6 +104,18 @@ body {
       height: 46px; }
     body #support-main .row-3 {
       border-bottom: 1px solid #ddd; }
+      body #support-main .row-3 img {
+        width: 46px;
+        height: 55px; }
+    body #support-main .row-3a img {
+      width: 36px;
+      height: 46px; }
+    body #support-main .row-3b img {
+      width: 53px;
+      height: 54px; }
+    body #support-main .row-3d img {
+      width: 53px;
+      height: 47px; }
     body #support-main .row-4 {
       text-align: center; }
       body #support-main .row-4 .header-hl {
