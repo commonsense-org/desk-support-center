@@ -398,8 +398,11 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
     display: inline-block;
     width: 30%;
     height: 520px; }
-    body #support-main .row-2 .col-sm-12 .row:hover, body #support-main .row-3 .col-sm-12 .row:hover, body #support-main .row-3a .col-sm-12 .row:hover, body #support-main .row-3b .col-sm-12 .row:hover, body #support-main .row-3c .col-sm-12 .row:hover, body #support-main .row-3d .col-sm-12 .row:hover {
-      color: #1e800d; }
+    body #support-main .row-2 .col-sm-12 .row a, body #support-main .row-3 .col-sm-12 .row a, body #support-main .row-3a .col-sm-12 .row a, body #support-main .row-3b .col-sm-12 .row a, body #support-main .row-3c .col-sm-12 .row a, body #support-main .row-3d .col-sm-12 .row a {
+      color: #3a3a3a; }
+      body #support-main .row-2 .col-sm-12 .row a:hover, body #support-main .row-3 .col-sm-12 .row a:hover, body #support-main .row-3a .col-sm-12 .row a:hover, body #support-main .row-3b .col-sm-12 .row a:hover, body #support-main .row-3c .col-sm-12 .row a:hover, body #support-main .row-3d .col-sm-12 .row a:hover {
+        color: #1e800d;
+        text-decoration: none; }
     body #support-main .row-2 .col-sm-12 .row.header-hl, body #support-main .row-3 .col-sm-12 .row.header-hl, body #support-main .row-3a .col-sm-12 .row.header-hl, body #support-main .row-3b .col-sm-12 .row.header-hl, body #support-main .row-3c .col-sm-12 .row.header-hl, body #support-main .row-3d .col-sm-12 .row.header-hl {
       color: #3a3a3a; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
@@ -412,7 +415,7 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
     margin-left: 5%; }
     body #support-main .row-1 table tbody tr {
       display: inline-block;
-      width: 50%; }
+      width: 48%; }
       body #support-main .row-1 table tbody tr td {
         padding: 0 !important; }
   body #support-main .row-2 {

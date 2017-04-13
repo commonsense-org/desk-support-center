@@ -35,8 +35,12 @@ body {
 			height: 520px;
 			.col-sm-12 {
 				.row {
-					&:hover {
-						color: $green_links;
+					a {
+						color: $black;
+						&:hover {
+							color: $green_links;
+							text-decoration: none;
+						}
 					}
 					&.header-hl {
 						color: $black;
@@ -57,7 +61,7 @@ body {
 				tbody {
 					tr {
 						display: inline-block;
-						width: 50%;
+						width: 48%;
 						td {
 							padding: 0!important;
 						}
