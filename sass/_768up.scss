@@ -108,6 +108,9 @@ body {
 					> div {
 						padding: 0 30px;
 					}
+					a {
+						font-size: 22px;
+					}
 					&:hover {
 						background-color: $green;
 						transition: 200ms; /* delays for 1 second */

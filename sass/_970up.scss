@@ -11,6 +11,9 @@ body {
 				.container-hl {
 					width: 235px;
 					height: 235px;
+					a {
+						font-size: 25px;
+					}
 					@media (min-width: 1200px) {
 						width: 280px;
 						height: 280px;

@@ -451,6 +451,8 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
         margin: 0; }
         body #support-main .row-5 .slick-target .container-hl > div {
           padding: 0 30px; }
+        body #support-main .row-5 .slick-target .container-hl a {
+          font-size: 22px; }
         body #support-main .row-5 .slick-target .container-hl:hover {
           background-color: #249A10;
           transition: 200ms;
@@ -571,7 +573,9 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
     margin-left: 14vw; }
     body #support-main .row-5 .slick-target .container-hl {
       width: 235px;
-      height: 235px; } }
+      height: 235px; }
+      body #support-main .row-5 .slick-target .container-hl a {
+        font-size: 25px; } }
     @media (min-width: 970px) and (min-width: 1200px) {
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
