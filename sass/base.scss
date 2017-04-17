@@ -444,46 +444,46 @@ body {
 			}
 		}
 		#support-header {
-			form {
-				font-family: $lato!important;
-				margin-bottom: 0;
-				.outer {
-					width: 90%;
-					margin: 0 auto;
-				}
-				.inner {
-					width: 100%;
-					border-radius: 25px;
-					#q {
-						padding-top: 7px;
-						padding-left: 10px;
-						width: 60%;
-						border-radius: 25px;
-						font-family: $lato;
-						font-size: 1em;
-						font-weight: normal;
-					}
-					#question-mask {
-						top: 30%;
-						padding-left: 10px;
-						text-align: left;
-						font-size: 1em;
-					}
-					#support-search-submit {
-						display: none;
-					}
-				}
+			// form {
+			// 	font-family: $lato!important;
+			// 	margin-bottom: 0;
+			// 	.outer {
+			// 		width: 90%;
+			// 		margin: 0 auto;
+			// 	}
+			// 	.inner {
+			// 		width: 100%;
+			// 		border-radius: 25px;
+			// 		#q {
+			// 			padding-top: 7px;
+			// 			padding-left: 10px;
+			// 			width: 60%;
+			// 			border-radius: 25px;
+			// 			font-family: $lato;
+			// 			font-size: 1em;
+			// 			font-weight: normal;
+			// 		}
+			// 		#question-mask {
+			// 			top: 30%;
+			// 			padding-left: 10px;
+			// 			text-align: left;
+			// 			font-size: 1em;
+			// 		}
+			// 		#support-search-submit {
+			// 			display: none;
+			// 		}
+			// 	}
 
-			}
-			.support-search-small {
-				position: relative;
-				right: 0;
-				top: 0;
-				width: 100%;
-				&:first-of-type {
-					// display: none;
-				}
-			}
+			// }
+			// .support-search-small {
+			// 	position: relative;
+			// 	right: 0;
+			// 	top: 0;
+			// 	width: 100%;
+			// 	&:first-of-type {
+			// 		// display: none;
+			// 	}
+			// }
 		}
 		.wrapper #support-main {
 			.support-body {

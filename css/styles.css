@@ -285,35 +285,6 @@ body .topics #pagination .pagination {
   position: relative; }
   body .topics #pagination .pagination > * {
     color: #1e800d; }
-body .topics #support-header form {
-  font-family: "Lato", sans-serif !important;
-  margin-bottom: 0; }
-  body .topics #support-header form .outer {
-    width: 90%;
-    margin: 0 auto; }
-  body .topics #support-header form .inner {
-    width: 100%;
-    border-radius: 25px; }
-    body .topics #support-header form .inner #q {
-      padding-top: 7px;
-      padding-left: 10px;
-      width: 60%;
-      border-radius: 25px;
-      font-family: "Lato", sans-serif;
-      font-size: 1em;
-      font-weight: normal; }
-    body .topics #support-header form .inner #question-mask {
-      top: 30%;
-      padding-left: 10px;
-      text-align: left;
-      font-size: 1em; }
-    body .topics #support-header form .inner #support-search-submit {
-      display: none; }
-body .topics #support-header .support-search-small {
-  position: relative;
-  right: 0;
-  top: 0;
-  width: 100%; }
 body .topics .wrapper #support-main .support-body {
   padding-left: 0;
   box-shadow: none; }
