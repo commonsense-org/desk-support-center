@@ -484,10 +484,11 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
           height: 48px;
           margin-left: 35px;
           margin-top: 0;
-          background-color: #ffffff;
           color: #249A10 !important;
           font-size: 16px;
           font-weight: bold; }
+          body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) a {
+            color: #249A10 !important; }
   body #support-main .row-8 {
     padding-top: 5%;
     padding-bottom: 55px;

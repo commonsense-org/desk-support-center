@@ -149,10 +149,13 @@ body {
 						height: 48px;
 						margin-left: 35px;
 						margin-top: 0;
-						background-color: $white;
+						// background-color: $white;
 						color: $green !important;
 						font-size: 16px;
 						font-weight: bold;
+						a {
+							color: $green !important;
+						}
 					}
 				}
 			}
