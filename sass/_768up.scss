@@ -156,6 +156,12 @@ body {
 						a {
 							color: $green !important;
 						}
+						&:hover {
+							background-color: transparent;
+							a {
+								color: $white !important;
+							}
+						}
 					}
 				}
 			}

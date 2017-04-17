@@ -490,6 +490,10 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
           font-weight: bold; }
           body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) a {
             color: #249A10 !important; }
+          body #support-main .row-6 .col-sm-12 > div:nth-of-type(3):hover {
+            background-color: transparent; }
+            body #support-main .row-6 .col-sm-12 > div:nth-of-type(3):hover a {
+              color: #ffffff !important; }
   body #support-main .row-8 {
     padding-top: 5%;
     padding-bottom: 55px;
