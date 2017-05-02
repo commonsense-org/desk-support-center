@@ -191,86 +191,6 @@ body {
 				height: 47px;
 			}
 		}
-		.row-4 {
-			text-align: center;
-			.header-hl {
-				font-size: 1.3em;
-			}
-			.row:not(.header-hl) {
-				color: $green_links;
-			}
-		}
-		.row-5 {
-			// padding: 35px 20px 35px;
-			background-color: #e6e7e3;
-			.col-xs-8 {
-				color: $green_links;
-				> .container-hl {
-					display: table;
-					height: 210px;
-					width: 210px;
-					margin: 0 auto;
-			    border-radius: 50%;
-					background-color: $white;
-					> div {
-				    vertical-align: middle;
-				    display: table-cell;
-						position: relative;
-						text-align: center;
-						padding: 0 15px;
-						> a {
-							color: $green_links;
-							text-decoration: none;
-						}
-					}
-				}
-			}
-			.slick-target {
-				.slick-arrow {
-					z-index: 99999;
-				}
-				.slick-prev {
-					top: 125px;
-					left: -1%;
-			    bottom: 0px;
-			    position: relative;
-			    &:before {
-			    	display: inline-block;
-			    	height: 32px;
-			    	width: 18px;
-			    	content: " ";
-			    	background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-			    	-ms-transform: rotate(7deg); /* IE 9 */
-	    	    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-	    	    transform: rotate(180deg);
-			    }
-				}
-				.slick-next {
-			    position: relative;
-			    z-index: 999999;
-			    top: -103px;
-			    left: 95%;
-	        &:before {
-	        	display: inline-block;
-  			    width: 18px;
-  	        background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
-  	        // background-size: cover;
-  	        height: 32px;
-  	        content: " ";
-	        }
-				}
-				.slick-list {
-					// overflow-x: hidden;
-					.slick-slide {
-						// width: 210xp;
-
-						&.slick-current {
-
-						}
-					}
-				}
-			}
-		}
 		.row-6 {
 			background-color: $green;
 			.col-sm-12 {
@@ -615,7 +535,86 @@ body {
 /* right: 0; */
 /* top: 3px; */
 /* width: 230px; */
+		.row-4 {
+			text-align: center;
+			.header-hl {
+				font-size: 1.3em;
+			}
+			.row:not(.header-hl) {
+				color: $green_links;
+			}
+		}
+		.row-5 {
+			// padding: 35px 20px 35px;
+			background-color: #e6e7e3;
+			.col-xs-8 {
+				color: $green_links;
+				> .container-hl {
+					display: table;
+					height: 210px;
+					width: 210px;
+					margin: 0 auto;
+			    border-radius: 50%;
+					background-color: $white;
+					> div {
+				    vertical-align: middle;
+				    display: table-cell;
+						position: relative;
+						text-align: center;
+						padding: 0 15px;
+						> a {
+							color: $green_links;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+			.slick-target {
+				.slick-arrow {
+					z-index: 99999;
+				}
+				.slick-prev {
+					top: 125px;
+					left: -1%;
+			    bottom: 0px;
+			    position: relative;
+			    &:before {
+			    	display: inline-block;
+			    	height: 32px;
+			    	width: 18px;
+			    	content: " ";
+			    	background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+			    	-ms-transform: rotate(7deg); /* IE 9 */
+	    	    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	    	    transform: rotate(180deg);
+			    }
+				}
+				.slick-next {
+			    position: relative;
+			    z-index: 999999;
+			    top: -103px;
+			    left: 95%;
+	        &:before {
+	        	display: inline-block;
+  			    width: 18px;
+  	        background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+  	        // background-size: cover;
+  	        height: 32px;
+  	        content: " ";
+	        }
+				}
+				.slick-list {
+					// overflow-x: hidden;
+					.slick-slide {
+						// width: 210xp;
 
+						&.slick-current {
+
+						}
+					}
+				}
+			}
+		}
 .row-8 {
   .footer-float {
     float:left;
