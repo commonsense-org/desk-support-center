@@ -672,22 +672,24 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
 
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
-  body .row-5 .slick-target {
-    margin-left: 14vw; }
-    body .row-5 .slick-target .col-sm-4 {
-      padding: 0;
-      margin-left: -20px; }
-    body .row-5 .slick-target .container-hl {
-      width: 235px;
-      height: 235px; }
-      body .row-5 .slick-target .container-hl a {
-        font-size: 28px; } }
-    @media (min-width: 970px) and (min-width: 1200px) {
+  body .row-5 {
+    margin-left: -8px; }
+    body .row-5 .slick-target {
+      margin-left: 14vw; }
+      body .row-5 .slick-target .col-sm-4 {
+        padding: 0;
+        margin-left: -20px; }
       body .row-5 .slick-target .container-hl {
-        width: 280px;
-        height: 280px; } }
+        width: 235px;
+        height: 235px; }
+        body .row-5 .slick-target .container-hl a {
+          font-size: 28px; } }
+      @media (min-width: 970px) and (min-width: 1200px) {
+        body .row-5 .slick-target .container-hl {
+          width: 280px;
+          height: 280px; } }
 @media (min-width: 970px) {
-    body .row-5 .slick-target .col-xs-8 {
-      width: 33%; } }
+      body .row-5 .slick-target .col-xs-8 {
+        width: 33%; } }
 
 /*# sourceMappingURL=styles.css.map */
