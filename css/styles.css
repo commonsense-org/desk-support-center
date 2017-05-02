@@ -327,15 +327,28 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
   line-height: 0; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(2) {
   padding-top: 60px; }
-body .topics.question-page #support-main .row-4 {
-  margin-top: 50px; }
 
 .row-4 {
-  text-align: center; }
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 25px 20px;
+  font-size: 20px;
+  color: #3a3a3a; }
   .row-4 .header-hl {
     font-size: 1.3em; }
   .row-4 .row:not(.header-hl) {
     color: #1e800d; }
+  .row-4 .col-sm-12 .header-hl {
+    font-family: "Lato", sans-serif;
+    font-weight: bold; }
+  .row-4 .col-sm-12 .row {
+    margin: 0;
+    padding-bottom: 15px; }
+    .row-4 .col-sm-12 .row a {
+      color: #3a3a3a !important; }
+      .row-4 .col-sm-12 .row a:hover {
+        color: #1e800d !important;
+        text-decoration: none !important; }
 
 .row-5 {
   background-color: #e6e7e3; }

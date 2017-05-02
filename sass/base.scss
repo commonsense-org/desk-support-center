@@ -523,9 +523,6 @@ body {
 						}
 					}
 				}
-				.row-4 {
-					margin-top: 50px;
-				}
 			}
 
 		}
@@ -534,12 +531,34 @@ body {
 
 // shared by all page types
 .row-4 {
+	margin-top: 50px;
 	text-align: center;
 	.header-hl {
 		font-size: 1.3em;
 	}
 	.row:not(.header-hl) {
 		color: $green_links;
+	}
+
+	padding: 20px 25px 20px;
+	font-size: 20px;
+	color: $black;
+	.col-sm-12 {
+		.header-hl {
+			font-family: $lato;
+			font-weight: bold;
+		}
+		.row {
+			margin: 0;
+			padding-bottom: 15px;
+			a {
+				color: $black !important;
+				&:hover {
+					color: $green_links !important;
+					text-decoration: none !important;
+				}
+			}
+		}
 	}
 }
 .row-5 {
