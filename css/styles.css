@@ -572,82 +572,80 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
       body .topics #support-main .support-body .content #toggle li h4 a {
         color: #1e800d; }
 
-  .row-4 {
+  body .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
-    .row-4 .row:last-of-type {
+    body .row-4 .row:last-of-type {
       padding-bottom: 0; }
-    .row-4 .col-sm-12 .header-hl {
+    body .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;
       line-height: 28px; }
-
-  .row-5 {
+  body .row-5 {
     padding: 60px 25px;
     margin-left: -54px; }
-    .row-5 .slick-target {
+    body .row-5 .slick-target {
       margin-left: 130px;
       margin-left: 6vw;
       transition: 200ms;
       -webkit-transition: 200ms; }
-      .row-5 .slick-target .container-hl {
+      body .row-5 .slick-target .container-hl {
         width: 220px;
         height: 220px;
         margin: 0; }
-        .row-5 .slick-target .container-hl > div {
+        body .row-5 .slick-target .container-hl > div {
           padding: 0 30px; }
-        .row-5 .slick-target .container-hl a {
+        body .row-5 .slick-target .container-hl a {
           font-size: 22px; }
-        .row-5 .slick-target .container-hl:hover {
+        body .row-5 .slick-target .container-hl:hover {
           background-color: #249A10;
           transition: 200ms;
           /* delays for 1 second */
           -webkit-transition: 200ms; }
-          .row-5 .slick-target .container-hl:hover > div a {
+          body .row-5 .slick-target .container-hl:hover > div a {
             color: #ffffff; }
-      .row-5 .slick-target .row {
+      body .row-5 .slick-target .row {
         font-weight: bold; }
-
-  .row-8 {
+  body .row-8 {
     padding-top: 5%;
     padding-bottom: 55px;
     background-color: #2f2f2f;
     color: white; }
-    .row-8 .footer-float {
+    body .row-8 .footer-float {
       float: none; }
-    .row-8 .row {
+    body .row-8 .row {
       padding-bottom: 0; }
-    .row-8 .url-open {
+    body .row-8 .url-open {
       cursor: pointer;
       font-weight: 200;
       color: #c6c6c6;
       font-size: 0.92em;
       line-height: 200%;
       padding-bottom: 0; }
-    .row-8 .col-sm-8 {
+    body .row-8 .col-sm-8 {
       width: 100%;
       margin-left: 16%;
       margin-left: 17vw; }
-      .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .row:nth-child(1) {
+      body .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .row:nth-child(1) {
         padding-bottom: 10px; }
-      .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
+      body .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
         padding-bottom: 10px; }
-      .row-8 .col-sm-8 .lines {
+      body .row-8 .col-sm-8 .lines {
         border-bottom: 1px solid #777;
         display: inline-block;
         padding-top: 10px; }
-      .row-8 .col-sm-8 .row {
+      body .row-8 .col-sm-8 .row {
         font-weight: bold; }
-        .row-8 .col-sm-8 .row.url-open {
+        body .row-8 .col-sm-8 .row.url-open {
           cursor: pointer;
           font-weight: 200; }
-      .row-8 .col-sm-8 .our-policies {
+      body .row-8 .col-sm-8 .our-policies {
         padding-top: 5%; }
-        .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
+        body .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
           padding-bottom: 8px; }
-          .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
+          body .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
             margin-left: -30px; }
-      .row-8 .col-sm-8 .legal {
+      body .row-8 .col-sm-8 .legal {
         color: #9B9B9B;
         font-size: 12px;
         clear: both;
@@ -655,21 +653,21 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
         padding-bottom: 5%;
         font-weight: 400;
         text-align: center; }
-        .row-8 .col-sm-8 .legal .row {
+        body .row-8 .col-sm-8 .legal .row {
           padding-top: 5%; }
-      .row-8 .col-sm-8 .twitter-container .col-sm-6 {
+      body .row-8 .col-sm-8 .twitter-container .col-sm-6 {
         padding-left: 0;
         font-weight: bold; }
-      .row-8 .col-sm-8 .twitter-container .row {
+      body .row-8 .col-sm-8 .twitter-container .row {
         font-weight: 200; }
-      .row-8 .col-sm-8 .twitter-container .lines {
+      body .row-8 .col-sm-8 .twitter-container .lines {
         padding-bottom: 10px; }
-      .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
+      body .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
         padding-top: 10px; } }
   @media (min-width: 768px) and (max-width: 800px) {
-    .row-8 {
+    body .row-8 {
       font-size: 8px; }
-      .row-8 .legal {
+      body .row-8 .legal {
         font-size: 8px !important; } }
 
 @media (min-width: 970px) {
