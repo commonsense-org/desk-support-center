@@ -661,19 +661,19 @@ body .topics.question-page #support-main .row-4 {
 
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
-  body #support-main .row-5 .slick-target {
+  .row-5 .slick-target {
     margin-left: 14vw; }
-    body #support-main .row-5 .slick-target .container-hl {
+    .row-5 .slick-target .container-hl {
       width: 235px;
       height: 235px; }
-      body #support-main .row-5 .slick-target .container-hl a {
+      .row-5 .slick-target .container-hl a {
         font-size: 25px; } }
     @media (min-width: 970px) and (min-width: 1200px) {
-      body #support-main .row-5 .slick-target .container-hl {
+      .row-5 .slick-target .container-hl {
         width: 280px;
         height: 280px; } }
 @media (min-width: 970px) {
-    body #support-main .row-5 .slick-target .col-xs-8 {
+    .row-5 .slick-target .col-xs-8 {
       width: 33%; } }
 
 /*# sourceMappingURL=styles.css.map */

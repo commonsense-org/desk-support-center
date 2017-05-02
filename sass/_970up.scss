@@ -5,24 +5,26 @@ body {
 
 	}
 	#support-main {
-		.row-5 {
-			.slick-target {
-				margin-left: 14vw;
-				.container-hl {
-					width: 235px;
-					height: 235px;
-					a {
-						font-size: 25px;
-					}
-					@media (min-width: 1200px) {
-						width: 280px;
-						height: 280px;
-					}
-				}
-				.col-xs-8 {
-					width: 33%;
-				}
+
+	}
+}
+
+.row-5 {
+	.slick-target {
+		margin-left: 14vw;
+		.container-hl {
+			width: 235px;
+			height: 235px;
+			a {
+				font-size: 25px;
 			}
+			@media (min-width: 1200px) {
+				width: 280px;
+				height: 280px;
+			}
+		}
+		.col-xs-8 {
+			width: 33%;
 		}
 	}
 }
