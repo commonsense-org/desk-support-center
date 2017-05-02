@@ -446,7 +446,8 @@ body .topics.question-page #support-main .row-4 {
       font-size: 32px;
       line-height: 28px; }
   body #support-main .row-5 {
-    padding: 60px 25px; }
+    padding: 60px 25px;
+    margin-left: -54px; }
     body #support-main .row-5 .slick-target {
       margin-left: 130px;
       margin-left: 6vw;
