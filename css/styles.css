@@ -573,7 +573,8 @@ body .topics.question-page #support-main .row-4 {
     body .topics #support-main .support-body #breadcrumbs {
       float: none;
       padding-top: 60px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      margin-bottom: 60px; }
     body .topics #support-main .support-body .content {
       padding-left: 0; }
       body .topics #support-main .support-body .content #toggle > div {
