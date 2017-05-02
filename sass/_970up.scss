@@ -5,6 +5,10 @@ body {
 	.row-5 {
 		.slick-target {
 			margin-left: 14vw;
+			.col-sm-4 {
+				padding: 0;
+				margin-left: -20px;
+			}
 			.container-hl {
 				width: 235px;
 				height: 235px;
