@@ -227,6 +227,27 @@ body {
   body #footer {
     display: none; }
 
+body .topics form {
+  font-family: "Lato", sans-serif !important;
+  margin-bottom: 0; }
+  body .topics form .outer {
+    width: 90%;
+    margin: 0 auto; }
+  body .topics form .inner {
+    padding-top: 5px;
+    width: 100%;
+    height: 48px;
+    border-radius: 25px; }
+    body .topics form .inner #q {
+      padding-top: 7px;
+      padding-left: 10px; }
+    body .topics form .inner #question-mask {
+      top: 30%;
+      padding-left: 10px;
+      text-align: left;
+      font-size: 1em; }
+    body .topics form .inner #support-search-submit {
+      display: none; }
 body .topics #pagination .pagination {
   bottom: 20px;
   position: relative; }
