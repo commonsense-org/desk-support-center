@@ -300,7 +300,8 @@ form {
     border-radius: 25px; }
     form .inner #q {
       padding-top: 7px;
-      padding-left: 10px; }
+      padding-left: 10px;
+      width: 440px; }
     form .inner #question-mask {
       top: 30%;
       padding-left: 10px;
