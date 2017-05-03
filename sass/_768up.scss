@@ -11,14 +11,6 @@ body {
 			margin-bottom: 20px;
 			font-size: 40px;
 		}
-		form {
-			.outer {
-				width: 34%;
-				#q {
-					padding-left: 14px;
-				}
-			}
-		}
 		.popular-searches {
 			padding-top: 20px;
 		}
@@ -164,6 +156,14 @@ body {
 }
 // shared by all page types
 body {
+	form {
+		.outer {
+			width: 34%;
+			#q {
+				padding-left: 14px;
+			}
+		}
+	}
 	.row-4 {
 		padding: 60px 0;
 		border-top: 1px solid #ddd;

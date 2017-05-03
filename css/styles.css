@@ -287,79 +287,77 @@ body .topics.question-page #support-main .content .article-content .see-also > p
 body .topics.question-page #support-main .content .article-content .see-also > p:first-of-type {
   font-size: 20px; }
 
-form {
+body form {
   font-family: "Lato", sans-serif !important;
   margin-bottom: 0; }
-  form .outer {
+  body form .outer {
     width: 90%;
     margin: 0 auto; }
-  form .inner {
+  body form .inner {
     padding-top: 5px;
     width: 100%;
     height: 48px;
     border-radius: 25px; }
-    form .inner #q {
+    body form .inner #q {
       padding-top: 7px;
       padding-left: 10px;
       width: 440px; }
-    form .inner #question-mask {
+    body form .inner #question-mask {
       top: 30%;
       padding-left: 10px;
       text-align: left;
       font-size: 1em; }
-    form .inner #support-search-submit {
+    body form .inner #support-search-submit {
       display: none; }
-
-.row-4 {
+body .row-4 {
   margin-top: 50px;
   text-align: center;
   padding: 20px 25px 20px;
   font-size: 20px;
   color: #3a3a3a; }
-  .row-4 .header-hl {
+  body .row-4 .header-hl {
     font-size: 1.3em; }
-  .row-4 .row:not(.header-hl) {
+  body .row-4 .row:not(.header-hl) {
     color: #1e800d; }
-  .row-4 .col-sm-12 .header-hl {
+  body .row-4 .col-sm-12 .header-hl {
     font-family: "Lato", sans-serif;
     font-weight: bold; }
-  .row-4 .col-sm-12 .row {
+  body .row-4 .col-sm-12 .row {
     margin: 0;
     padding-bottom: 15px; }
-    .row-4 .col-sm-12 .row a {
+    body .row-4 .col-sm-12 .row a {
       color: #3a3a3a !important; }
-      .row-4 .col-sm-12 .row a:hover {
+      body .row-4 .col-sm-12 .row a:hover {
         color: #1e800d !important;
         text-decoration: none !important; }
-
-.row-5 {
+body .row-5 {
   background-color: #e6e7e3; }
-  .row-5 .col-xs-8 {
+  body .row-5 .col-xs-8 {
     color: #1e800d; }
-    .row-5 .col-xs-8 > .container-hl {
+    body .row-5 .col-xs-8 > .container-hl {
       display: table;
       height: 210px;
       width: 210px;
       margin: 0 auto;
       border-radius: 50%;
       background-color: #ffffff; }
-      .row-5 .col-xs-8 > .container-hl > div {
+      body .row-5 .col-xs-8 > .container-hl > div {
         vertical-align: middle;
         display: table-cell;
         position: relative;
         text-align: center;
         padding: 0 15px; }
-        .row-5 .col-xs-8 > .container-hl > div > a {
+        body .row-5 .col-xs-8 > .container-hl > div > a {
           color: #1e800d;
           text-decoration: none; }
-  .row-5 .slick-target .slick-arrow {
+  body .row-5 .slick-target .slick-arrow {
     z-index: 99999; }
-  .row-5 .slick-target .slick-prev {
+  body .row-5 .slick-target .slick-prev {
     top: 125px;
     left: -1%;
     bottom: 0px;
     position: relative; }
-    .row-5 .slick-target .slick-prev:before {
+    body .row-5 .slick-target .slick-prev:before {
       display: inline-block;
       height: 32px;
       width: 18px;
@@ -370,92 +368,91 @@ form {
       -webkit-transform: rotate(7deg);
       /* Chrome, Safari, Opera */
       transform: rotate(180deg); }
-  .row-5 .slick-target .slick-next {
+  body .row-5 .slick-target .slick-next {
     position: relative;
     z-index: 999999;
     top: -103px;
     left: 95%; }
-    .row-5 .slick-target .slick-next:before {
+    body .row-5 .slick-target .slick-next:before {
       display: inline-block;
       width: 18px;
       background-image: url(https://dev.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
       height: 32px;
       content: " "; }
-
-.row-8 {
+body .row-8 {
   padding-top: 5%;
   background-color: #2f2f2f;
   color: white; }
-  .row-8 .footer-float {
+  body .row-8 .footer-float {
     float: left; }
-  .row-8 .row {
+  body .row-8 .row {
     padding-bottom: 5px; }
-  .row-8 .url-open {
+  body .row-8 .url-open {
     cursor: pointer;
     font-weight: 200;
     color: #c6c6c6;
     font-size: 0.92em;
     line-height: 120%;
     padding-bottom: 3px; }
-  .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .col-xs-2 {
+  body .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .col-xs-2 {
     width: 20%; }
-  .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
+  body .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
     padding-bottom: 10px; }
-  .row-8 .col-sm-8 .lines {
+  body .row-8 .col-sm-8 .lines {
     border-bottom: 1px solid #777;
     display: inline-block;
     padding-top: 5px;
     margin-bottom: 5px; }
-  .row-8 .col-sm-8 .row {
+  body .row-8 .col-sm-8 .row {
     font-weight: bold; }
-    .row-8 .col-sm-8 .row.url-open {
+    body .row-8 .col-sm-8 .row.url-open {
       cursor: pointer;
       font-weight: 200; }
-    .row-8 .col-sm-8 .row.programs-row > div {
+    body .row-8 .col-sm-8 .row.programs-row > div {
       width: 16%;
       padding-right: 5px;
       padding-left: 5px; }
-      .row-8 .col-sm-8 .row.programs-row > div:first-of-type {
+      body .row-8 .col-sm-8 .row.programs-row > div:first-of-type {
         padding-left: 15px; }
-  .row-8 .col-sm-8 .our-policies {
+  body .row-8 .col-sm-8 .our-policies {
     padding-top: 5%; }
-    .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
+    body .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
       padding-bottom: 8px; }
-      .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
+      body .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
         margin-left: -30px; }
-  .row-8 .col-sm-8 .legal {
+  body .row-8 .col-sm-8 .legal {
     color: #9B9B9B;
     font-size: 12px;
     clear: both;
     padding-bottom: 5%;
     font-weight: 400;
     text-align: center; }
-    .row-8 .col-sm-8 .legal .row {
+    body .row-8 .col-sm-8 .legal .row {
       padding-top: 0; }
-    .row-8 .col-sm-8 .legal .trademark {
+    body .row-8 .col-sm-8 .legal .trademark {
       max-width: 836px; }
-  .row-8 .col-sm-8 .twitter-container a {
+  body .row-8 .col-sm-8 .twitter-container a {
     color: #1e800d; }
-  .row-8 .col-sm-8 .twitter-container .col-sm-6 {
+  body .row-8 .col-sm-8 .twitter-container .col-sm-6 {
     padding-left: 0;
     font-weight: bold; }
-  .row-8 .col-sm-8 .twitter-container .row {
+  body .row-8 .col-sm-8 .twitter-container .row {
     font-weight: 200; }
-  .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
+  body .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
     padding-top: 10px; }
-  .row-8 .col-sm-8 .twitter-container .col-xs-4 {
+  body .row-8 .col-sm-8 .twitter-container .col-xs-4 {
     padding-right: 5px; }
-    .row-8 .col-sm-8 .twitter-container .col-xs-4:nth-of-type(3) {
+    body .row-8 .col-sm-8 .twitter-container .col-xs-4:nth-of-type(3) {
       padding-right: 0; }
-    .row-8 .col-sm-8 .twitter-container .col-xs-4.csm-twitter, .row-8 .col-sm-8 .twitter-container .col-xs-4.ed-twitter, .row-8 .col-sm-8 .twitter-container .col-xs-4.ka-twitter {
+    body .row-8 .col-sm-8 .twitter-container .col-xs-4.csm-twitter, body .row-8 .col-sm-8 .twitter-container .col-xs-4.ed-twitter, body .row-8 .col-sm-8 .twitter-container .col-xs-4.ka-twitter {
       overflow: hidden; }
-      .row-8 .col-sm-8 .twitter-container .col-xs-4.csm-twitter a, .row-8 .col-sm-8 .twitter-container .col-xs-4.ed-twitter a, .row-8 .col-sm-8 .twitter-container .col-xs-4.ka-twitter a {
+      body .row-8 .col-sm-8 .twitter-container .col-xs-4.csm-twitter a, body .row-8 .col-sm-8 .twitter-container .col-xs-4.ed-twitter a, body .row-8 .col-sm-8 .twitter-container .col-xs-4.ka-twitter a {
         overflow-wrap: break-word;
         word-wrap: break-word; }
   @media (max-width: 800px) {
-    .row-8 {
+    body .row-8 {
       font-size: 8px; }
-      .row-8 .legal {
+      body .row-8 .legal {
         font-size: 8px !important; } }
 
 @media (min-width: 768px) {
@@ -467,10 +464,6 @@ form {
   body #support-header h2 {
     margin-bottom: 20px;
     font-size: 40px; }
-  body #support-header form .outer {
-    width: 34%; }
-    body #support-header form .outer #q {
-      padding-left: 14px; }
   body #support-header .popular-searches {
     padding-top: 20px; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
@@ -554,6 +547,10 @@ form {
       body .topics #support-main .support-body .content #toggle li h4 a {
         color: #1e800d; }
 
+  body form .outer {
+    width: 34%; }
+    body form .outer #q {
+      padding-left: 14px; }
   body .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
