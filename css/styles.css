@@ -291,8 +291,8 @@ body form {
   font-family: "Lato", sans-serif !important;
   margin-bottom: 0; }
   body form .outer {
-    width: 90% !important;
-    margin: 0 auto !important; }
+    width: 90%;
+    margin: 0 auto; }
   body form .inner, body form .support-search-big .inner {
     padding-top: 5px !important;
     width: 100% !important;
