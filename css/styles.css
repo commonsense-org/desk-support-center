@@ -305,7 +305,8 @@ body form {
     padding-top: 5px !important;
     width: 100% !important;
     height: 48px !important;
-    border-radius: 25px !important; }
+    border-radius: 25px !important;
+    font-weight: normal !important; }
     body form .inner #q, body form .support-search-big .inner #q {
       font-size: 18px;
       border: 0pt none;
