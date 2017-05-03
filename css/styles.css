@@ -291,24 +291,24 @@ body form {
   font-family: "Lato", sans-serif !important;
   margin-bottom: 0; }
   body form .outer {
-    width: 90%;
-    margin: 0 auto; }
+    width: 90% !important;
+    margin: 0 auto !important; }
   body form .inner, body form .support-search-big .inner {
-    padding-top: 5px;
-    width: 100%;
-    height: 48px;
-    border-radius: 25px; }
+    padding-top: 5px !important;
+    width: 100% !important;
+    height: 48px !important;
+    border-radius: 25px !important; }
     body form .inner #q, body form .support-search-big .inner #q {
-      padding-top: 7px;
-      padding-left: 10px;
-      width: 440px; }
+      padding-top: 7px !important;
+      padding-left: 10px !important;
+      width: 440px !important; }
     body form .inner #question-mask, body form .support-search-big .inner #question-mask {
-      top: 30%;
-      padding-left: 10px;
-      text-align: left;
-      font-size: 1em; }
+      top: 30% !important;
+      padding-left: 10px !important;
+      text-align: left !important;
+      font-size: 1em !important; }
     body form .inner #support-search-submit, body form .support-search-big .inner #support-search-submit {
-      display: none; }
+      display: none !important; }
 body .row-4 {
   margin-top: 50px;
   text-align: center;
