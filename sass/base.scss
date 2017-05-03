@@ -42,34 +42,6 @@ body {
 			border: 0;
 			background: transparent!important;
 		}
-		form {
-			font-family: $lato!important;
-			margin-bottom: 0;
-			.outer {
-				width: 90%;
-				margin: 0 auto;
-			}
-			.inner {
-				padding-top: 5px;
-				width: 100%;
-				height: 48px;
-				border-radius: 25px;
-				#q {
-					padding-top: 7px;
-					padding-left: 10px;
-				}
-				#question-mask {
-					top: 30%;
-					padding-left: 10px;
-					text-align: left;
-					font-size: 1em;
-				}
-				#support-search-submit {
-					display: none;
-				}
-			}
-
-		}
 		.popular-searches {
 			padding: 1% 5% 0;
 			color: $white;
@@ -356,34 +328,6 @@ body {
 // topic pages below
 body {
 	.topics {
-		form {
-			font-family: $lato!important;
-			margin-bottom: 0;
-			.outer {
-				width: 90%;
-				margin: 0 auto;
-			}
-			.inner {
-				padding-top: 5px;
-				width: 100%;
-				height: 48px;
-				border-radius: 25px;
-				#q {
-					padding-top: 7px;
-					padding-left: 10px;
-				}
-				#question-mask {
-					top: 30%;
-					padding-left: 10px;
-					text-align: left;
-					font-size: 1em;
-				}
-				#support-search-submit {
-					display: none;
-				}
-			}
-
-		}
 		#pagination {
 			.pagination {
 				bottom: 20px;
@@ -394,37 +338,6 @@ body {
 			}
 		}
 		#support-header {
-			form {
-				font-family: $lato!important;
-				margin-bottom: 0;
-				.outer {
-					width: 90%;
-					margin: 0 auto;
-				}
-				.inner {
-					width: 100%;
-					border-radius: 25px;
-					#q {
-						padding-top: 7px;
-						padding-left: 10px;
-						width: 46%;
-						border-radius: 25px;
-						font-family: $lato;
-						font-size: 1em;
-						font-weight: normal;
-					}
-					#question-mask {
-						top: 30%;
-						padding-left: 10px;
-						text-align: left;
-						font-size: 1em;
-					}
-					#support-search-submit {
-						display: none;
-					}
-				}
-
-			}
 			.support-search-small {
 				position: relative;
 				right: 0;
@@ -569,6 +482,34 @@ body {
 }
 
 // shared by all page types
+form {
+	font-family: $lato!important;
+	margin-bottom: 0;
+	.outer {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.inner {
+		padding-top: 5px;
+		width: 100%;
+		height: 48px;
+		border-radius: 25px;
+		#q {
+			padding-top: 7px;
+			padding-left: 10px;
+		}
+		#question-mask {
+			top: 30%;
+			padding-left: 10px;
+			text-align: left;
+			font-size: 1em;
+		}
+		#support-search-submit {
+			display: none;
+		}
+	}
+
+}
 .row-4 {
 	margin-top: 50px;
 	text-align: center;
