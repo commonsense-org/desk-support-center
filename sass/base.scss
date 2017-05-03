@@ -521,6 +521,11 @@ body {
 							padding-top: 60px;
 							// border-bottom: 1px solid #CCC;
 						}
+						.see-also, .for-educators, .for-families {
+							> p:first-of-type {
+								padding-bottom: 60px;
+							}
+						}
 					}
 				}
 			}

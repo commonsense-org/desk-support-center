@@ -326,6 +326,8 @@ body .topics.question-page #support-main .content .article-content > div:nth-of-
   line-height: 0; }
 body .topics.question-page #support-main .content .article-content > div:nth-of-type(2) {
   padding-top: 60px; }
+body .topics.question-page #support-main .content .article-content .see-also > p:first-of-type, body .topics.question-page #support-main .content .article-content .for-educators > p:first-of-type, body .topics.question-page #support-main .content .article-content .for-families > p:first-of-type {
+  padding-bottom: 60px; }
 
 .row-4 {
   margin-top: 50px;
