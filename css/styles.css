@@ -318,7 +318,8 @@ body form {
       background: none;
       padding-top: 7px !important;
       padding-left: 10px !important;
-      width: 440px !important; }
+      width: 440px !important;
+      font-weight: normal !important; }
     body form .inner #question-mask, body form .support-search-big .inner #question-mask {
       top: 30% !important;
       padding-left: 10px !important;
