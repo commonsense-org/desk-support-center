@@ -528,6 +528,7 @@ body .row-8 {
         body #support-main .row-1 table tbody tr td h4 {
           margin-bottom: 25px; }
           body #support-main .row-1 table tbody tr td h4:hover {
+            color: #7fd64d;
             text-decoration: none; }
   body #support-main .row-2 {
     margin-left: 120px; }
