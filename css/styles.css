@@ -114,10 +114,11 @@ body {
           padding: 8px;
           border: 1px solid #ffffff;
           margin: 40px auto 0;
+          background-color: #ffffff;
           border-radius: 25px;
           font-size: 1em; }
           body #support-main .row-6 .col-sm-12 > div:nth-of-type(3) > a {
-            color: #ffffff !important;
+            color: #249A10 !important;
             text-decoration: none; }
     body #support-main .row-7 {
       display: none;
