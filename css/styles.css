@@ -496,6 +496,8 @@ body .row-8 {
       font-size: 40px; }
     body #support-header .popular-searches {
       padding-top: 24px; }
+  body #support-main .dashboard .topic {
+    padding-right: 30px; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     display: inline-block;
     width: 30%;
