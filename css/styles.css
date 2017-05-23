@@ -30,6 +30,7 @@ body {
     /* Standard syntax */
     text-align: center; }
     body #support-header h2 {
+      margin-bottom: 30px;
       color: #ffffff !important;
       text-shadow: none !important;
       font-family: "Lato", sans-serif !important; }
@@ -486,7 +487,6 @@ body .row-8 {
     display: none !important; } }
 @media (min-width: 768px) {
   body #support-header h2 {
-    margin-bottom: 20px;
     font-size: 40px; }
   body #support-header .popular-searches {
     padding-top: 20px; }
