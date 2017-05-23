@@ -517,7 +517,8 @@ body .row-8 {
     margin-left: 5%; }
     body #support-main .row-1 table tbody tr {
       display: inline-block;
-      width: 48%; }
+      width: 48%;
+      max-width: 430px; }
       body #support-main .row-1 table tbody tr td {
         padding: 0 !important; }
         body #support-main .row-1 table tbody tr td h4 {
