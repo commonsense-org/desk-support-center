@@ -38,7 +38,8 @@ body {
       background: transparent !important; }
     body #support-header .popular-searches {
       padding: 1% 5% 0;
-      color: #ffffff; }
+      color: #ffffff;
+      font-size: 16px; }
       body #support-header .popular-searches span {
         color: #ffffff; }
         body #support-header .popular-searches span a {
