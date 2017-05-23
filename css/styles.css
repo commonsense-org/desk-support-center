@@ -18,7 +18,7 @@ body {
   body .kb_topic_name {
     color: #1e800d; }
   body #support-header {
-    padding: 20px 0 50px;
+    padding: 20px 0 24px;
     margin-bottom: 0;
     background: -webkit-linear-gradient(left, #028bc6, #10cc71) !important;
     /* For Safari 5.1 to 6.0 */
