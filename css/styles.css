@@ -524,7 +524,7 @@ body .row-8 {
       body #support-main .row-1 table tbody tr td {
         padding: 0 !important; }
         body #support-main .row-1 table tbody tr td a:hover {
-          text-decoration: none; }
+          text-decoration: none !important; }
         body #support-main .row-1 table tbody tr td h4 {
           margin-bottom: 25px; }
           body #support-main .row-1 table tbody tr td h4:hover {
