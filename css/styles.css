@@ -393,9 +393,10 @@ body .row-5 {
       transform: rotate(180deg); }
   body .row-5 .slick-target .slick-next {
     position: relative;
-    z-index: 999999;
     top: -103px;
-    left: 95%; }
+    left: 95%;
+    height: 40px;
+    z-index: 999999; }
     body .row-5 .slick-target .slick-next:before {
       display: inline-block;
       width: 18px;
