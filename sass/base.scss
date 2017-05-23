@@ -497,7 +497,7 @@ body {
 body {
 	form {
 		font-family: $lato!important;
-		margin-bottom: 0;
+		margin-bottom: 0 !important;
 		.outer {
 			width: 90%;
 			margin: 0 auto;
