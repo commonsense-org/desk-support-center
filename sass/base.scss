@@ -498,7 +498,9 @@ body {
 	form {
 		padding-top: 0 !important;
 		font-family: $lato!important;
-		margin-bottom: 0 !important;
+		&.support-search-big {
+			margin-bottom: 0 !important;
+		}
 		.outer {
 			width: 90%;
 			margin: 0 auto;
