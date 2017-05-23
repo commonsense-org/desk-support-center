@@ -498,7 +498,8 @@ body {
 	form {
 		padding-top: 0 !important;
 		font-family: $lato!important;
-		&.support-search-big {
+		&.support-search-big#support-search {
+			padding-top: 0 !important;
 			margin-bottom: 0 !important;
 		}
 		.outer {

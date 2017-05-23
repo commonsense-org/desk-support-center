@@ -298,7 +298,8 @@ body .topics.question-page #support-main .content .article-content .see-also > p
 body form {
   padding-top: 0 !important;
   font-family: "Lato", sans-serif !important; }
-  body form.support-search-big {
+  body form.support-search-big#support-search {
+    padding-top: 0 !important;
     margin-bottom: 0 !important; }
   body form .outer {
     width: 90%;
