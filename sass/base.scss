@@ -496,6 +496,7 @@ body {
 // shared by all page types
 body {
 	form {
+		padding-top: 0 !important;
 		font-family: $lato!important;
 		margin-bottom: 0 !important;
 		.outer {
