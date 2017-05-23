@@ -163,6 +163,12 @@ body {
 				height: 47px;
 			}
 		}
+		.row-4 {
+			padding-top: 40px;
+			border-top: 1px solid #ddd;
+			margin-top: 30px;
+			text-align: center;
+		}
 		.row-6 {
 			background-color: $green;
 			.col-sm-12 {
@@ -516,9 +522,9 @@ body {
 		    outline-width: 0;
 		    background: none;
 
-				padding-top: 7px!important;
-				padding-left: 10px!important;
-				width: 440px!important;
+				padding-top: 7px !important;
+				padding-left: 10px !important;
+				width: 440px !important;
 				font-weight: normal !important;
 			}
 			#question-mask {
@@ -534,10 +540,6 @@ body {
 
 	}
 	.row-4 {
-		padding-top: 40px;
-		border-top: 1px solid #ddd;
-		margin-top: 30px;
-		text-align: center;
 		.header-hl {
 			font-size: 1.3em;
 		}
