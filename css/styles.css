@@ -54,6 +54,7 @@ body {
       padding: 60px 0 0; }
       body #support-main .dashboard > h3 {
         border-bottom: 0;
+        margin-bottom: 0;
         color: #3a3a3a !important;
         font-family: "Lato", sans-serif !important;
         font-size: 32px;
