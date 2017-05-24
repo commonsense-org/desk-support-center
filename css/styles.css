@@ -591,80 +591,80 @@ body .row-8 {
     width: 34%; }
     body form .outer #q {
       padding-left: 14px; }
-  body .row-4 {
+  body #support-main .row-4 {
     padding: 60px 0;
     border-top: 1px solid #ddd; }
-    body .row-4 .row:last-of-type {
+    body #support-main .row-4 .row:last-of-type {
       padding-bottom: 0; }
-    body .row-4 .col-sm-12 .header-hl {
+    body #support-main .row-4 .col-sm-12 .header-hl {
       color: #3a3a3a;
       font-size: 32px;
       line-height: 28px; }
-  body .row-5 {
+  body #support-main .row-5 {
     padding: 60px 25px;
     margin-left: -80px; }
-    body .row-5 .slick-target {
+    body #support-main .row-5 .slick-target {
       margin-left: 130px;
       margin-left: 6vw;
       transition: 200ms;
       -webkit-transition: 200ms; }
-      body .row-5 .slick-target .container-hl {
+      body #support-main .row-5 .slick-target .container-hl {
         width: 220px;
         height: 220px;
         margin: 0; }
-        body .row-5 .slick-target .container-hl > div {
+        body #support-main .row-5 .slick-target .container-hl > div {
           padding: 0 30px; }
-        body .row-5 .slick-target .container-hl a {
+        body #support-main .row-5 .slick-target .container-hl a {
           font-size: 22px; }
-        body .row-5 .slick-target .container-hl:hover {
+        body #support-main .row-5 .slick-target .container-hl:hover {
           background-color: #249A10;
           transition: 200ms;
           /* delays for 1 second */
           -webkit-transition: 200ms; }
-          body .row-5 .slick-target .container-hl:hover > div a {
+          body #support-main .row-5 .slick-target .container-hl:hover > div a {
             color: #ffffff; }
-      body .row-5 .slick-target .row {
+      body #support-main .row-5 .slick-target .row {
         font-weight: bold; }
-  body .row-8 {
+  body #support-main .row-8 {
     padding-top: 5%;
     padding-bottom: 55px;
     background-color: #2f2f2f;
     color: white; }
-    body .row-8 .footer-float {
+    body #support-main .row-8 .footer-float {
       float: none; }
-    body .row-8 .row {
+    body #support-main .row-8 .row {
       padding-bottom: 0; }
-    body .row-8 .url-open {
+    body #support-main .row-8 .url-open {
       cursor: pointer;
       font-weight: 200;
       color: #c6c6c6;
       font-size: 0.92em;
       line-height: 200%;
       padding-bottom: 0; }
-    body .row-8 .col-sm-8 {
+    body #support-main .row-8 .col-sm-8 {
       width: 100%;
       margin-left: 16%;
       margin-left: 17vw; }
-      body .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .row:nth-child(1) {
+      body #support-main .row-8 .col-sm-8 .col-sm-9 .col-sm-7 .row:nth-child(1) {
         padding-bottom: 10px; }
-      body .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
+      body #support-main .row-8 .col-sm-8 .col-sm-9 .col-sm-4 .row:nth-child(1) {
         padding-bottom: 10px; }
-      body .row-8 .col-sm-8 .lines {
+      body #support-main .row-8 .col-sm-8 .lines {
         border-bottom: 1px solid #777;
         display: inline-block;
         padding-top: 10px; }
-      body .row-8 .col-sm-8 .row {
+      body #support-main .row-8 .col-sm-8 .row {
         font-weight: bold; }
-        body .row-8 .col-sm-8 .row.url-open {
+        body #support-main .row-8 .col-sm-8 .row.url-open {
           cursor: pointer;
           font-weight: 200; }
-      body .row-8 .col-sm-8 .our-policies {
+      body #support-main .row-8 .col-sm-8 .our-policies {
         padding-top: 5%; }
-        body .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
+        body #support-main .row-8 .col-sm-8 .our-policies .row:nth-child(1) {
           padding-bottom: 8px; }
-          body .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
+          body #support-main .row-8 .col-sm-8 .our-policies .row:nth-child(1) .lines {
             margin-left: -30px; }
-      body .row-8 .col-sm-8 .legal {
+      body #support-main .row-8 .col-sm-8 .legal {
         color: #9B9B9B;
         font-size: 12px;
         clear: both;
@@ -672,21 +672,21 @@ body .row-8 {
         padding-bottom: 5%;
         font-weight: 400;
         text-align: center; }
-        body .row-8 .col-sm-8 .legal .row {
+        body #support-main .row-8 .col-sm-8 .legal .row {
           padding-top: 5%; }
-      body .row-8 .col-sm-8 .twitter-container .col-sm-6 {
+      body #support-main .row-8 .col-sm-8 .twitter-container .col-sm-6 {
         padding-left: 0;
         font-weight: bold; }
-      body .row-8 .col-sm-8 .twitter-container .row {
+      body #support-main .row-8 .col-sm-8 .twitter-container .row {
         font-weight: 200; }
-      body .row-8 .col-sm-8 .twitter-container .lines {
+      body #support-main .row-8 .col-sm-8 .twitter-container .lines {
         padding-bottom: 10px; }
-      body .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
+      body #support-main .row-8 .col-sm-8 .twitter-container .row:nth-child(4) {
         padding-top: 10px; } }
   @media (min-width: 768px) and (max-width: 800px) {
-    body .row-8 {
+    body #support-main .row-8 {
       font-size: 8px; }
-      body .row-8 .legal {
+      body #support-main .row-8 .legal {
         font-size: 8px !important; } }
 
 @media (min-width: 970px) {
