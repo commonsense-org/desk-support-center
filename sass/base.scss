@@ -173,6 +173,15 @@ body {
 			border-top: 1px solid #ddd;
 			margin-top: 30px;
 			text-align: center;
+			.col-sm-12 {
+				.row {
+					a {
+						color: $green_links !important;
+						font-weight: bold;
+						line-height: 26px;
+					}
+				}
+			}
 		}
 		.row-6 {
 			background-color: $green;
