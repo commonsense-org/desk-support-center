@@ -174,11 +174,18 @@ body {
 			margin-top: 30px;
 			text-align: center;
 			.col-sm-12 {
+				.header-hl {
+
+				}
 				.row {
+					padding-bottom: 25px;
 					a {
 						color: $green_links !important;
 						font-weight: bold;
 						line-height: 26px;
+					}
+					&:last-of-type {
+						padding-bottom: 0;
 					}
 				}
 			}
