@@ -1,33 +1,35 @@
 @import './variables.scss';
 
 body {
+	#support-main {
 
-	.row-5 {
-		padding-left: 17%;
-		margin-left: -8px;
+		.row-5 {
+			padding-left: 17%;
+			margin-left: -8px;
 
-		.slick-target {
-			margin-left: 14vw;
-			.col-sm-4 {
-				padding: 0;
-				margin-left: -20px;
-			}
-			.container-hl {
-				width: 235px;
-				height: 235px;
-				a {
-					font-size: 25px;
+			.slick-target {
+				margin-left: 14vw;
+				.col-sm-4 {
+					padding: 0;
+					margin-left: -20px;
 				}
-				@media (min-width: 1200px) {
+				.container-hl {
 					width: 280px;
 					height: 280px;
 					a {
-						font-size: 28px;
+						font-size: 25px;
+					}
+					@media (min-width: 1200px) {
+						width: 280px;
+						height: 280px;
+						a {
+							font-size: 28px;
+						}
 					}
 				}
-			}
-			.col-xs-8 {
-				width: 33%;
+				.col-xs-8 {
+					width: 33%;
+				}
 			}
 		}
 	}
