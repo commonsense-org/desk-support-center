@@ -610,6 +610,7 @@ body .row-8 {
       line-height: 28px; }
   body #support-main .row-5 {
     padding: 60px 25px;
+    padding-left: 7%;
     margin-left: -80px; }
     body #support-main .row-5 .slick-target {
       margin-left: 130px;
