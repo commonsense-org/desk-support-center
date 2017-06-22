@@ -6,3 +6,11 @@ $grey: #ddd;
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
 $lato: 'Lato', sans-serif;
 $lato-bold: 'Lato', sans-serif;
+
+@mixin transition($time, $ease, $more) {
+-webkit-transition: -webkit-transform $time $ease, $more;
+-moz-transition: -moz-transform $time $ease, $more;
+-ie-transition: -ie-transform $time $ease, $more;
+-o-transition: -o-transform $time $ease, $more;
+transition: transform $time $ease, $more;
+}
