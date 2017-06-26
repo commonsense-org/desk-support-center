@@ -809,7 +809,8 @@ body .row-8 {
         .navbar.top-nav .top-header-content .ilb:first-of-type a {
           color: #aaa; }
   .navbar.bottom-nav {
-    height: 65px; }
+    height: 65px;
+    margin-bottom: 0; }
     .navbar.bottom-nav .navbar-brand {
       margin-left: 0;
       padding-top: 22px; }

@@ -425,6 +425,8 @@ body {
 	}
 	&.bottom-nav {
 		height: 65px;
+		margin-bottom: 0;
+		
 		.navbar-brand {
 			margin-left: 0;
 			padding-top: 22px;
