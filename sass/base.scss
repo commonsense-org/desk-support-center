@@ -797,7 +797,7 @@ body {
 //  nav bar stuff
 .bottom-nav {
 	margin-bottom: 0;
-	
+
   button[aria-expanded="true"] {
     .icon-bar {
       background-color: $green;
@@ -811,7 +811,7 @@ body {
     text-align: center;
   }
   .navbar-brand {
-    margin-left: -74px;
+    // margin-left: -74px;
     float: none;
     display: inline-block;
   }
