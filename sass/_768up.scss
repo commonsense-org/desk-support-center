@@ -450,7 +450,7 @@ body {
 				button:first-of-type {
 					background-color: white;
 					&:hover {
-						@include button-transition;
+						// @include button-transition;
 						background-color: #cccccc;
 					}
 				}
@@ -462,7 +462,7 @@ body {
 						&:hover {
 							color: #4a90e2;
 							background-color: white;
-							@include button-transition;
+							// @include button-transition;
 						}
 					}
 				}
