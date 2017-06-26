@@ -33,11 +33,12 @@ body {
       margin-bottom: 30px;
       color: #ffffff !important;
       text-shadow: none !important;
-      font-family: "Lato", sans-serif !important;
-      color: inherit; }
-      body #support-header h2:hover {
-        color: inherit;
-        text-decoration: inherit; }
+      font-family: "Lato", sans-serif !important; }
+      body #support-header h2 a {
+        color: inherit; }
+        body #support-header h2 a:hover {
+          color: inherit;
+          text-decoration: inherit; }
     body #support-header .support-search-big, body #support-header .support-search-small {
       border: 0;
       background: transparent !important; }
