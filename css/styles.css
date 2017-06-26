@@ -497,47 +497,47 @@ body .row-8 {
       body .row-8 .legal {
         font-size: 8px !important; } }
 
-body #company-support-portal .bottom-nav {
+body #company-support-portal .bottom-nav.navbar {
   margin-bottom: 0;
   font-family: "Lato", sans-serif;
   border-bottom: 0;
   margin-bottom: 0; }
-  body #company-support-portal .bottom-nav button[aria-expanded="true"] .icon-bar {
+  body #company-support-portal .bottom-nav.navbar button[aria-expanded="true"] .icon-bar {
     background-color: #249A10; }
-  body #company-support-portal .bottom-nav .navbar-header {
+  body #company-support-portal .bottom-nav.navbar .navbar-header {
     text-align: center; }
-  body #company-support-portal .bottom-nav .navbar-brand {
+  body #company-support-portal .bottom-nav.navbar .navbar-brand {
     float: none;
     display: inline-block; }
-  body #company-support-portal .bottom-nav .navbar-toggle {
+  body #company-support-portal .bottom-nav.navbar .navbar-toggle {
     display: none;
     float: left;
     margin-left: 15px; }
-  body #company-support-portal .bottom-nav img {
+  body #company-support-portal .bottom-nav.navbar img {
     width: 132px;
     position: relative;
     bottom: 8px; }
-  body #company-support-portal .bottom-nav .dropdown {
+  body #company-support-portal .bottom-nav.navbar .dropdown {
     padding-left: 0 !important; }
-    body #company-support-portal .bottom-nav .dropdown a {
+    body #company-support-portal .bottom-nav.navbar .dropdown a {
       color: white !important;
       background-color: transparent !important;
       text-decoration: none; }
-      body #company-support-portal .bottom-nav .dropdown a[aria-expanded="false"] ul {
+      body #company-support-portal .bottom-nav.navbar .dropdown a[aria-expanded="false"] ul {
         background-color: transparent; }
-    body #company-support-portal .bottom-nav .dropdown ul .divider {
+    body #company-support-portal .bottom-nav.navbar .dropdown ul .divider {
       margin: 0 !important;
       border-bottom: #2a2a2a 1px solid; }
-  body #company-support-portal .bottom-nav .navbar-collapse {
+  body #company-support-portal .bottom-nav.navbar .navbar-collapse {
     background-color: #2f2f2f;
     color: #fff; }
-    body #company-support-portal .bottom-nav .navbar-collapse ul {
+    body #company-support-portal .bottom-nav.navbar .navbar-collapse ul {
       margin-top: 0;
       margin-bottom: 0; }
-      body #company-support-portal .bottom-nav .navbar-collapse ul li {
+      body #company-support-portal .bottom-nav.navbar .navbar-collapse ul li {
         border-top: #202020 1px solid;
         border-bottom: #2a2a2a 1px solid; }
-        body #company-support-portal .bottom-nav .navbar-collapse ul li div {
+        body #company-support-portal .bottom-nav.navbar .navbar-collapse ul li div {
           padding: 6px 0 6px 20px;
           font-size: 15px; }
 
