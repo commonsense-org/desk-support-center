@@ -498,6 +498,7 @@ body .row-8 {
         font-size: 8px !important; } }
 
 .bottom-nav {
+  margin-bottom: 0;
   font-family: "Lato", sans-serif;
   border-bottom: 0;
   margin-bottom: 0; }
@@ -510,6 +511,7 @@ body .row-8 {
     float: none;
     display: inline-block; }
   .bottom-nav .navbar-toggle {
+    display: none;
     float: left;
     margin-left: 15px; }
   .bottom-nav img {
@@ -809,8 +811,7 @@ body .row-8 {
         .navbar.top-nav .top-header-content .ilb:first-of-type a {
           color: #aaa; }
   .navbar.bottom-nav {
-    height: 65px;
-    margin-bottom: 0; }
+    height: 65px; }
     .navbar.bottom-nav .navbar-brand {
       margin-left: 0;
       padding-top: 22px; }

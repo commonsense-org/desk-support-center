@@ -796,6 +796,8 @@ body {
 
 //  nav bar stuff
 .bottom-nav {
+	margin-bottom: 0;
+	
   button[aria-expanded="true"] {
     .icon-bar {
       background-color: $green;
@@ -804,6 +806,7 @@ body {
   font-family: $lato;
   border-bottom: 0;
   margin-bottom: 0;
+
   .navbar-header {
     text-align: center;
   }
@@ -813,6 +816,7 @@ body {
     display: inline-block;
   }
   .navbar-toggle {
+  	display: none;
     float: left;
     margin-left: 15px;
   }
