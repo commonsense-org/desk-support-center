@@ -14,3 +14,11 @@ $lato-bold: 'Lato', sans-serif;
 -o-transition: -o-transform $time $ease, $more;
 transition: transform $time $ease, $more;
 }
+
+@mixin link-normalize() {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: inherit;
+	}
+}

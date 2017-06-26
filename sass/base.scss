@@ -38,6 +38,7 @@ body {
 			color: $white!important;
 			text-shadow: none!important;
 			font-family: $lato!important;
+			@include link-normalize;
 		}
 		.support-search-big, .support-search-small {
 			border: 0;
