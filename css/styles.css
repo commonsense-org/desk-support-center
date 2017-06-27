@@ -810,7 +810,8 @@ body #company-support-portal .bottom-nav.navbar {
         body #company-support-portal .navbar.top-nav .top-header-content .ilb:first-of-type a {
           color: #aaa; }
   body #company-support-portal .navbar.bottom-nav {
-    height: 65px; }
+    height: 65px;
+    background-color: #ffffff; }
     body #company-support-portal .navbar.bottom-nav .col-centered {
       float: none;
       margin: 0 auto; }
@@ -820,7 +821,7 @@ body #company-support-portal .bottom-nav.navbar {
       body #company-support-portal .navbar.bottom-nav .navbar-brand img {
         width: 132px; }
     body #company-support-portal .navbar.bottom-nav .navbar-collapse {
-      background-color: #f8f8f8; }
+      background-color: #ffffff; }
       body #company-support-portal .navbar.bottom-nav .navbar-collapse li {
         border: 0; }
     body #company-support-portal .navbar.bottom-nav .navbar-right {

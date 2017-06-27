@@ -425,7 +425,8 @@ body #company-support-portal .navbar {
 	}
 	&.bottom-nav {
 		height: 65px;		
-		
+		background-color: $white;
+
 		.col-centered {
 			float: none;
 			margin: 0 auto;
@@ -439,7 +440,7 @@ body #company-support-portal .navbar {
 			}
 		}
 		.navbar-collapse {
-			background-color: #f8f8f8;
+			background-color: $white;
 			li {
 				border: 0;
 			}
