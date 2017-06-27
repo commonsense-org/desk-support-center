@@ -836,7 +836,7 @@ body #company-support-portal .bottom-nav.navbar {
           background-color: #cccccc; }
       body #company-support-portal .navbar.bottom-nav .navbar-right li:nth-child(2) button {
         color: white;
-        background-color: #4a90e2;
+        background-color: #4a90e2 !important;
         border-color: #4a90e2; }
         body #company-support-portal .navbar.bottom-nav .navbar-right li:nth-child(2) button:hover {
           color: #4a90e2;
