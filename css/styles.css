@@ -822,7 +822,7 @@ body #company-support-portal .bottom-nav.navbar {
         width: 132px; }
     body #company-support-portal .navbar.bottom-nav .navbar-collapse {
       background-color: #ffffff; }
-      body #company-support-portal .navbar.bottom-nav .navbar-collapse li {
+      body #company-support-portal .navbar.bottom-nav .navbar-collapse ul li {
         border: 0; }
     body #company-support-portal .navbar.bottom-nav .navbar-right {
       padding-top: 14px; }
