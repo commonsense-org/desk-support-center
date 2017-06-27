@@ -854,18 +854,20 @@ body #company-support-portal .bottom-nav.navbar {
       margin-left: 14vw; }
       body #support-main .row-5 .slick-target .col-sm-4 {
         padding: 0;
-        margin-left: -20px; }
+        margin-left: -20px; } }
+    @media (min-width: 970px) and (min-width: 1100px) {
+      body #support-main .row-5 .slick-target .container-hl {
+        width: 280px;
+        height: 280px; } }
+@media (min-width: 970px) {
+      body #support-main .row-5 .slick-target .container-hl a {
+        font-size: 25px; } }
+    @media (min-width: 970px) and (min-width: 1200px) {
       body #support-main .row-5 .slick-target .container-hl {
         width: 280px;
         height: 280px; }
         body #support-main .row-5 .slick-target .container-hl a {
-          font-size: 25px; } }
-      @media (min-width: 970px) and (min-width: 1200px) {
-        body #support-main .row-5 .slick-target .container-hl {
-          width: 280px;
-          height: 280px; }
-          body #support-main .row-5 .slick-target .container-hl a {
-            font-size: 28px; } }
+          font-size: 28px; } }
 @media (min-width: 970px) {
       body #support-main .row-5 .slick-target .col-xs-8 {
         width: 33%; } }
