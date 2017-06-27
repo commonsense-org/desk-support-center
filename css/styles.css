@@ -811,6 +811,9 @@ body #company-support-portal .bottom-nav.navbar {
           color: #aaa; }
   body #company-support-portal .navbar.bottom-nav {
     height: 65px; }
+    body #company-support-portal .navbar.bottom-nav .col-centered {
+      float: none;
+      margin: 0 auto; }
     body #company-support-portal .navbar.bottom-nav .navbar-brand {
       margin-left: 0;
       padding-top: 22px; }

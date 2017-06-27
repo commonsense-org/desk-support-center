@@ -425,6 +425,11 @@ body #company-support-portal .navbar {
 	}
 	&.bottom-nav {
 		height: 65px;		
+		
+		.col-centered {
+			float: none;
+			margin: 0 auto;
+		}
 
 		.navbar-brand {
 			margin-left: 0;
