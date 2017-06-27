@@ -825,7 +825,7 @@ body #company-support-portal .bottom-nav.navbar {
       body #company-support-portal .navbar.bottom-nav .navbar-brand img {
         width: 132px; }
     body #company-support-portal .navbar.bottom-nav .navbar-collapse {
-      background-color: #ffffff; }
+      background-color: transparent; }
       body #company-support-portal .navbar.bottom-nav .navbar-collapse ul li {
         border: 0; }
     body #company-support-portal .navbar.bottom-nav .navbar-right {
