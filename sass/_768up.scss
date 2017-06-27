@@ -427,9 +427,13 @@ body #company-support-portal .navbar {
 		height: 65px;		
 		background-color: $white;
 
-		.col-centered {
+		.col-centered {			
 			float: none;
 			margin: 0 auto;
+		}
+		.col-sm-8 {
+			padding-left: 0;
+			background-color: transparent;
 		}
 
 		.navbar-brand {
