@@ -392,13 +392,16 @@ body #company-support-portal .navbar {
 	  				}
 	  			}
 	  			li:nth-child(odd) {
-	  				margin: 0 5px 0 5px;
+	  				margin: 0 5px;
 	  			}
+
 	  		}
+
 	  		li a:hover {
 	  			color: white!important;
 	  			background-color: $green!important;
 	  		}
+
 	  		.divider {
 	  			margin: 0;
 	  			// background-color: white;
@@ -424,10 +427,10 @@ body #company-support-portal .navbar {
 	  }
 	}
 	&.bottom-nav {
-		height: 65px;		
+		height: 65px;
 		background-color: $white;
 
-		.col-centered {			
+		.col-centered {
 			float: none;
 			margin: 0 auto;
 		}
@@ -445,10 +448,12 @@ body #company-support-portal .navbar {
 		}
 		.navbar-collapse {
 			background-color: transparent;
+
 			ul li {
 				border: 0;
 			}
 		}
+
 		.navbar-right {
 			padding-top: 14px;
 			li {
