@@ -558,13 +558,12 @@ body #company-support-portal .bottom-nav.navbar {
   body #support-main .dashboard .topic {
     padding-right: 30px; }
   body #support-main .icon-container {
-    max-width: 76%;
+    max-width: 68%;
     margin: 0 auto; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     display: inline-block;
     width: 48%;
-    height: 420px;
-    max-width: 330px; }
+    height: 450px; }
     body #support-main .row-2 .col-sm-12 .row a, body #support-main .row-3 .col-sm-12 .row a, body #support-main .row-3a .col-sm-12 .row a, body #support-main .row-3b .col-sm-12 .row a, body #support-main .row-3c .col-sm-12 .row a, body #support-main .row-3d .col-sm-12 .row a {
       color: #3a3a3a !important; }
       body #support-main .row-2 .col-sm-12 .row a:hover, body #support-main .row-3 .col-sm-12 .row a:hover, body #support-main .row-3a .col-sm-12 .row a:hover, body #support-main .row-3b .col-sm-12 .row a:hover, body #support-main .row-3c .col-sm-12 .row a:hover, body #support-main .row-3d .col-sm-12 .row a:hover {
@@ -851,6 +850,10 @@ body #company-support-portal .bottom-nav.navbar {
           background-color: white; } }
 @media (min-width: 970px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i");
+  body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
+    display: inline-block;
+    width: 48%;
+    height: 420px; }
   body #support-main .row-5 {
     padding-left: 2%;
     margin-left: -8px; }

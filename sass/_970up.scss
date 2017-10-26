@@ -3,6 +3,12 @@
 body {
 	#support-main {
 
+		.row-2, .row-3, .row-3a, .row-3b, .row-3c, .row-3d {
+			display: inline-block;
+			width: 48%;
+			height: 420px;
+		}
+
 		.row-5 {
 			padding-left: 2%;
 			margin-left: -8px;
