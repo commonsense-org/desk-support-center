@@ -20,4 +20,9 @@ rows.each(function(index, row) {
 });
 
 
+// make the footer links clickable
+$('.row-8 .url-open').click(function() {
+	var url = $(this).attr('data');
+	window.open(url, "_self");
+});
 

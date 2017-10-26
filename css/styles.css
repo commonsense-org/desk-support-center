@@ -559,8 +559,8 @@ body #company-support-portal .bottom-nav.navbar {
     padding-right: 30px; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     display: inline-block;
-    width: 30%;
-    height: 520px;
+    width: 40%;
+    height: 420px;
     max-width: 330px; }
     body #support-main .row-2 .col-sm-12 .row a, body #support-main .row-3 .col-sm-12 .row a, body #support-main .row-3a .col-sm-12 .row a, body #support-main .row-3b .col-sm-12 .row a, body #support-main .row-3c .col-sm-12 .row a, body #support-main .row-3d .col-sm-12 .row a {
       color: #3a3a3a !important; }
@@ -595,7 +595,7 @@ body #company-support-portal .bottom-nav.navbar {
     margin-left: 14.5%; }
   body #support-main .row-3 {
     border-bottom: 0; }
-  body #support-main .row-3b {
+  body #support-main .row-3a {
     margin-left: 14.5%; }
   body #support-main .row-6 {
     height: 96px;
