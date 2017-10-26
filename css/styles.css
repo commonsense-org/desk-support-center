@@ -595,8 +595,12 @@ body #company-support-portal .bottom-nav.navbar {
     margin-left: 14.5%; }
   body #support-main .row-3 {
     border-bottom: 0; }
+    body #support-main .row-3 img {
+      height: 46px; }
   body #support-main .row-3a {
     margin-left: 14.5%; }
+    body #support-main .row-3a img {
+      height: 36px; }
   body #support-main .row-6 {
     height: 96px;
     padding: 26px 0 8px; }
