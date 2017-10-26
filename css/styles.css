@@ -251,7 +251,8 @@ body .topics .wrapper #support-main .support-body {
       color: #3a3a3a !important; }
   body .topics .wrapper #support-main .support-body .content.articles, body .topics .wrapper #support-main .support-body .content.article {
     color: #3a3a3a;
-    padding: 0; }
+    padding: 0;
+    padding-right: 16px; }
     body .topics .wrapper #support-main .support-body .content.articles > div:not(#toggle), body .topics .wrapper #support-main .support-body .content.article > div:not(#toggle) {
       padding-right: 16px;
       padding-left: 40px; }
