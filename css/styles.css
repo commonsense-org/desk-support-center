@@ -557,9 +557,12 @@ body #company-support-portal .bottom-nav.navbar {
       padding-top: 24px; }
   body #support-main .dashboard .topic {
     padding-right: 30px; }
+  body #support-main .icon-container {
+    max-width: 76%;
+    margin: 0 auto; }
   body #support-main .row-2, body #support-main .row-3, body #support-main .row-3a, body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     display: inline-block;
-    width: 40%;
+    width: 48%;
     height: 420px;
     max-width: 330px; }
     body #support-main .row-2 .col-sm-12 .row a, body #support-main .row-3 .col-sm-12 .row a, body #support-main .row-3a .col-sm-12 .row a, body #support-main .row-3b .col-sm-12 .row a, body #support-main .row-3c .col-sm-12 .row a, body #support-main .row-3d .col-sm-12 .row a {
@@ -591,16 +594,12 @@ body #company-support-portal .bottom-nav.navbar {
           body #support-main .row-1 table tbody tr td h4:hover {
             color: #7fd64d;
             text-decoration: none; }
-  body #support-main .row-2 {
-    margin-left: 14.5%; }
   body #support-main .row-3 {
     border-bottom: 0; }
     body #support-main .row-3 img {
       height: 46px; }
-  body #support-main .row-3a {
-    margin-left: 14.5%; }
-    body #support-main .row-3a img {
-      height: 36px; }
+  body #support-main .row-3a img {
+    height: 36px; }
   body #support-main .row-6 {
     height: 96px;
     padding: 26px 0 8px; }

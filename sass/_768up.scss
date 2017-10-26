@@ -21,12 +21,17 @@ body {
 				padding-right: 30px;
 			}
 		}
+		.icon-container {
+			max-width: 76%;
+			margin: 0 auto;
+		}
+
 		.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 {
 			// padding: 60px 60px 60px;
 		}
 		.row-2, .row-3, .row-3a, .row-3b, .row-3c, .row-3d {
 			display: inline-block;
-			width: 40%;
+			width: 48%;
 			height: 420px;
 			max-width: 330px;
 			.col-sm-12 {
@@ -78,7 +83,7 @@ body {
 			}
 		}
 		.row-2 {
-			margin-left: 14.5%;
+			// margin-left: 14.5%;
 		}
 		.row-3 {
 			border-bottom: 0;
@@ -88,7 +93,7 @@ body {
 			}
 		}
 		.row-3a {
-			margin-left: 14.5%;
+			// margin-left: 14.5%;
 
 			img {
 				height: 36px;
