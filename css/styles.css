@@ -550,7 +550,8 @@ footer {
   color: #aaa;
   overflow: hidden;
   background-color: #ffffff;
-  font-size: 13px; }
+  font-size: 13px;
+  font-family: "Lato", sans-serif; }
   footer .content-area .top-footer-region {
     font-size: 13px;
     color: #757575;
