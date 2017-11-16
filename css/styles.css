@@ -572,7 +572,7 @@ body #company-support-portal .bottom-nav.navbar {
         color: #1e800d !important;
         text-decoration: none !important; }
     body #support-main .row-2 .col-sm-12 .row.header-hl, body #support-main .row-3 .col-sm-12 .row.header-hl, body #support-main .row-3a .col-sm-12 .row.header-hl, body #support-main .row-3b .col-sm-12 .row.header-hl, body #support-main .row-3c .col-sm-12 .row.header-hl, body #support-main .row-3d .col-sm-12 .row.header-hl {
-      color: red; }
+      color: #3a3a3a; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     padding-top: 0 !important; }
   body #support-main .row-1 {
