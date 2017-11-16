@@ -750,7 +750,7 @@ footer {
           width: 15px;
           height: 15px;
           content: ' ';
-          background: url(/public/img/icons/icon_rightArrow.svg) no-repeat;
+          background: url(../images/icons/icon_rightArrow.svg) no-repeat;
           transform: rotate(90deg);
           transition: all,0.2s ease-in-out; }
         footer #block-menu-block-3 .parent-menu-ul .parent-menu-item.expanded {
