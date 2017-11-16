@@ -1,0 +1,574 @@
+
+<div id='company-support-portal'>
+  <div id='company-header'>
+    <div class='wrapper'>
+      {{ desk.page.theme.header_content }}
+      {% if portal.authentication_enabled and page != 'customer_feedback' and page != 'customer_feedback_completed' and page != 'customer_feedback_invalid' %}
+        <div id='customer-account'>
+          {% if current_user and current_user.is_guest == false %}
+            <span>
+              {{system.snippets.welcsome}} {{ current_user.customer.name }}
+            </span>k
+            {% if site.myportal_enabled %}
+              <a href='{{ desk.system.links.myportal }}'>{{system.snippets.my_cases}}</a>
+            {% endif %}
+            {% if site.portal_authentication_type_config == 'desk' %}
+              <a href='{{ desk.system.links.myaccount }}'>{{system.snippets.my_account}}</a>
+            {% endif %}
+            {% if site.portal_logout_enabled_config %}
+              <a href='{{ site.authentication_logout_url }}'>{{system.snippets.logout}}</a>
+            {% endif %}
+          {% else %}
+            <span>
+              {{system.snippets.welcome_guest}}
+            </span>
+            <a href='{{ site.authentication_login_url }}'>{{system.snippets.login}}</a>
+          {% endif %}
+        </div>
+      {% endif %}
+      <div style="float:right">{{langs_list}}</div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  {% if page != 'customer_feedback' and page != 'customer_feedback_completed' and page != 'customer_feedback_invalid' %}
+  
+  <nav class="navbar top-nav navbar-default csm-header hide-mobile">
+    <div class="container-fluid csm-header hide-mobile">
+      <div>
+        <div class="col-sm-8 col-centered">
+          <div class="top-header-content">
+              <div class="ilb">
+                <div class="dropdown desktop">
+                  <a href="" target="_blank"  role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore Common Sense<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li role="separator" class="divider"></li>
+                    <li><a href="https://www.commonsensemedia.org/">Common Sense Media</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="https://www.commonsensemedia.org/educators">Common Sense Education</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="https://www.commonsensemedia.org/kids-action">Common Sense Kids Action</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="ilb">
+                <span><a href="https://www.commonsensemedia.org/user/login?destination=homepage">Sign in</a></span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar bottom-nav navbar-default">
+    <div class="container-fluid col-sm-8 col-centered">
+      <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="/"><img src="https://www.commonsensemedia.org/sites/all/themes/commonsense/images/logo-commonsense.png" /></a> </div>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hide-desktop">
+            <div class="ilb">
+              <div class="dropdown">
+                <a href="" target="_blank"  role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore Common Sense<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://www.commonsensemedia.org/">Common Sense Media</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://www.commonsensemedia.org/educators">Common Sense Education</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://www.commonsensemedia.org/kids-action">Common Sense Kids Action</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button class="btn url-open hide-mobile" data="https://www.commonsensemedia.org/user/register?destination=homepage">Join</button>
+            <div class="url-open hide-desktop" data="https://www.commonsensemedia.org/donate">Donate</div>
+          </li>
+          <li>
+            <button class="btn url-open hide-mobile" data="https://www.commonsensemedia.org/donate">Donate</button>
+            <div class="url-open hide-desktop" data="https://www.commonsensemedia.org/user/register?destination=homepage">Join</div>
+          </li>
+          <li>
+            <div class="url-open hide-desktop" data="https://www.commonsensemedia.org/user/login?destination=homepage">Sign In</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+  <div id='support-header'>
+    <div class='wrapper'>
+      <h2><a href="https://commonsensesupport.desk.com/">{{system.snippets.support_center}}</a></h2>
+      {% if page != 'page_index' and page != 'myportal_index' and page != 'myportal_show' and page != 'myaccount' %}
+<!--        {{ search_form_begin }}
+          <div>
+            <input id='q' maxlength='100' name='q' type='text' value='{{ search_term }}' />
+            {{template_form_params}}
+            <div id='question-mask' class='question-small'></div>
+            <input id='support-search-submit' type='submit' value='Search' />
+          </div>
+        {{ search_form_end }} -->
+      {% endif %}
+    </div>
+    {{ search_form_begin }}
+  <div class='outer'>
+    <div class='inner'>
+      <input type='text' id='q' name='q' maxlength='100' value='' placeholder="Search by keyword" />
+      {{template_form_params}}
+      <div id='question-mask' class='question-big'></div>
+      <input type='submit' id='support-search-submit' value='{{system.snippets.search}}' placeholder="Search by keyword" />
+    </div>
+  </div>
+    {{ search_form_end }}
+  <div class="popular-searches">Popular search terms: 
+    <span> <a href="https://commonsensesupport.desk.com/customer/portal/articles/search?q=reviews&b_id=14290"> Reviews</a>, <a href="https://commonsensesupport.desk.com/customer/portal/articles/search?q=digital+citizenship&b_id=14290">Digital Citizenship</a>, <a href="https://commonsensesupport.desk.com/customer/portal/articles/search?q=Donate&b_id=14290">Donate</a></span>
+  </div>
+   
+  </div>
+  {% endif %}
+
+  <div class='wrapper'>
+    {{desk:body}}
+
+    {% if page != 'customer_feedback' and page != 'customer_feedback_completed' and page != 'customer_feedback_invalid' %}
+    <div id='support-side'>
+      <div class='content'>
+        <h3>{{system.snippets.contact_us}}</h3>
+        <ul>
+          {% if portal.questions_enabled %}
+            <li>
+              <a href='{{desk.system.links.question}}'>{{system.snippets.post_public_question}}</a>
+            </li>
+          {% endif %}
+
+          <!-- GS -->
+          {% if desk.apps.get_satisfaction.enabled %}
+          <li>
+            <a id='gs_link' target='_blank'>{{system.snippets.ask_community}}</a>
+          </li>
+          {% endif %}
+          <!-- GS -->
+
+          {% if site.email_enabled_config %}
+            <li>
+              <a href='{{desk.system.links.email}}'>{{system.snippets.email_us}}</a>
+            </li>
+          {% endif %}
+          {% if site.chat_enabled_config %}
+            <li>
+              <a href='{{desk.system.links.chat}}'>{{system.snippets.live_chat}}</a>
+            </li>
+          {% endif %}
+          {% if site.phone_enabled_config %}
+            <li>
+              {{ desk.page.theme.contact_us_content }}
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <!-- GS -->
+      {% if desk.apps.get_satisfaction.enabled %}
+      <div class='content'>
+        <h3>{{system.snippets.recent_discussions}}</h3>
+        <div id='gs_Sidebar_Results'>
+          <img alt='Ajax-loader-small' id='question_submit_spinner' src='{{ "/images/ajax-loader-small.gif" | portal_image_url: image_asset_host }}' style='display:block;margin:auto;' />
+        </div>
+        {{gs_recent_activity_scripting}}
+      </div>
+      {% endif %}
+      <!-- GS -->
+    </div>
+    {% endif %}
+  </div>
+
+<!-- BEGIN NEW FOOTER -->
+<footer>
+  <div className="content-area">
+
+    <div className="top-footer-region">
+      <div className="top-footer-region-content">
+        <div className="about-us">
+          <div className="about-us-text">
+            <div>Common Sense is the nation&#8217;s leading nonprofit
+            organization dedicated to improving the lives of kids and
+            families by providing the trustworthy information, education,
+            and independent voice they need to  thrive in the 21st century.</div>
+            <div className="location"><i>Headquartered in San Francisco, with offices in Los
+            Angeles, New York, and Washington, D.C.</i></div>
+          </div>
+        </div>
+        <div id="block-menu-block-3" className="block block-menu-block even" role="navigation">
+          <div className="menu-block-wrapper menu-block-3 menu-name-menu-tlr-extended-footer-menu parent-mlid-0 menu-level-1">
+            <ul className="menu parent-menu-ul">
+              <li className="parent-menu-item"><div className="parent footer-title"><strong>About Us</strong></div>
+                <ul className="menu child-menu-ul">
+                  <li className="menu__item is-leaf first leaf menu-mlid-230501"><a href="https://www.commonsensemedia.org/about-us/our-mission" className="menu__link" target="_self">Our mission</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230496"><a href="https://www.commonsensemedia.org/meet-our-team" className="menu__link" target="_self">Our team</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230491"><a href="https://www.commonsensemedia.org/about-us/supporters" className="menu__link" target="_self">Our partners</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230516"><a href="https://www.commonsensemedia.org/meet-our-team/our-board" className="menu__link" target="_self">Board of directors</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230511"><a href="https://www.commonsensemedia.org/about-us/news/press-releases" className="menu__link" target="_self">Press room</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230486"><a href="https://www.commonsensemedia.org/common-sense-annual-report" className="menu__link" target="_self">Annual report</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230521"><a href="https://www.commonsensemedia.org/about-us/jobs" className="menu__link" target="_self">Careers</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230546"><a href="https://commonsensesupport.desk.com/customer/en/portal/topics/1081579-privacy/articles" className="menu__link" target="_self">Help center</a></li>
+                  <li className="menu__item is-leaf last leaf menu-mlid-230526"><a href="https://www.commonsensemedia.org/contact" className="menu__link" target="_self">Contact us</a></li>
+                </ul></li>
+              <li className="parent-menu-item child-menu-ul"><div className="parent footer-title"><strong>Our Programs</strong></div>
+                <ul className="menu child-menu-ul"><li className="menu__item is-leaf first leaf menu-mlid-10161"><a href="http://www.commonsensemedia.org/" className="menu__link" target="_self">Common Sense Media</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230476"><a href="https://www.commonsensemedia.org/latino" className="menu__link" target="_self">Common Sense Latino</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230471"><a href="https://www.commonsense.org/education" className="menu__link" target="_self">Common Sense Education</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-90716"><a href="https://www.commonsensemedia.org/research" className="menu__link" target="_self">Common Sense Research</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-10136"><a href="https://www.commonsensemedia.org/kids-action" className="menu__link" target="_self">Common Sense Kids Action</a></li>
+                  <li className="menu__item is-leaf last leaf menu-mlid-90711"><a href="https://www.commonsensemedia.org/news" className="menu__link" target="_self">Common Sense News</a></li>
+                </ul></li>
+              <li className="parent-menu-item child-menu-ul"><div className="parent footer-title"><strong>Get Involved</strong></div>
+                <ul className="menu child-menu-ul">
+                  <li className="menu__item is-leaf first leaf menu-mlid-230481"><a href="https://www.commonsensemedia.org/donate" className="menu__link" target="_self">Donate</a></li>
+                  <li className="menu__item is-leaf two-line leaf menu-mlid-230506"><a href="https://www.commonsense.org/education/user/register?current=node/4134521&amp;destination=homepage" className="menu__link" target="_self">Join our network of educators</a></li>
+                  <li className="menu__item is-leaf leaf menu-mlid-230466"><a href="https://www.commonsensemedia.org/user/register?destination=homepage" className="menu__link" target="_self">Become a member</a></li>
+                  <li className="menu__item is-leaf last leaf menu-mlid-230461"><a href="https://www.commonsensemedia.org/user/register?destination=homepage" className="menu__link" target="_self">Become an advocate</a></li>
+                </ul></li>
+            </ul></div>
+        </div>
+        <div id="social-media" className="block block-tlr-ui odd">
+          <div className="inner-wrapper">
+            <div id="connect-header">Follow Common Sense Education</div>
+            <div id="connect-social-links" className="social-links clearfix">
+              <div className="social-link-wrapper clearfix">
+                <div className="social-item facebook first">
+                  <div className="link facebook first"><a href="https://www.facebook.com/CommonSenseEd" target="_blank" rel="noopener noreferrer"><span className="link-icon facebook first" /><span className="link-label">Facebook</span></a></div>
+                </div>
+                <div className="social-item twitter">
+                  <div className="link twitter"><a href="https://twitter.com/cs_privacy" target="_blank" rel="noopener noreferrer"><span className="link-icon twitter" /><span className="link-label">Twitter</span></a></div>
+                </div>
+                <div className="social-item pinterest">
+                  <div className="link pinterest"><a href="https://pinterest.com/commonsensepins" target="_blank" rel="noopener noreferrer"><span className="link-icon pinterest" /><span className="link-label">Pinterest</span></a></div>
+                </div>
+                <div className="social-item instagram">
+                  <div className="link instagram"><a href="https://www.instagram.com/commonsenseorg" target="_blank" rel="noopener noreferrer"><span className="link-icon instagram" /><span className="link-label">Instagram</span></a></div>
+                </div>
+                <div className="social-item youtube">
+                  <div className="link youtube"><a href="https://www.youtube.com/user/CommonSenseEducators" target="_blank" rel="noopener noreferrer"><span className="link-icon youtube" /><span className="link-label">You Tube</span></a></div>
+                </div>
+                <div className="social-item linkedin">
+                  <div className="link linkedin"><a href="https://www.linkedin.com/company-beta/28256" target="_blank" rel="noopener noreferrer"><span className="link-icon linkedin" /><span className="link-label">LinkedIn</span></a></div>
+                </div>
+                <div className="social-item googleplus last">
+                  <div className="link googleplus last"><a href="https://plus.google.com/+CommonSenseEducators" target="_blank" rel="noopener noreferrer"><span className="link-icon googleplus last" /><span className="link-label">Google+</span></a></div>
+                </div>
+              </div>
+            </div>
+            <div className="clearfix" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="bottom-footer-region">
+      <div className="bottom-footer-region-content">
+        <div className="privacy-container-wrapper">
+          <div className="privacy-container">
+            <div className="privacy-text">
+              <span><a href="https://www.commonsensemedia.org//about-us/our-mission/privacy-policy" target="_self">Privacy policy</a></span>
+              <span><a href="https://www.commonsensemedia.org//about-us/our-mission/site-terms-use" target="_self">Terms of service</a></span>
+              <span><a href="https://www.commonsensemedia.org//about-us/our-mission/community-guidelines" target="_self" className="last">Community guidelines</a></span>
+            </div>
+            <div className="copyright-2">© Common Sense. All rights reserved.</div>
+          </div>
+          <div className="trademark">Common Sense, Common Sense Media, Common Sense Education,
+          and Common Sense Kids Action, associated names, associated trademarks, and logos
+          are trademarks of Common Sense Media, a 501(c)(3) nonprofit organization
+          (FEIN 41-2024986).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END NEW FOOTER -->
+  <!-- eighth FOOTER row MOBILE 
+<div class="row row-8 hide-desktop">
+  <div class="col-sm-8 col-centered">
+      <div class="col-sm-9">
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-3">About us</div>
+            <div class="col-sm-6 lines col-xs-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/our-mission">Our Mission</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/who-we-are/staff-leadership">Our Leadership</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/supporters">Our Partners</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/press-room/common-sense-media-news">In the News</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/news/press-releases">Press Inquiries</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/common-sense-annual-report">Annual Reports</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/about-us/jobs">Career Opportunities</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/donate">Donate</div>
+            <div class="col-sm-6 col-xs-2 url-open" data="https://www.commonsensemedia.org/contact">Contact Us</div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">Our Programs</div>
+          <div class="col-sm-6 lines col-xs-12"></div>
+        </div>
+        <div class="row programs-row">
+          <div class="col-sm-6 col-xs-1 url-open" data="http://www.commonsensemedia.org" />Common Sense Media</div>
+          <div class="col-sm-6 col-xs-1 url-open" data="https://www.commonsensemedia.org/educators">Common Sense Education</div>
+          <div class="col-sm-6 col-xs-1 url-open" data="https://www.commonsensemedia.org/kids-action">Common Sense Kids Action</div>
+          <div class="col-sm-6 col-xs-1 url-open" data="https://www.commonsensemedia.org/news">Common Sense News</div>
+          <div class="col-sm-6 col-xs-1 url-open" data="https://www.commonsensemedia.org/research">Common Sense Research</div>
+          <div class="col-sm-6 col-xs-1 url-open" data="https://www.commonsensemedia.org/latino">Sitio en Espa&ntilde;ol</div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">Our Policies</div>
+          <div class="col-sm-6 lines col-xs-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-xs-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/privacy-policy">Privacy Policy</div>
+          <div class="col-sm-6 col-xs-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/site-terms-use">Terms of Use</div>
+          <div class="col-sm-6 col-xs-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/community-guidelines">Community Guidelines</div>
+        </div>
+      </div>
+      <div class="col-sm-3 twitter-container">
+        <div class="row">
+          <div class="col-sm-3"><strong>Twitter</strong></div>
+          <div class="col-sm-6 lines col-xs-12"></div>
+          <div class="row col-sm-3">
+            <div class="col-xs-4 csm-twitter">
+              <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/CommonSense">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-xs-4 ed-twitter">
+              <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/commonsenseed">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-xs-4 ka-twitter">
+              <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/cskidsaction">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row legal col-sm-3">
+        <div class="col-sm-12 lines"></div>
+        <div class="row"></div>
+        <div class="trademark">
+          Common Sense and Common Sense Media are registered trademarks, and Common Sense Education, Common Sense Kids Action and other associated names and logos are trademarks of Common Sense Media, a 501(c)(3) nonprofit organization. (FEIN 41-2024986)
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-8 hide-mobile">
+  <div class="col-sm-8 col-centered">
+
+      <div class="col-sm-9">
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-3">About us</div>
+            <div class="col-sm-6 lines"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/our-mission">Our Mission</div>
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/news/press-releases">Press Inquiries</div>
+          </div>
+          <div class="row ">
+          <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/who-we-are/staff-leadership">Our Leadership</div>
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/common-sense-annual-report">Annual Reports</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/supporters">Our Partners</div>
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/jobs">Career Opportunities</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/about-us/press-room/common-sense-media-news">In the News</div>
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/donate">Donate</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-3 url-open"></div>
+            <div class="col-sm-6 col-xs-3 url-open" data="https://www.commonsensemedia.org/contact">Contact Us</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="col-sm-7">Our Programs</div>
+            <div class="col-sm-5 lines"></div>
+          </div>
+          <div class="row url-open footer-float" data="http://www.commonsensemedia.org/">
+            <div class="col-sm-11 col-xs-3">Common Sense Media</div>
+          </div>
+          <div class="row url-open footer-float" data="https://www.commonsensemedia.org/educators">
+            <div class="col-sm-11 col-xs-4">Common Sense Education</div>
+          </div>
+          <div class="row url-open footer-float" data="https://www.commonsensemedia.org/kids-action">
+            <div class="col-sm-11 col-xs-4">Common Sense Kids Action</div>
+          </div>
+          <div class="row url-open footer-float" data="https://www.commonsensemedia.org/news">
+            <div class="col-sm-11 col-xs-4">Common Sense News</div>
+          </div>
+          <div class="row url-open footer-float" data="https://www.commonsensemedia.org/research">
+            <div class="col-sm-11 col-xs-4">Common Sense Research</div>
+          </div>
+          <div class="row url-open footer-float" data="https://www.commonsensemedia.org/latino">
+            <div class="col-sm-11 col-xs-4">Sitio en Espa&ntilde;ol</div>
+          </div>
+        </div>
+        <div class="col-sm-11 our-policies">
+          <div class="row">
+            <div class="col-sm-3">Our Policies</div>
+            <div class="col-sm-9 lines"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/privacy-policy">Privacy Policy</div>
+            <div class="col-sm-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/site-terms-use">Terms of Use</div>
+            <div class="col-sm-4 url-open" data="https://www.commonsensemedia.org/about-us/our-mission/community-guidelines">Community Guidelines</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 twitter-container">
+        <div class="row">
+        <div class="col-sm-6">Twitter</div>
+          <div class="row">
+            <div class="col-sm-12 lines csm-twitter">
+              <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/CommonSense">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 lines ed-twitter"><a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/commonsenseed">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 ka-twitter">
+              <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/cskidsaction">Tweets by CommonSense</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row legal">
+      <div class="col-sm-12 lines"></div>
+      <div class="row"></div>
+      <div class="trademark">Common Sense and Common Sense Media are registered trademarks, and Common Sense Education, Common Sense Kids Action and other associated names and logos are trademarks of Common Sense Media, a 501(c)(3) nonprofit organization. (FEIN 41-2024986)</div>
+    </div>
+  </div>
+</div>
+</div>
+-->
+
+<!-- Facebook Like Button -->
+<div id="fb-root"></div>
+
+<!-- External Variables for Portal Header -->
+<div id="desk-external-variables-header" class="desk-external-variables">
+   <div id="read_only">{{read_only}}</div>
+    <div id="site-default_mailbox">{{site.default_mailbox}}</div>
+  <div id="desk_javascript_host">{{desk_javascript_host}}</div>
+  <div id="twitter_enabled">{{desk.apps.twitter.enabled}}</div>
+  <div id="twitter_username">{{desk.apps.twitter.username}}</div>
+  <div id="system-snippets-loading">{{system.snippets.loading}}</div>
+  <div id="system-snippets-seconds_ago">{{system.snippets.seconds_ago}}</div>
+  <div id="system-snippets-a_minute_ago">{{system.snippets.a_minute_ago}}</div>
+  <div id="system-snippets-minutes_ago">{{system.snippets.minutes_ago}}</div>
+  <div id="system-snippets-an_hour_ago">{{system.snippets.an_hour_ago}}</div>
+  <div id="system-snippets-hours_ago">{{system.snippets.hours_ago}}</div>
+  <div id="system-snippets-a_day_ago">{{system.snippets.a_day_ago}}</div>
+  <div id="system-snippets-days_ago">{{system.snippets.days_ago}}</div>
+  <div id="system-snippets-about">{{system.snippets.about}}</div>
+  <div id="enable_gs">{{desk.apps.get_satisfaction.enabled}}</div>
+  <div id="system-snippets-invalid_characters_found">{{system.snippets.invalid_characters_found}}</div>
+  <div id="site-search_autocomplete_articles_url">{{site.search_autocomplete_articles_url}}</div>
+  <div id="search-term">{{search_term}}</div>
+  {% if desk.apps.get_satisfaction.enabled %}
+    <div id="system-snippets-get_satisfaction_error">{{system.snippets.get_satisfaction_error}}</div>
+    <div id="system-snippets-view_all">{{system.snippets.view_all}}</div>
+    <div id="system-snippets-no_related_discussions">{{system.snippets.no_related_discussions}}</div>
+    <div id="system-snippets-related_discussions">{{system.snippets.related_discussions}}</div>
+    <div id="zero0">{{0}}</div>
+    <div id="system-snippets-discussions">{{system.snippets.discussions}}</div>
+    <div id="system-snippets-replies">{{system.snippets.replies}}</div>
+    <div id="system-snippets-questions">{{system.snippets.questions}}</div>
+    <div id="system-snippets-ideas">{{system.snippets.ideas}}</div>
+    <div id="system-snippets-problems">{{system.snippets.problems}}</div>
+    <div id="system-snippets-praise">{{system.snippets.praise}}</div>
+  {% endif %}
+</div>
+
+<script type="text/javascript" src="{{desk_javascript_host}}portal/desk.portal.shared.js"></script>
+<script type="text/javascript" src="{{desk_javascript_host}}portal/desk.portal.header.js"></script>
+<script type="text/javascript" src="{{desk_javascript_host}}portal/desk.portal.body.layout_footer.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    
+<script>
+if ($( window ).width() < 500) {
+
+    $(".slick-target").slick();
+}
+// target the table body
+  // loop through the <tr> of the body
+    // loop through the col of the tr
+      // target the class='topic'
+        // save the h4 element in memory
+        // target class='articles'
+          // get the href from it and save it in memory
+          // assign the href to the above saved h4 element
+var tableBody = $('.row-1 tbody');
+var rows = $(tableBody.find('tr'));
+rows.each(function(index, row) {
+  row = $(row);
+  var columns = row.find('td');
+  columns.each(function(indexCol, td) {
+    td = $(td);
+    var h4 = td.find('h4');
+    var link = td.find('h5 a').attr('href');
+    h4.wrap('<a href="' + link + '" target="_blank"></a>');
+  });
+}); 
+  
+var set = false;
+if (window.location.pathname.slice(window.location.pathname.length - 8) === 'articles') {
+  $('#company-support-portal').addClass('topics');
+  set = true;
+} 
+if (window.location.pathname.slice(window.location.pathname.length - 6) === 'search') {
+  $('#company-support-portal').addClass('topics search-page');
+  set = true;
+}
+if (!set && window.location.pathname !== '/') {
+    $('#company-support-portal').addClass('topics question-page');
+}
+  // ---- row 8: edit the styles of the twitter iframe
+  var twitterDiv = $('.row-8 .twitter-container');
+  twitterDiv.hide();
+  setTimeout(function() {
+    var iframe = $('iframe').contents();
+    iframe.find(".timeline-Header").css('display', 'none');
+    iframe.find(".timeline-Footer").css('display', 'none');
+    iframe.find(".timeline-Tweet-media").css('display', 'none');
+
+    // get the text out of twitter and append respective element
+    var csmTweet = $('.csm-twitter iframe').contents().find('.timeline-Tweet-text').html();
+    $('.csm-twitter').html(csmTweet);
+    var edTweet = $('.ed-twitter iframe').contents().find('.timeline-Tweet-text').html();
+    $('.ed-twitter').html(edTweet);
+    var kaTweet = $('.ka-twitter iframe').contents().find('.timeline-Tweet-text').html();
+    $('.ka-twitter').html(kaTweet);
+    // show the twitter section after loaded
+    twitterDiv.show();
+  }, 2500);
+  
+// make the footer links clickable
+$('.row-8 .url-open').click(function() {
+  var url = $(this).attr('data');
+  window.open(url, "_self");
+});
+</script>

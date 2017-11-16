@@ -867,3 +867,236 @@ body #company-support-portal .bottom-nav.navbar {
     }
   }
 }
+// begin new footer styles
+footer {
+  padding-top: 40px;
+  border-top: 3px solid $gray-footer;
+	color: $subtle-text;
+	overflow: hidden;
+  background-color: $white;
+  font-size: 13px;
+
+	.content-area {
+
+    .top-footer-region {
+      padding-bottom: 55px;
+      font-size: 13px;
+      color: $gray-arrow;
+      background-color: $white;
+
+      .top-footer-region-content {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .about-us {
+
+        &:before {
+
+          display: inline-block;
+          width: 120px;
+          margin-bottom: 20px;
+          content: url('/public/img/cs_logo.svg')
+        }
+
+        .about-us-text {
+          max-width: 210px;
+        }
+      }
+
+      .location {
+        padding-top: 30px;
+      }
+    }
+
+    .bottom-footer-region {
+      font-size: 14px;
+      color: $heading-color;
+      background-color: $background-neutral;
+
+      .bottom-footer-region-content {
+        max-width: 1000px;
+        padding: 15px 12px 20px;
+        margin: 0 auto;
+        border-top: 1px solid $gray-footer;
+        color: $heading-color;
+
+        .privacy-container {
+          display: inline-block;
+          width: 50%;
+          vertical-align: top;
+
+          .privacy-text {
+            padding-bottom: 10px
+          }
+
+          .copyright-2 {
+            font-size: 10px;
+          }
+
+          a {
+            color: $heading-color;
+            font-weight: normal;
+
+            &:after {
+              padding: 0 11px;
+              content: '/';
+            }
+
+            &.last {
+
+              &:after {
+                content: '';
+              }
+            }
+          }
+        }
+
+        .trademark {
+          display: inline-block;
+          width: 50%;
+          font-size: 11px;
+        }
+      }
+
+    }
+	}
+	.about-us {
+    display: inline-block;
+		max-width: 30%;
+	}
+  #block-menu-block-3 {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    text-align: center;
+
+    .parent-menu-ul {
+      margin-top: 0;
+      text-align: left;
+      font-size: 14px;
+      color: $base-text-color-2;
+
+      .parent-menu-item {
+        width: 32%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 12px;
+
+        &:nth-of-type(1) {
+          width: 26%;
+        }
+
+        &:nth-of-type(3) {
+          width: 33%;
+        }
+
+        .footer-title {
+          padding-bottom: 10px;
+        }
+
+        .child-menu-ul {
+          padding-left: 0;
+          color: $base-text-color-2;
+
+          .menu__item {
+            list-style: none;
+            line-height: 29px;
+
+            a {
+              color: $base-text-color-2;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  #social-media {
+    display: inline-block;
+    float: right;
+    width: 14%;
+    margin-right: -3px;
+    margin-left: -3px;
+    vertical-align: top;
+    font-size: 14px;
+    color: $base-text-color-2;
+    line-height: 29px;
+
+    #connect-header {
+      padding-bottom: 10px;
+      margin-top: -14px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+    }
+
+    .social-link-wrapper {
+
+      .social-item {
+
+        .link-icon {
+          position: relative;
+          top: 7px;
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          background-repeat: no-repeat;
+        }
+
+        .link-label {
+          padding-left: 8px;
+        }
+
+        &.facebook {
+          @include social-icons('/public/img/black_white_social_icons/facebook');
+
+        }
+
+        &.twitter {
+          @include social-icons('/public/img/black_white_social_icons/twitter');
+        }
+
+        &.pinterest {
+
+          @include social-icons('/public/img/black_white_social_icons/pinterest');
+        }
+
+        &.instagram {
+          @include social-icons('/public/img/black_white_social_icons/instagram');
+        }
+
+        &.youtube {
+
+          @include social-icons('/public/img/black_white_social_icons/youtube');
+        }
+
+        &.linkedin {
+
+          @include social-icons('/public/img/black_white_social_icons/linkedin');
+        }
+
+        &.googleplus {
+
+          @include social-icons('/public/img/black_white_social_icons/google');
+        }
+      }
+    }
+
+    a {
+      color: $base-text-color-2;
+    }
+  }
+
+	.copyright {
+		clear: both;
+		max-width: 50%;
+		margin: 0 auto;
+		width: 60em;
+		text-align: center;
+		color: $hidden-text;
+		font-size: 0.75em;
+		line-height: 1.2em;
+	}
+}
