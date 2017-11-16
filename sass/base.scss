@@ -1050,7 +1050,7 @@ footer {
         }
 
         &.facebook {
-          @include social-icons('/public/img/black_white_social_icons/facebook');
+          @include social-icons('../images/black_white_social_icons/facebook');
 
         }
 

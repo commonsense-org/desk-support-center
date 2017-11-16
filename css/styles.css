@@ -657,9 +657,9 @@ footer {
     footer #social-media .social-link-wrapper .social-item .link-label {
       padding-left: 8px; }
     footer #social-media .social-link-wrapper .social-item.facebook .link-icon {
-      background-image: url("/public/img/black_white_social_icons/facebook.svg"); }
+      background-image: url("../images/black_white_social_icons/facebook.svg"); }
     footer #social-media .social-link-wrapper .social-item.facebook:hover .link-icon {
-      background-image: url("/public/img/black_white_social_icons/facebook_i.svg"); }
+      background-image: url("../images/black_white_social_icons/facebook_i.svg"); }
     footer #social-media .social-link-wrapper .social-item.twitter .link-icon {
       background-image: url("/public/img/black_white_social_icons/twitter.svg"); }
     footer #social-media .social-link-wrapper .social-item.twitter:hover .link-icon {
