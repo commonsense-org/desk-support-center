@@ -896,7 +896,7 @@ footer {
           display: inline-block;
           width: 120px;
           margin-bottom: 20px;
-          content: url('/public/img/cs_logo.svg')
+          content: url('../images/cs_logo.svg')
         }
 
         .about-us-text {
@@ -1055,31 +1055,31 @@ footer {
         }
 
         &.twitter {
-          @include social-icons('/public/img/black_white_social_icons/twitter');
+          @include social-icons('../images/black_white_social_icons/twitter');
         }
 
         &.pinterest {
 
-          @include social-icons('/public/img/black_white_social_icons/pinterest');
+          @include social-icons('../images/black_white_social_icons/pinterest');
         }
 
         &.instagram {
-          @include social-icons('/public/img/black_white_social_icons/instagram');
+          @include social-icons('../images/black_white_social_icons/instagram');
         }
 
         &.youtube {
 
-          @include social-icons('/public/img/black_white_social_icons/youtube');
+          @include social-icons('../images/black_white_social_icons/youtube');
         }
 
         &.linkedin {
 
-          @include social-icons('/public/img/black_white_social_icons/linkedin');
+          @include social-icons('../images/black_white_social_icons/linkedin');
         }
 
         &.googleplus {
 
-          @include social-icons('/public/img/black_white_social_icons/google');
+          @include social-icons('../images/black_white_social_icons/google');
         }
       }
     }
