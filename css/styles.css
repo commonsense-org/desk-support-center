@@ -55,11 +55,14 @@ body {
     width: 100%;
     float: none;
     font-family: "Lato", sans-serif; }
+    body #support-main .icon-container {
+      border-bottom: 1px solid #CCC; }
     body #support-main .support-body {
       border: 0; }
     body #support-main .dashboard {
       padding: 60px 0 0; }
       body #support-main .dashboard > h3 {
+        padding-top: 40px;
         border-bottom: 0;
         margin-bottom: 0;
         color: #3a3a3a !important;
@@ -92,8 +95,7 @@ body {
             color: #1e800d !important;
             text-decoration: none !important; }
     body #support-main .row-1 {
-      padding: 20px 40px 20px;
-      border-bottom: 1px solid #CCC; }
+      padding: 20px 40px 20px; }
       body #support-main .row-1 table tbody tr td h5, body #support-main .row-1 table tbody tr td ul {
         display: none; }
     body #support-main .row-2 img {
@@ -570,7 +572,7 @@ body #company-support-portal .bottom-nav.navbar {
         color: #1e800d !important;
         text-decoration: none !important; }
     body #support-main .row-2 .col-sm-12 .row.header-hl, body #support-main .row-3 .col-sm-12 .row.header-hl, body #support-main .row-3a .col-sm-12 .row.header-hl, body #support-main .row-3b .col-sm-12 .row.header-hl, body #support-main .row-3c .col-sm-12 .row.header-hl, body #support-main .row-3d .col-sm-12 .row.header-hl {
-      color: #3a3a3a; }
+      color: red; }
   body #support-main .row-3b, body #support-main .row-3c, body #support-main .row-3d {
     padding-top: 0 !important; }
   body #support-main .row-1 {
