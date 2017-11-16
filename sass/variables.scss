@@ -6,6 +6,15 @@ $grey: #ddd;
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
 $lato: 'Lato', sans-serif;
 $lato-bold: 'Lato', sans-serif;
+$gray-footer: #c5c5c5;
+$gray-footer-text: #777;
+$subtle-text: #aaa;
+$gray-arrow: #757575;
+$heading-color: #3a3a3a;
+$background-neutral: #f2f3ef;
+$base-text-color: #56595a;
+$base-text-color-2: #3a3a3a;
+$hidden-text: #707070;
 
 @mixin transition($time, $ease, $more) {
 -webkit-transition: -webkit-transform $time $ease, $more;
@@ -21,4 +30,19 @@ transition: transform $time $ease, $more;
 		color: inherit;
 		text-decoration: inherit;
 	}
+}
+
+@mixin social-icons($url) {
+
+  .link-icon {
+    background-image: url($url + '.svg');
+  }
+
+  &:hover {
+
+    .link-icon {
+      background-image: url($url + '_i.svg');
+    }
+  }
+
 }
