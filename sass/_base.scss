@@ -6,6 +6,7 @@
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
 	font-family: $lato!important;
 	#company-header, #support-side {
 		display: none;

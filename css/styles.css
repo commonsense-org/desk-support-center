@@ -3,6 +3,7 @@
   .hide-mobile {
     display: none; } }
 body {
+  -webkit-font-smoothing: antialiased;
   font-family: "Lato", sans-serif !important; }
   body #company-header, body #support-side {
     display: none; }
