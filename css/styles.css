@@ -552,6 +552,9 @@ footer {
   background-color: #ffffff;
   font-size: 13px;
   font-family: "Lato", sans-serif; }
+  footer a:hover {
+    text-decoration: none;
+    opacity: 0.65; }
   footer .content-area .top-footer-region {
     font-size: 13px;
     color: #757575;
