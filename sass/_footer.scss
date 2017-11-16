@@ -1,7 +1,6 @@
 // begin new footer styles
 footer {
-  padding-top: 40px;
-  border-top: 3px solid $gray-footer;
+  padding-top: 40px;  
   color: $subtle-text;
   overflow: hidden;
   background-color: $white;
@@ -273,8 +272,7 @@ footer {
 
     .content-area {
 
-      .top-footer-region {
-        padding-bottom: 62px;
+      .top-footer-region {        
 
         .top-footer-region-content {
           margin: 0 1.5em;
