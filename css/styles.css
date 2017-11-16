@@ -609,13 +609,13 @@ footer {
     display: inline-block;
     width: 65%;
     vertical-align: top;
-    text-align: center;
-    padding-left: 40px; }
+    text-align: center; }
     footer #block-menu-block-3 .parent-menu-ul {
       margin-top: 0;
       text-align: left;
       font-size: 14px;
-      color: #3a3a3a; }
+      color: #3a3a3a;
+      padding-left: 40px; }
       footer #block-menu-block-3 .parent-menu-ul .parent-menu-item {
         width: 32%;
         display: inline-block;

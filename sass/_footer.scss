@@ -107,14 +107,14 @@ footer {
     display: inline-block;
     width: 65%;
     vertical-align: top;
-    text-align: center;
-    padding-left: 40px;
+    text-align: center;    
 
     .parent-menu-ul {
       margin-top: 0;
       text-align: left;
       font-size: 14px;
       color: $base-text-color-2;
+      padding-left: 40px;
 
       .parent-menu-item {
         width: 32%;
