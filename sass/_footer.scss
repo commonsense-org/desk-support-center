@@ -48,6 +48,7 @@ footer {
     }
 
     .bottom-footer-region {
+      border-top: 1px solid $gray-footer;
       font-size: 14px;
       color: $heading-color;
       background-color: $background-neutral;
@@ -55,8 +56,7 @@ footer {
       .bottom-footer-region-content {
         max-width: 1000px;
         padding: 15px 12px 20px;
-        margin: 0 auto;
-        border-top: 1px solid $gray-footer;
+        margin: 0 auto;        
         color: $heading-color;
 
         .privacy-container {
@@ -92,7 +92,7 @@ footer {
 
         .trademark {
           display: inline-block;
-          width: 50%;
+          width: 49%;
           font-size: 11px;
         }
       }

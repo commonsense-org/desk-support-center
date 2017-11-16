@@ -572,6 +572,7 @@ footer {
     footer .content-area .top-footer-region .location {
       padding-top: 30px; }
   footer .content-area .bottom-footer-region {
+    border-top: 1px solid #c5c5c5;
     font-size: 14px;
     color: #3a3a3a;
     background-color: #f2f3ef; }
@@ -579,7 +580,6 @@ footer {
       max-width: 1000px;
       padding: 15px 12px 20px;
       margin: 0 auto;
-      border-top: 1px solid #c5c5c5;
       color: #3a3a3a; }
       footer .content-area .bottom-footer-region .bottom-footer-region-content .privacy-container {
         display: inline-block;
@@ -599,7 +599,7 @@ footer {
             content: ''; }
       footer .content-area .bottom-footer-region .bottom-footer-region-content .trademark {
         display: inline-block;
-        width: 50%;
+        width: 49%;
         font-size: 11px; }
   footer .about-us {
     display: inline-block;
