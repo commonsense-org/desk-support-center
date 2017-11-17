@@ -713,75 +713,77 @@ footer {
       line-height: 17px; } }
 /* mobile styles */
 @media only screen and (max-width: 768px) {
-  footer .content-area .top-footer-region .top-footer-region-content {
-    margin: 0 1.5em; }
-    footer .content-area .top-footer-region .top-footer-region-content .about-us {
-      display: block;
-      clear: both;
-      padding-top: 40px;
-      padding-bottom: 20px;
-      max-width: 100%;
-      text-align: center;
-      border-bottom: 1px solid #c5c5c5; }
-      footer .content-area .top-footer-region .top-footer-region-content .about-us .about-us-text {
-        max-width: 100%; }
-    footer .content-area .top-footer-region .top-footer-region-content .twitter-footer {
-      width: 100%;
-      max-width: 100%; }
-  footer .content-area .bottom-footer-region {
-    clear: both; }
-    footer .content-area .bottom-footer-region .bottom-footer-region-content {
-      width: 100%; }
-    footer .content-area .bottom-footer-region .privacy-container-wrapper .privacy-container, footer .content-area .bottom-footer-region .privacy-container-wrapper .trademark {
-      width: 100%;
-      padding-top: 20px; }
-  footer #block-menu-block-3 {
-    width: 100%; }
-    footer #block-menu-block-3 .parent-menu-ul {
-      padding-left: 0; }
-      footer #block-menu-block-3 .parent-menu-ul .parent-menu-item {
-        position: relative;
+  footer {
+    padding-top: 0; }
+    footer .content-area .top-footer-region .top-footer-region-content {
+      margin: 0 1.5em; }
+      footer .content-area .top-footer-region .top-footer-region-content .about-us {
         display: block;
+        clear: both;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        max-width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #c5c5c5; }
+        footer .content-area .top-footer-region .top-footer-region-content .about-us .about-us-text {
+          max-width: 100%; }
+      footer .content-area .top-footer-region .top-footer-region-content .twitter-footer {
         width: 100%;
-        max-height: 42px;
-        padding: 10px;
-        overflow: hidden;
-        border-bottom: 1px solid #c5c5c5;
-        transition: 0.3s all; }
-        footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:after {
-          position: absolute;
-          top: 17px;
-          right: 15px;
-          width: 15px;
-          height: 15px;
-          content: ' ';
-          background: url(../images/icons/icon_rightArrow.svg) no-repeat;
-          transform: rotate(90deg);
-          transition: all,0.2s ease-in-out; }
-        footer #block-menu-block-3 .parent-menu-ul .parent-menu-item.expanded {
-          max-height: 400px;
-          transition: 0.3s all; }
-          footer #block-menu-block-3 .parent-menu-ul .parent-menu-item.expanded:after {
-            transform: rotate(270deg); }
-        footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(1), footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(2), footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(3) {
+        max-width: 100%; }
+    footer .content-area .bottom-footer-region {
+      clear: both; }
+      footer .content-area .bottom-footer-region .bottom-footer-region-content {
+        width: 100%; }
+      footer .content-area .bottom-footer-region .privacy-container-wrapper .privacy-container, footer .content-area .bottom-footer-region .privacy-container-wrapper .trademark {
+        width: 100%;
+        padding-top: 20px; }
+    footer #block-menu-block-3 {
+      width: 100%; }
+      footer #block-menu-block-3 .parent-menu-ul {
+        padding-left: 0; }
+        footer #block-menu-block-3 .parent-menu-ul .parent-menu-item {
+          position: relative;
+          display: block;
           width: 100%;
-          padding-top: 10px; }
-  footer #social-media {
-    display: block;
-    width: 100%;
-    padding-bottom: 8px; }
-    footer #social-media #connect-header {
-      padding-bottom: 0;
-      margin-top: 0; }
-    footer #social-media .social-link-wrapper .social-item {
-      display: inline-block;
-      width: 25px;
-      margin-right: 12px;
-      line-height: 22.5px; }
-      footer #social-media .social-link-wrapper .social-item .link-icon {
-        background-repeat: no-repeat; }
-      footer #social-media .social-link-wrapper .social-item .link-label {
-        display: none; } }
+          max-height: 42px;
+          padding: 10px;
+          overflow: hidden;
+          border-bottom: 1px solid #c5c5c5;
+          transition: 0.3s all; }
+          footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:after {
+            position: absolute;
+            top: 17px;
+            right: 15px;
+            width: 15px;
+            height: 15px;
+            content: ' ';
+            background: url(../images/icons/icon_rightArrow.svg) no-repeat;
+            transform: rotate(90deg);
+            transition: all,0.2s ease-in-out; }
+          footer #block-menu-block-3 .parent-menu-ul .parent-menu-item.expanded {
+            max-height: 400px;
+            transition: 0.3s all; }
+            footer #block-menu-block-3 .parent-menu-ul .parent-menu-item.expanded:after {
+              transform: rotate(270deg); }
+          footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(1), footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(2), footer #block-menu-block-3 .parent-menu-ul .parent-menu-item:nth-of-type(3) {
+            width: 100%;
+            padding-top: 10px; }
+    footer #social-media {
+      display: block;
+      width: 100%;
+      padding-bottom: 8px; }
+      footer #social-media #connect-header {
+        padding-bottom: 0;
+        margin-top: 0; }
+      footer #social-media .social-link-wrapper .social-item {
+        display: inline-block;
+        width: 25px;
+        margin-right: 12px;
+        line-height: 22.5px; }
+        footer #social-media .social-link-wrapper .social-item .link-icon {
+          background-repeat: no-repeat; }
+        footer #social-media .social-link-wrapper .social-item .link-label {
+          display: none; } }
 /* small phone styles */
 @media (min-width: 768px) {
   @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i"); }
