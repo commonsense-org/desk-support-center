@@ -282,8 +282,7 @@ footer {
 
     .content-area {
 
-      .top-footer-region {       
-        padding-bottom: 62px; 
+      .top-footer-region {             
 
         .top-footer-region-content {
           margin: 0 1.5em;
@@ -311,6 +310,8 @@ footer {
       }
 
       .bottom-footer-region {
+        clear: both;
+
 
         .bottom-footer-region-content {
           width: 100%;
@@ -386,6 +387,7 @@ footer {
     #social-media {
       display: block;
       width: 100%;
+      padding-bottom: 8px;
 
       #connect-header {
         padding-bottom: 0;
