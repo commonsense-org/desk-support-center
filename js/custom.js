@@ -1,3 +1,5 @@
+// THIS MUST BE ADDED INLINE TO THE DESK HTML DOC
+
 if ($( window ).width() < 500) {
 
     $(".slick-target").slick();
@@ -21,13 +23,13 @@ rows.each(function(index, row) {
     var link = td.find('h5 a').attr('href');
     h4.wrap('<a href="' + link + '" target="_blank"></a>');
   });
-}); 
-  
+});
+
 var set = false;
 if (window.location.pathname.slice(window.location.pathname.length - 8) === 'articles') {
   $('#company-support-portal').addClass('topics');
   set = true;
-} 
+}
 if (window.location.pathname.slice(window.location.pathname.length - 6) === 'search') {
   $('#company-support-portal').addClass('topics search-page');
   set = true;
@@ -54,7 +56,7 @@ if (!set && window.location.pathname !== '/') {
     // show the twitter section after loaded
     twitterDiv.show();
   }, 2500);
-  
+
 // make the footer links clickable
 $('.row-8 .url-open').click(function() {
   var url = $(this).attr('data');

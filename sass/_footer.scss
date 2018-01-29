@@ -1,6 +1,6 @@
 // begin new footer styles
 footer {
-  padding-top: 40px;  
+  padding-top: 40px;
   color: $subtle-text;
   overflow: hidden;
   background-color: $white;
@@ -8,7 +8,7 @@ footer {
   font-family: $lato;
 
   a {
-    
+
     &:hover {
       text-decoration: none;
       opacity: 0.65;
@@ -17,7 +17,7 @@ footer {
 
   .content-area {
 
-    .top-footer-region {      
+    .top-footer-region {
       font-size: 13px;
       color: $gray-arrow;
       background-color: $white;
@@ -56,7 +56,7 @@ footer {
       .bottom-footer-region-content {
         max-width: 1000px;
         padding: 15px 12px 20px;
-        margin: 0 auto;        
+        margin: 0 auto;
         color: $heading-color;
 
         .privacy-container {
@@ -107,7 +107,7 @@ footer {
     display: inline-block;
     width: 65%;
     vertical-align: top;
-    text-align: center;    
+    text-align: center;
 
     .parent-menu-ul {
       margin-top: 0;
@@ -283,7 +283,7 @@ footer {
 
     .content-area {
 
-      .top-footer-region {             
+      .top-footer-region {
 
         .top-footer-region-content {
           margin: 0 1.5em;
@@ -459,6 +459,6 @@ footer {
 
 /* small phone styles */
 @media only screen and (max-width: 480px) {
-  
+
 }
 
