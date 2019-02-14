@@ -1,0 +1,23 @@
+{
+  "name": "cs-support-center",
+  "version": "1.0.0",
+  "description": "Resources for Common Sense Support Center",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commonsense-org/desk-support-center.git"
+  },
+  "author": "Common Sense Media",
+  "bugs": {
+    "url": "https://github.com/elawrencecs/desk-support-center/issues"
+  },
+  "homepage": "https://github.com/commonsense-org/desk-support-center#readme",
+  "private": true
+}
