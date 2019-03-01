@@ -1,2 +1,9 @@
+.DS_Store
 .sass-cache/*/**
 css/styles.css.map
+.netlify
+node_modules
+
+# Temp/dev folders
+.tmp
+docs/support-center
