@@ -8,6 +8,9 @@
   },
   "scripts": {
     "start": "python -m SimpleHTTPServer",
+    "build": "node index.js",
+    "deploy": "netlify deploy --prod --dir=./docs",
+    "netlify": "npm run build && npm run deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,10 @@
     "url": "https://github.com/elawrencecs/desk-support-center/issues"
   },
   "homepage": "https://github.com/commonsense-org/desk-support-center#readme",
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "nodemon": "^1.18.10",
+    "sass": "^1.17.0"
+  },
   "private": true
 }
