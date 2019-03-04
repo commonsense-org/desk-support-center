@@ -1,5 +1,11 @@
 @import './variables.scss';
 
+.siteforceContentArea {
+	max-width: 68%;
+	margin: auto;
+}
+
+// @TODO: Remove Below
 body {
 	#support-main {
 
