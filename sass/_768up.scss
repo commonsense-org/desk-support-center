@@ -5,6 +5,17 @@
 	}
 }
 
+.cs-tpl-header {
+	height: 65px;
+	.col-centered {
+		float: none;
+	}
+
+	.navbar-brand {
+		padding-top: 22px;
+	}
+}
+
 body {
 	#support-header {
 		height: 230px;
