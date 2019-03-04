@@ -357,7 +357,7 @@ body {
 		width: 100%;
 	}
 	#footer {
-		display: none;
+		// display: none;
 	}
 }
 
@@ -852,7 +852,8 @@ body #company-support-portal .bottom-nav.navbar {
     }
   }
   .navbar-collapse {
-    background-color: #2f2f2f;
+    // background-color: #2f2f2f;
+    background-color: transparent;
     color: #fff;
     ul {
     	display: none;
@@ -908,7 +909,34 @@ body #company-support-portal .bottom-nav.navbar {
 }
 
 
+.cs-tpl-header {
+	nav.navbar-default {
+		border: none;
+		box-shadow: none;
+		min-height: 65px;
+	}
+
+	.nav.bottom-nav {
+		margin-bottom: 0;
+	}
+}
+
 .cs-tpl-footer-cap {
 	padding: 20px 25px 20px;
 	font-size: 20px;
+}
+
+.hero {
+	.contentContainer {
+		padding-bottom: 1rem;
+	}
+
+	h2.contentTitle {
+		font-size: 40px;
+		font-family: "Lato", sans-serif !important;
+	}
+
+	div.searchRegion {
+		margin-top:	1.75rem;
+	}
 }
