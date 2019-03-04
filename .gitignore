@@ -6,4 +6,11 @@ node_modules
 
 # Temp/dev folders
 .tmp
-docs/support-center
+/docs/support-center
+
+# TEMPORARY
+# docs
+docs/css/
+docs/images
+docs/js/boot*
+docs/js/jquery*
