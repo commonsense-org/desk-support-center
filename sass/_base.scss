@@ -93,7 +93,7 @@ body {
 						border-bottom: 0;
 						h4 {
 							margin-bottom: 5px;
-							font-weight: bold;
+							font-weight: 400;
 							color: $green_links !important;
 							font-size: 20px;
 							line-height: 26px;
@@ -919,7 +919,7 @@ body #company-support-portal .bottom-nav.navbar {
 		&.navbar-default {
 			border: none;
 			box-shadow: none;
-			min-height: 65px;
+			min-height: $headerHeight;
 		}
 
 		&.bottom-nav {
@@ -981,6 +981,11 @@ body #company-support-portal .bottom-nav.navbar {
 			}
 		}
 		.slick-target {
+			@media (min-width: 970px) {
+				max-width: 68%;
+				margin: auto;
+			}
+
 			.slick-arrow {
 				z-index: 99999;
 			}
@@ -1033,3 +1038,54 @@ body #company-support-portal .bottom-nav.navbar {
 		padding-bottom: 1.5rem;
 	}
 }
+
+
+// Theme header widget
+.header {
+	.themeHeader.forceCommunityThemeHeaderBase {
+		// position: absolute;
+		// top: $headerHeightNegative;
+		// right: 0;
+		// width: 80px;
+
+		// Hide unused elements
+		// .themeNav,
+		.themeBottomBorder,
+		.themeUtils,
+		.themeLogo {
+			visibility: hidden;
+		}
+		
+
+		// .themeHeaderInner {
+		// 	padding-top: 25px !important;
+		// }
+
+		// @media (min-width: 768px) {
+		// 	.themeHeaderInner {
+		// 		padding-top: 25px !important;
+		// 		padding-bottom: 45px !important;
+		// 	}
+		// }
+	}
+	// # Header fixes
+	// .themeHeader.forceCommunityThemeHeaderBase {
+	// 	position: absolute;
+	// 	top: $headerHeightNegative;
+	// 	left: 0;
+	// 	width: 60px;
+	// 	overflow: hidden;
+	// 	padding: 1rem;
+
+	// 	.themeHeaderInner {
+	// 		height: 1rem;
+	// 		padding-top: 1rem !important;
+	// 	}
+
+	// 	.themeBgImage, .themeBottomBorder {
+	// 		display: none;
+	// 		visibility: hidden;
+	// 	}
+	// }
+}
+

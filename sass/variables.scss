@@ -16,6 +16,9 @@ $base-text-color: #56595a;
 $base-text-color-2: #3a3a3a;
 $hidden-text: #707070;
 
+$headerHeight: 65px;
+$headerHeightNegative: $headerHeight * -1;
+
 @mixin transition($time, $ease, $more) {
 -webkit-transition: -webkit-transform $time $ease, $more;
 -moz-transition: -moz-transform $time $ease, $more;

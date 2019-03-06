@@ -1,4 +1,4 @@
-var normalizeHomeLink  =  function () {
+var normalizeHomeLinks = function () {
   var homeURL = window.location.origin
   // Check for preview mode
   var isPreviewMode = window.location.pathname.indexOf('/membersupport/') > -1;
@@ -8,7 +8,8 @@ var normalizeHomeLink  =  function () {
     homeURL += '/membersupport/s/'
   }
   var homeLinks = jQuery('.home-link').attr('href', homeURL);
-
+  console.log('homeLinks', homeLinks);
+  
   return homeURL;
 }
 
@@ -20,7 +21,7 @@ var postProcess = setTimeout(function () {
       jQuery(this).toggleClass('expanded');
     }); 
 
-    normalizeHomeLink();
+    normalizeHomeLinks();
 
     // Setup slick slider if needed
     if (jQuery( window ).width() < 500) {
