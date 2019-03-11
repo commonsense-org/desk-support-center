@@ -5,24 +5,28 @@
 	margin: auto;
 }
 
+.forceCommunityThemeHeroStarter .searchRegion {
+	width: 66%;
+}
+
 // @TODO: Remove Below
 body {
 	#support-main {
 		.row-1.topics-container {
 			padding: 0;
-			padding-left: 5%;
-			margin-right: 0;
-			margin-left: 0;
 			padding-top: 2rem;
-			table {
-				tbody {
-					tr {
-						display: inline-block;
-						width: 33%;
-						max-width: inherit;
-					}
-				}
-			}
+		// 	padding-left: 5%;
+		// 	margin-right: 0;
+		// 	margin-left: 0;
+		// 	table {
+		// 		tbody {
+		// 			tr {
+		// 				display: inline-block;
+		// 				width: 33%;
+		// 				max-width: inherit;
+		// 			}
+		// 		}
+		// 	}
 		}
 
 		.row-2, .row-3, .row-3a, .row-3b, .row-3c, .row-3d {
