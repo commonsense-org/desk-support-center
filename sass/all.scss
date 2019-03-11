@@ -1,8 +1,9 @@
 @import './_base.scss';
+@import './_service-cloud.scss';
 @import './_footer.scss';
 @media (min-width: 768px) {
 	@import './_768up.scss';
 }
 @media (min-width: 970px) {
-	@import './_970up.scss'
+	@import './_970up.scss';
 }

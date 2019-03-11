@@ -1,0 +1,303 @@
+// Service Cloud Specific 
+@import './service-cloud-topic-catalog.scss';
+
+.comm-page-home {
+  .topics-header {
+    border-top: 1px solid #ccc;
+  }
+}
+
+.body {
+  font-family: "Lato",Arial,Helvetica,sans-serif;
+  color: #4a4a4a;
+  font-size: 1rem;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+  }
+
+  a {
+    &:visited {
+      color: #249a10;
+      text-decoration: none;
+    }
+    
+    &:link, &:visited:link {
+      -webkit-tap-highlight-color: rgba(36,154,16,0.33);
+      transition: color 0.17s ease-out 0s false false;
+    }
+
+    h3.article-head {
+      color: #249a10;
+      text-decoration: none;
+      font-weight: normal
+    }
+  }
+
+	.contentRegion > div {
+		padding-top: 2rem;
+	}
+}
+
+// Fix link sizing in right column
+li {
+  .slds-text-body_small, 
+  .slds-text-body--small {
+    font-size: 1rem;
+  }
+}
+
+
+article {
+  .selfServiceTopicArticleList,
+  .selfServiceArticleListItem ,
+  .selfServiceArticleHeaderDetail,
+  .article-summary {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  p.article-summary {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
+
+
+
+.selfServiceArticleLayout.zoom article .article-head,
+article .article-head {
+  padding-top: 0;
+  margin-top: 0;
+  
+  font-size: 1.7rem;
+  font-weight: normal;
+  line-height: 1.33em;
+  color: #3a3a3a;
+  text-rendering: optimizelegibility;
+
+  h3 {
+    font-weight: normal;
+
+  }
+}
+
+.forceCommunityHeadline,
+.body {
+	h1.headlineTitle {
+		font-size: 1.8rem;
+    font-weight: normal;
+    text-align: left;
+    span {
+      text-align: left;
+    }
+  }
+  
+  .selfServiceTopicTrendingArticles42 > h2,
+  .selfServiceSimilarArticles42 > h2,
+  h2 {
+    font-size: 1.2em;
+    font-weight: normal
+	}
+}
+
+.hero {
+	.bgImage {
+		background: linear-gradient(to right, #028bc6, #10cc71) !important;
+	}
+}
+
+.helpCenterHomeHero {
+	padding-top: 24px !important;
+	padding-bottom: 24px !important;
+
+	h2.contentTitle {
+		font-size: 2.5rem;
+		font-family: "Lato", sans-serif !important;
+	}
+
+	.searchRegion {
+		margin-top: 0.5rem !important;
+	}
+}
+
+.forceCommunityThemeSearch.helpCenterHomeHero {
+	
+	.search-box {
+		.search-inputSearchButton {
+			&.search-inputSearchButton--right {
+				background-color: $green_links;
+	
+				&:hover {
+					background-color: $green !important;
+				}
+			}
+		}
+	}
+}
+
+
+.cs-tpl-header {
+	nav {
+
+		&.navbar {
+			margin-bottom: 0;
+		}
+
+		&.navbar-default {
+			border: none;
+			box-shadow: none;
+			min-height: $headerHeight;
+		}
+
+		&.bottom-nav {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.cs-tpl-footer-cap {
+	padding: 20px 25px 20px;
+	font-size: 20px;
+}
+
+.hero {
+	.contentContainer {
+		padding-bottom: 1rem;
+	}
+
+	h2.contentTitle {
+		font-size: 40px;
+		font-family: "Lato", sans-serif !important;
+	}
+
+	div.searchRegion {
+		margin-top:	1.75rem;
+	}
+}
+
+
+.cs-tpl-footer {
+  margin-top: 3rem;
+  &.row {
+    margin-top: 3rem;
+  }
+
+	// Slick footer styles
+	.cs-slick-wrapper {
+		padding: 35px 20px 35px;
+		background-color: #e6e7e3;
+
+		.container-hl {
+			font-size: 22px;
+		}
+
+		.col-xs-8 {
+			color: $green_links;
+			> .container-hl {
+				display: table;
+				height: 210px;
+				width: 210px;
+				margin: 0 auto;
+		    border-radius: 50%;
+				background-color: $white;
+				> div {
+			    vertical-align: middle;
+			    display: table-cell;
+					position: relative;
+					text-align: center;
+					padding: 0 15px;
+					> a {
+						color: $green_links;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.slick-target {
+			@media (min-width: 970px) {
+				max-width: 68%;
+				margin: auto;
+			}
+
+			.slick-arrow {
+				z-index: 99999;
+			}
+			.slick-prev {
+				top: 125px;
+				left: -1%;
+		    bottom: 0px;
+		    position: relative;
+		    &:before {
+		    	display: inline-block;
+		    	height: 32px;
+		    	width: 18px;
+		    	content: " ";
+		    	background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+		    	-ms-transform: rotate(7deg); /* IE 9 */
+	  	    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	  	    transform: rotate(180deg);
+		    }
+			}
+			.slick-next {
+		    position: relative;
+		    top: -103px;
+		    left: 95%;
+		    height: 40px;
+		    z-index: 999999;
+	      &:before {
+	      	display: inline-block;
+			    width: 18px;
+	        background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+	        // background-size: cover;
+	        height: 32px;
+	        content: " ";
+	      }
+			}
+		}
+	}
+	// End of Slick
+
+	.top-footer-region-content {
+		padding-bottom: 1.5rem;
+	}
+}
+
+// Hide header nav for now
+// .themeLayoutStarterWrapper > .header {
+// 	display: none;
+// 	visibility: hidden;
+// }
+
+// Theme header widget
+.header {
+	.themeHeader.forceCommunityThemeHeaderBase {
+		// Hide unused elements
+		// .themeNav,
+		.themeBottomBorder,
+		.themeUtils,
+		.themeLogo {
+			visibility: hidden;
+    }
+  }
+}
+
+
+// Top Articles
+body.comm-page-top-articles {
+  .article-title,
+  .slds-text-title {
+    font-size: 1em;
+  }
+
+  .forceCommunityTopArticleListForTopic {
+    width: 50%;
+  }
+}
+
+body.comm-page-topic {
+  .selfServiceBaseArticleList,
+  .selfServiceBaseArticleList .empty {
+    font-size: 1rem;
+  }
+}
