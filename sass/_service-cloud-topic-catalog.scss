@@ -1,84 +1,125 @@
+// Style general topic catalog
+.forceCommunityTopicCatalog {
+  h1.slds-text-heading--medium,
+  h1.slds-text-heading--medium a {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: $black;
+  }
+
+  ul {
+    div.topicHierarchy-topBox {
+      border-top: 1px solid #ccc;
+      padding-top: 2rem;
+      &:first-child {
+        border-top: none;
+        padding-top: 0;
+      }
+      margin-bottom: 2rem;
+    }
+  }
+
+  h2 {
+    &.slds-text-heading--small {
+      a {
+        color: $green_links;
+        text-decoration: none !important;
+        &:hover {
+          color: $black !important;
+        }
+      }
+    }
+  }
+}
+
+
+// Style topic catalog how it should look on home page
 .comm-page-home {
   .forceCommunityTopicCatalog {
     &> ul {
       padding: 0 5%;
     }
   }
-}
 
-.forceCommunityTopicCatalog {
-  padding-top: 2rem;
-  ul {
-    display: flex;
-    flex-wrap: wrap;
+  .forceCommunityTopicCatalog {
+    padding-top: 2rem;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
 
-    div.topicHierarchy-topBox {
-      border-top: none;
-      padding-bottom: 3rem;
-      li {
+      div.topicHierarchy-topBox {
+        border-top: none;
+        padding-bottom: 3rem;
+        li {
+          display: block;
+          width: 100%;
+        }
+        &:first-child {
+          border-top: none;
+          padding-top: 2rem;
+        }
+      }
+    }
+
+    .topicHierarchy-topBox {
+      flex: 1 0 48%; /* explanation below */
+      margin: 5px;
+
+      &:nth-child(1)::before {
         display: block;
-        width: 100%;
+        width: 46px;
+        content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/star.svg);
       }
-    }
-  }
 
-  .topicHierarchy-topBox {
-    flex: 1 0 48%; /* explanation below */
-    margin: 5px;
+      &:nth-child(2)::before {
+        display: block;
+        width: 46px;
+        content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/house.svg);
+      }
 
-    &:nth-child(1)::before {
-      display: block;
-      width: 46px;
-      content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/star.svg);
-    }
+      &:nth-child(3)::before {
+        display: block;
+        width: 46px;
+        content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/computer.svg);
+      }
 
-    &:nth-child(2)::before {
-      display: block;
-      width: 46px;
-      content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/house.svg);
-    }
+      &:nth-child(4)::before {
+        display: block;
+        width: 46px;
+        content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/shield.svg);
+      }
 
-    &:nth-child(3)::before {
-      display: block;
-      width: 46px;
-      content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/computer.svg);
-    }
-
-    &:nth-child(4)::before {
-      display: block;
-      width: 46px;
-      content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/shield.svg);
-    }
-
-    h1 {
-      &.slds-text-heading--medium {
-        margin: 0;
-        padding-bottom: 15px;
-        a.topicHierarchy-top {
-          color: #3a3a3a;
-          font-size: 20px;
-          text-decoration: none;
-          &:hover {
+      h1 {
+        &.slds-text-heading--medium {
+          margin: 0;
+          padding-bottom: 15px;
+          a.topicHierarchy-top {
+            color: #3a3a3a;
+            font-size: 20px;
             text-decoration: none;
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
       }
-    }
 
-    h2 {
-      &.slds-text-heading--small {
-        a {
-          color: #3a3a3a;
-          text-decoration: none !important;
-          &:hover {
-            color: #1e800d !important;
-          }
+      h2 {
+        &.slds-text-heading--small {
+          a {
+            color: #3a3a3a;
+            text-decoration: none !important;
+            &:hover {
+              color: #1e800d !important;
+            }
 
-          &.topicHierarchy-child {
-            display: block;
+            &.topicHierarchy-child {
+              display: block;
+            }
           }
         }
       }
     }
   }
+
 }
