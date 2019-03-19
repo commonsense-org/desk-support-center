@@ -44,22 +44,55 @@ li {
   .slds-text-body_small, 
   .slds-text-body--small {
     font-size: 1rem;
+    font-weight: normal;
+  }
+}
+
+.siteforceContentArea {
+  .selfServiceTopicArticleList .selfServiceArticleListItem .article-summary {
+    font-size: $body-copy-size;
+    font-weight: normal;
   }
 }
 
 
+.selfServiceArticleLayout.zoom .article-summary,
+.article-list,
+article.content,
+article.summary,
 article {
+  font-size: $body-copy-size;
+
   .selfServiceTopicArticleList,
   .selfServiceArticleListItem ,
   .selfServiceArticleHeaderDetail,
-  .article-summary {
-    font-size: 1rem;
-    font-weight: normal;
+  .selfServiceArticleLayout {
+    .article-summary {
+      font-size: $body-copy-size;
+      font-weight: normal;
+    }
   }
 
   p.article-summary {
-    font-size: 1rem;
+    font-size: $body-copy-size;
     font-weight: normal;
+  }
+
+  .selfServiceArticleLayout.zoom {
+    .article-summary  {
+      font-size: $body-copy-size;
+    }
+  }
+
+  p.article-summary {
+    font-size: $body-copy-size;
+  }
+
+  .selfServiceArticleLayout.zoom .forcePageBlockSectionView.full {
+    .test-id__field-value {
+      font-size: 1.15em;
+      line-height: 1.4em;
+    }
   }
 }
 
@@ -288,6 +321,7 @@ body.comm-page-top-articles {
   .article-title,
   .slds-text-title {
     font-size: 1em;
+    font-weight: normal;
   }
 
   .forceCommunityTopArticleListForTopic {
