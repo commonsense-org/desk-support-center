@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+  .navbar-brand.home-link {
+    position: relative;
+    top: 5px;
+  }
+
+	.themeLayoutStarterWrapper {
+    .hero {
+      div.forceCommunityThemeHeroBase {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+      }
+    }
+
+    &> .header {
+      position: absolute;
+      top: -55px;
+      right: 0;
+      width: 50%;
+
+      .themeNavTriggerContainer {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+      }
+
+      .themeBgImage {
+        background: transparent !important;
+      }
+
+      .themeNav {
+        top: 65px;
+
+        .forceCommunityThemeNav .mainNavItem {
+          background: $white !important;
+        }
+      }
+
+      .themeNavOverlay {
+        top: 65px;
+      }
+
+    }
+  }
+}

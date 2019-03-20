@@ -1,5 +1,6 @@
 // Service Cloud Specific 
 @import './service-cloud-topic-catalog.scss';
+@import './service-cloud-mobile-nav.scss';
 
 .comm-page-home {
   .topics-header {
@@ -307,7 +308,7 @@ article .article-head {
 	}
 }
 
-// Hide header nav for now
+// Uncomment to hide .header region
 // .themeLayoutStarterWrapper > .header {
 // 	display: none;
 // 	visibility: hidden;
@@ -317,7 +318,6 @@ article .article-head {
 .header {
 	.themeHeader.forceCommunityThemeHeaderBase {
 		// Hide unused elements
-		// .themeNav,
 		.themeBottomBorder,
 		.themeUtils,
 		.themeLogo {
