@@ -55,6 +55,9 @@ li {
   }
 }
 
+li.selfServiceArticleListItem:first-child {
+	padding-top: 0;
+}
 
 .selfServiceArticleLayout.zoom .article-summary,
 .article-list,
@@ -234,12 +237,20 @@ article .article-head {
 				margin: 0 auto;
 		    border-radius: 50%;
 				background-color: $white;
+
+				&:hover {
+					background-color: $green_links;
+					a {
+						color: $white;
+					}
+				}
+
 				> div {
 			    vertical-align: middle;
 			    display: table-cell;
 					position: relative;
 					text-align: center;
-					padding: 0 15px;
+					padding: 0 30px;
 					> a {
 						color: $green_links;
 						text-decoration: none;
