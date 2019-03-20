@@ -8,8 +8,6 @@ var normalizeHomeLinks = function () {
     homeURL += '/membersupport/s/'
   }
   var homeLinks = jQuery('.home-link').attr('href', homeURL);
-  console.log('homeLinks', homeLinks);
-  
   return homeURL;
 }
 
@@ -22,15 +20,38 @@ var postProcess = setTimeout(function () {
     }); 
 
     normalizeHomeLinks();
+    csWatchForModal('.themeLayoutStarterWrapper');
 
     // Setup slick slider if needed
     if (jQuery( window ).width() < 500) {
-      console.log('Format Slick');
+      // Fomrat slick elements
       jQuery(".slick-target").slick();
-    } else {
-      console.log('No Slick');
     }
   } else {
     console.warn('jQuery not found')
   }
 }, 2000)
+
+// Watch for modal changes
+var csWatchForModal = function (targetEl) {
+  var $el = jQuery(targetEl);
+  var $body = jQuery('body');
+  if ($el.length) {
+    var config = { attributes: true, subtree: false };
+    var observer = new MutationObserver(function (mutationsList, observer) {
+      for(var mutation of mutationsList) {
+        if (mutation.type == 'attributes' && mutation.attributeName == 'class') {
+          var hasNoScroll = $el.hasClass('no-scroll');
+          if (hasNoScroll) {
+            $body.addClass('cs-no-scroll');
+          } else {
+            $body.removeClass('cs-no-scroll');
+          }
+        }
+      }
+    });
+    observer.observe($el[0], config);
+  } else {
+    console.warn('could not find modal observation target')
+  }
+}

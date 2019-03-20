@@ -4,7 +4,38 @@
     top: 5px;
   }
 
+  #social-media {
+    padding-top: 1rem;
+  }
+
+  // Prevent scrolling of CMS html ajax elements in body
+  body.cs-no-scroll {
+    .cs-tpl-header {
+      min-height: 65px;
+      width: 100%;
+      nav {
+        position: fixed;
+        width: 100%;
+      }
+    }
+
+    .cs-tpl-footer {
+      width: 100%;
+      visibility: hidden;
+      &> div {
+        position: fixed;
+      }
+    }
+  }
+
 	.themeLayoutStarterWrapper {
+    // Prevent scrolling of CMS html ajax elements in body
+    &.no-scroll {
+      .cs-tpl {
+        position: fixed;
+      }
+    }
+
     .hero {
       div.forceCommunityThemeHeroBase {
         padding-top: 3rem !important;
