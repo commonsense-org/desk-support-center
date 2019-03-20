@@ -1,10 +1,10 @@
 var normalizeHomeLinks = function () {
   var homeURL = window.location.origin
   // Check for preview mode
-  var isPreviewMode = window.location.pathname.indexOf('/membersupport/') > -1;
-  if (window.location.host.indexOf('.force.com')) isPreviewMode = true;
+  var overwriteHomeLink = window.location.pathname.indexOf('/membersupport/') > -1;
+  if (window.location.host.indexOf('.force.com')) overwriteHomeLink = true;
   
-  if (isPreviewMode) {
+  if (overwriteHomeLink) {
     homeURL += '/membersupport/s/'
   }
   var homeLinks = jQuery('.home-link').attr('href', homeURL);
