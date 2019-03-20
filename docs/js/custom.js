@@ -23,7 +23,7 @@ var postProcess = setTimeout(function () {
     csWatchForModal('.themeLayoutStarterWrapper');
 
     // Setup slick slider if needed
-    if (jQuery( window ).width() < 500) {
+    if (jQuery( window ).width() < 768) {
       // Fomrat slick elements
       jQuery(".slick-target").slick();
     }
