@@ -4,13 +4,16 @@ css/styles.css.map
 .netlify
 node_modules
 
+# Exclude egacy files
+docs/css/styles.css
+docs/css/styles.css.map
+
 # Temp/dev folders
 .tmp
 /docs/support-center
 
-# TEMPORARY
-# docs
-docs/css/
-docs/images
-docs/js/boot*
-docs/js/jquery*
+# Uncomment for development
+# docs/css/
+# docs/images
+# docs/js/boot*
+# docs/js/jquery*
