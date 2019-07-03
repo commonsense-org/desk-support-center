@@ -8,6 +8,16 @@
   }
 }
 
+.slds-section {
+	.slds-form-element__label {
+		display: none;
+		visibility: hidden;
+	}
+}
+.selfServiceArticleHeaderDetail.article-summary {
+  display: none;
+}
+
 .body {
   font-family: "Lato",Arial,Helvetica,sans-serif;
   color: #4a4a4a;
