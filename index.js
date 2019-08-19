@@ -1,5 +1,4 @@
-// var fs = require('fs');
-var fs = require('fs-extra')
+var fs = require('fs-extra');
 var path = require('path');
 var sass = require('sass');
 var scss_filename = './sass/all.scss'
