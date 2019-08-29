@@ -54,7 +54,7 @@ footer {
       background-color: $background-neutral;
 
       .bottom-footer-region-content {
-        max-width: 1000px;
+        // max-width: 1000px;
         padding: 30px 12px;
         margin: 0 auto;
         color: $heading-color;
@@ -312,17 +312,19 @@ footer {
 
       .bottom-footer-region {
         clear: both;
-
-
+        
         .bottom-footer-region-content {
           width: 100%;
         }
-
+        
         .privacy-container-wrapper {
-
+          
           .privacy-container, .trademark {
             width: 100%;
-            padding-top: 20px;
+            padding-top: 25px;
+            padding-bottom: 5px;
+            padding-left: 50px;
+            padding-right: 50px;
           }
         }
       }
