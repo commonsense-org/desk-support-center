@@ -1227,7 +1227,6 @@ footer .content-area .bottom-footer-region {
   background-color: #f2f3ef;
 }
 footer .content-area .bottom-footer-region .bottom-footer-region-content {
-  max-width: 1000px;
   padding: 30px 12px;
   margin: 0 auto;
   color: #3a3a3a;
@@ -1435,7 +1434,10 @@ footer .copyright {
   }
   footer .content-area .bottom-footer-region .privacy-container-wrapper .privacy-container, footer .content-area .bottom-footer-region .privacy-container-wrapper .trademark {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   footer #block-menu-block-3 {
     width: 100%;
