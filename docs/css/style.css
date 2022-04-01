@@ -531,7 +531,7 @@ body .row-5 .slick-target .slick-prev:before {
   height: 32px;
   width: 18px;
   content: " ";
-  background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+  background-image: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/next_arrow.svg);
   -ms-transform: rotate(7deg);
   /* IE 9 */
   -webkit-transform: rotate(7deg);
@@ -548,7 +548,7 @@ body .row-5 .slick-target .slick-next {
 body .row-5 .slick-target .slick-next:before {
   display: inline-block;
   width: 18px;
-  background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+  background-image: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/next_arrow.svg);
   height: 32px;
   content: " ";
 }
@@ -782,22 +782,22 @@ body #company-support-portal .bottom-nav.navbar .navbar-collapse ul li div {
 .comm-page-home .forceCommunityTopicCatalog .topicHierarchy-topBox:nth-child(1)::before {
   display: block;
   width: 46px;
-  content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/star.svg);
+  content: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/star.svg);
 }
 .comm-page-home .forceCommunityTopicCatalog .topicHierarchy-topBox:nth-child(2)::before {
   display: block;
   width: 46px;
-  content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/house.svg);
+  content: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/house.svg);
 }
 .comm-page-home .forceCommunityTopicCatalog .topicHierarchy-topBox:nth-child(3)::before {
   display: block;
   width: 46px;
-  content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/computer.svg);
+  content: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/computer.svg);
 }
 .comm-page-home .forceCommunityTopicCatalog .topicHierarchy-topBox:nth-child(4)::before {
   display: block;
   width: 46px;
-  content: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/shield.svg);
+  content: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/shield.svg);
 }
 .comm-page-home .forceCommunityTopicCatalog .topicHierarchy-topBox h1.slds-text-heading--medium {
   margin: 0;
@@ -1142,7 +1142,7 @@ article .article-head h3 {
   height: 32px;
   width: 18px;
   content: " ";
-  background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+  background-image: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/next_arrow.svg);
   -ms-transform: rotate(7deg);
   /* IE 9 */
   -webkit-transform: rotate(7deg);
@@ -1159,7 +1159,7 @@ article .article-head h3 {
 .cs-tpl-footer .cs-slick-wrapper .slick-target .slick-next:before {
   display: inline-block;
   width: 18px;
-  background-image: url(https://www.commonsensemedia.org/sites/all/themes/commonsense/svg/desk_support_center/next_arrow.svg);
+  background-image: url(https://commonsense-org.github.io/desk-support-center/images/desk_support_center/next_arrow.svg);
   height: 32px;
   content: " ";
 }
