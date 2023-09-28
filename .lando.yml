@@ -1,0 +1,4 @@
+name: desk-support-center
+recipe: lamp
+config:
+  webroot: docs

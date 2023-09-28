@@ -1,0 +1,110 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/globals";
+@import "cs-commonkit/src/scss/mixins/breakpoints";
+
+.mobile-menu {
+  padding: 0;
+  margin-bottom: $cs-spacer-large;
+
+  .mobile-menu-group {
+    padding: 0 $cs-spacer-base;
+  }
+
+  &.accordion,
+  .accordion {
+    border: 0;
+    box-shadow: none;
+
+    .accordion {
+      padding-left: 0;
+
+      .accordion__item {
+        border: 0;
+      }
+
+      .accordion__header {
+        padding-top: 0;
+      }
+
+      .accordion__header-arrow {
+        top: 10px;
+      }
+
+      .accordion__body {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .accordion__item {
+    padding: 0;
+  }
+
+  .accordion__header {
+    padding: $cs-spacer-medium 0;
+    cursor: pointer;
+
+    &:not(.collapsed) {
+      h4,
+      .accordion__header-arrow {
+        font-weight: bold;
+        color: cs-color("green", 70);
+      }
+    }
+
+    h4 {
+      font-weight: normal;
+    }
+  }
+
+  .accordion__header-arrow {
+    color: cs-color("grey", 40);
+  }
+
+  .accordion__body {
+    padding-left: $cs-spacer-medium;
+
+    & > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .menu-item--depth-3 {
+    padding-bottom: $cs-spacer-medium;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .menu-item--content {
+    display: none;
+  }
+
+  .menu-item--mobile-hidden {
+    display: none;
+  }
+}
+
+.menu-hierarchical {
+  .menu-item--mobile-hidden {
+    display: none;
+  }
+
+  // Special class to show items only on the mobile hamburger menu.
+  .menu-item--depth-1 {
+    &.menu-item--mobile-hamburger {
+      display: none;
+    }
+  }
+
+  @include cs-media-breakpoint-up("lg") {
+    .menu-item--mobile-hidden {
+      display: list-item;
+    }
+
+    .menu-item--depth-1 {
+      &.menu-item--mobile-hamburger {
+        display: list-item;
+      }
+    }
+  }
+}
