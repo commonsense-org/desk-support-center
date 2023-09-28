@@ -1,0 +1,96 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/globals";
+@import "cs-commonkit/src/scss/mixins/breakpoints";
+
+// Specific styles for Spanish language.
+// The Spanish translation for these menu items is longer and the menu
+// gets broken. We might need special treatment for the Spanish version.
+// TODO: lets check with design about this usecase.
+[lang="es"] {
+  .footer-menu {
+    @include cs-media-breakpoint-up("lg") {
+      .menu-hierarchical {
+        // This is actually not ideal on English version but needed for Spanish.
+        .menu-item--depth-1 {
+          flex: 1 0 33%;
+        }
+      }
+    }
+  }
+}
+
+#footer-mobile-menu {
+  padding: 0;
+  margin-bottom: 0;
+
+  .mobile-menu-group {
+    padding: 0;
+  }
+
+  h4,
+  .menu-item--depth-3 {
+    font-size: 1rem;
+  }
+}
+
+.footer-menu {
+  margin-bottom: $cs-spacer-large;
+  border-bottom: 1px solid cs-color("grey", 30);
+
+  > .menu-hierarchical {
+    display: none;
+  }
+
+  @include cs-media-breakpoint-up("lg") {
+    padding: 0 $cs-spacer-base;
+    border-bottom: 0;
+
+    .footer-mobile-menu-wrapper {
+      display: none;
+    }
+
+    > .menu-hierarchical {
+      display: flex;
+    }
+
+    .menu-hierarchical {
+      .menu-item {
+        > a {
+          font-size: 14px;
+        }
+      }
+
+      .menu-item--active-trail {
+        background-color: transparent;
+      }
+
+      .menu-item--depth-1 {
+        flex: 1 0 auto;
+
+        > a {
+          padding: 0;
+          margin-bottom: $cs-spacer-base;
+          font-size: 15px;
+          font-weight: bold;
+          cursor: default;
+        }
+
+        > .menu {
+          position: static;
+          max-height: 400px;
+          box-shadow: none;
+        }
+
+        + .menu-item--depth-1 {
+          padding-left: $cs-spacer-medium;
+        }
+      }
+
+      .menu-item--depth-3 {
+        > a.is-active {
+          color: cs-color("black", 50);
+        }
+      }
+    }
+  }
+}

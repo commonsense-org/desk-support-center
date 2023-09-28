@@ -1,0 +1,46 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/globals";
+@import "cs-commonkit/src/scss/mixins/breakpoints";
+
+.footer-about {
+  padding-bottom: $cs-spacer-medium;
+  line-height: 21px;
+  color: cs-color("grey", 50);
+  text-align: center;
+  border-bottom: 1px solid cs-color("grey", 30);
+
+  &::before {
+    display: inline-block;
+    width: 160px;
+    margin: 0 20%;
+    content: url("./image/LOGO-Common_Sense-RGB.svg");
+  }
+
+  .footer-about-info {
+    margin: $cs-spacer-medium 0;
+  }
+
+  .footer-about-donate {
+    font-weight: bold;
+  }
+
+  @include cs-media-breakpoint-up("lg") {
+    padding-right: $cs-spacer-large;
+    margin-bottom: 0;
+    text-align: left;
+    border-bottom: 0;
+
+    &.row--justify-center {
+      justify-content: flex-start;
+    }
+
+    &::before {
+      width: 116px;
+      margin: 0;
+    }
+
+    .footer-about-info {
+      max-width: unset;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/globals";
+@import "cs-commonkit/src/scss/utilities/mixins/shadow";
+@import "cs-commonkit/src/scss/mixins/breakpoints";
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  a {
+    color: cs-color("grey", 90);
+  }
+}
+
+.menu-hierarchical {
+  @include cs-media-breakpoint-up("lg") {
+    position: relative;
+    padding: 0;
+
+    .menu-item {
+      padding: 0;
+      list-style: none;
+
+      > .menu {
+        overflow: visible;
+      }
+
+      > a {
+        display: block;
+        padding: $cs-spacer-medium 0;
+      }
+    }
+
+    .menu-item--content {
+      display: initial;
+
+      img {
+        margin-bottom: .75rem;
+      }
+
+      h3 {
+        font-size: .89rem;
+        line-height: 1.25;
+      }
+    }
+
+    .menu-item--desktop-hidden > a {
+      display: none;
+    }
+
+    .menu-item--depth-1 {
+      display: inline-block;
+      border-bottom: none;
+
+      &:hover {
+        > a {
+          // position: relative;
+          z-index: 1006;
+        }
+
+        > .menu {
+          max-height: 32rem;
+          transition: max-height 500ms ease-out 50ms;
+        }
+      }
+
+      &.menu-item--active-trail {
+        background-color: cs-color("green", 90);
+      }
+
+      &.menu-item--desktop-hidden {
+        display: none;
+      }
+
+      > a {
+        position: relative;
+        z-index: 99;
+        transition: all 100ms 50ms;
+      }
+
+      > .menu {
+        @include cs-shadow("dark", false);
+        position: absolute;
+        top: 51px;
+        right: 0;
+        left: 0;
+        z-index: 1005;
+        max-height: 0;
+        overflow: hidden;
+        background-color: cs-color("white", 50);
+        transition: max-height 100ms 150ms;
+      }
+    }
+
+    .menu-item--depth-2 {
+      > a {
+        padding: $cs-spacer-tiny 0;
+        font-size: 20px;
+        line-height: 1.25;
+        color: cs-color("green", 70);
+        cursor: default;
+      }
+    }
+
+    .menu-item--depth-3 {
+      > a {
+        padding: $cs-spacer-tiny 0;
+        font-size: 14px;
+
+        &:hover,
+        &.is-active {
+          color: cs-color("grey", 40);
+        }
+      }
+
+      + .menu-item--content {
+        img {
+          margin-top: $cs-spacer-large;
+        }
+      }
+    }
+  }
+}

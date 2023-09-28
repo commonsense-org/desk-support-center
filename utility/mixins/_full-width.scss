@@ -1,0 +1,21 @@
+@import "cs-commonkit/src/scss/mixins/breakpoints";
+
+@mixin full-width($modifier: null) {
+  @if not $modifier {
+    // Make the element to be full width (beyond parent container).
+    // Changed from 100vw to `100vw - 1rem` to avoid issues with scrollbar.
+    width: calc(100vw - 1rem);
+    margin: 0 calc(50% - 50vw + 7px);
+  }
+  @else if $modifier == "margin" {
+    padding: 0 $cs-spacer-base;
+
+    @include cs-media-breakpoint-up("sm") {
+      padding: 0 $cs-spacer-medium;
+    }
+
+    @include cs-media-breakpoint-up("lg") {
+      padding: 0 60px;
+    }
+  }
+}
