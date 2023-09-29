@@ -8,18 +8,20 @@ function build_css_run {
   # By default, `all` group, do not ignore anything.
   IGNORE_PATTERN=""
   SRC="sass"
+  DST="docs/css"
 
   # Run lint.
   printf "\n> stylelint sass/*.scss ${IGNORE_PATTERN} --cache\n"
+  # TBD: stylelint disabled for now, will lint css in future sprint.
   # stylelint sass/*.scss ${IGNORE_PATTERN} --cache
 
   # Run compile.
-  printf "\n> sass --update --load-path node_modules --no-source-map ${SRC}:${SRC}\n"
-  sass --update --load-path node_modules --no-source-map $SRC:$SRC
+  printf "\n> sass --update --load-path node_modules --no-source-map ${SRC}:${DST}\n"
+  sass --update --load-path node_modules --no-source-map $SRC:$DST
 
   # Run postcss.
-  printf "\n> postcss --config build/postcss.config.js --replace \"${SRC}/**/*.css\"\n"
-  postcss --config build/postcss.config.js --replace "$SRC/**/*.css"
+  printf "\n> postcss --config build/postcss.config.js --replace \"${DST}/*.css\"\n"
+  postcss --config build/postcss.config.js --replace "$DST/*.css"
 }
 
 # Get group form command option. Eg. --ck.
