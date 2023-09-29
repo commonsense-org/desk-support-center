@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -oe pipefail
+
+function build_css_run {
+  GROUP=$1
+
+  # By default, `all` group, do not ignore anything.
+  IGNORE_PATTERN=""
+  SRC="sass"
+  DST="docs/css"
+
+  # Run lint.
+  printf "\n> stylelint sass/*.scss ${IGNORE_PATTERN} --cache\n"
+  # TBD: stylelint disabled for now, will lint css in future sprint.
+  # stylelint sass/*.scss ${IGNORE_PATTERN} --cache
+
+  # Run compile.
+  printf "\n> sass --update --load-path node_modules --no-source-map ${SRC}:${DST}\n"
+  sass --update --load-path node_modules --no-source-map $SRC:$DST
+
+  # Run postcss.
+  printf "\n> postcss --config build/postcss.config.js --replace \"${DST}/*.css\"\n"
+  postcss --config build/postcss.config.js --replace "$DST/*.css"
+}
+
+# Get group form command option. Eg. --ck.
+if [ -n "$1" ]; then
+  # Remove the `--` from the option.
+  GROUP=${1:2}
+else
+  # Fallback to `all` group if none is passed.
+  GROUP=all
+fi
+
+# Check if the option group is a valid one.
+VALID_GROUPS=("all")
+if [[ " ${VALID_GROUPS[@]} " =~ " ${GROUP} " ]]; then
+  # Valid group, proceed with build css.
+  build_css_run $GROUP
+else
+  # Invalid group, print error.
+  printf "Group ${GROUP} is not a valid group.\n"
+  printf "Valid Options are: ck, cs, cse, csm and all\n"
+fi
+

@@ -1,0 +1,48 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/colors";
+@import "cs-commonkit/src/scss/settings/typography";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $cs-font-size-root;
+}
+
+body {
+  font-family: $cs-font-family-base;
+  font-size: $cs-font-size-base;
+  color: cs-color("grey", 90);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: $cs-font-family-base;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: cs-color("grey", 90);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+// TODO: Is it ok and safe enough to add this as a global style?
+img {
+  vertical-align: bottom;
+}

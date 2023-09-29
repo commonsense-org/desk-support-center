@@ -1,0 +1,9 @@
+@import "mixins/full-width";
+
+.full-width {
+  @include full-width;
+
+  &--margin {
+    @include full-width("margin");
+  }
+}

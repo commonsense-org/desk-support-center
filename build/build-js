@@ -1,0 +1,90 @@
+#!/bin/bash
+
+set -oe pipefail
+
+function build_css_run {
+  GROUP=$1
+  FOLDER=$2
+
+  # Get the right src folder for the given group.
+  case "${GROUP}" in
+    ck) SRC="src/commonkit_components"
+      ;;
+
+    cs) SRC="src/cs_components"
+      ;;
+
+    cse) SRC="src/cse_components"
+      ;;
+
+    csm) SRC="src/csm_components"
+      ;;
+
+    all) SRC="src"
+      ;;
+  esac
+
+  # Append the folder if available.
+  if [[ $GROUP != 'all' ]] && [[ $FOLDER != 'all' ]]; then
+    SRC="$SRC/$FOLDER"
+  fi
+
+  # Run lint.
+  # Do not lint anything within a "src" folder within components.
+  # TODO: fix lint errors on the entertainment_app
+  printf "\n> eslint --ext .js --ignore-pattern **/*.dist.js --ignore-pattern **/*.dist.min.js --ignore-pattern src/**/src --ignore-pattern src/**/app ${SRC}\n"
+  # eslint --ext .js --ignore-pattern **/*.dist.js --ignore-pattern **/*.dist.min.js --ignore-pattern src/**/src --ignore-pattern src/**/app $SRC
+
+  # Run compile.
+  printf "\n> SRC=${SRC} rollup -c build/rollup.mjs\n"
+  SRC=$SRC rollup -c build/rollup.mjs
+}
+
+# Set defaults.
+INVALID_OPTION=false
+FOLDER=all
+GROUP=all
+
+# Valid options are:
+#
+#  -g {group}
+#    eg: -g ck - Will only compile CK components.
+#
+#  -f {folder} - Will only take effect combined with -g.
+#    eg: -g ck -f modal - Compile modal component of CK.
+while getopts ":g:f:" opt; do
+  case ${opt} in
+    g )
+      GROUP=$OPTARG
+      ;;
+    f )
+      FOLDER=$OPTARG
+      ;;
+    \? )
+      INVALID_OPTION=true
+      echo "Invalid option: $OPTARG" 1>&2
+      ;;
+    : )
+      INVALID_OPTION=true
+      echo "Invalid option: $OPTARG requires an argument" 1>&2
+      ;;
+  esac
+done
+shift $((OPTIND -1))
+
+# Do not process when invalid options.
+if $INVALID_OPTION; then
+  exit 1;
+fi
+
+# Check if the option group is a valid one.
+VALID_GROUPS=("ck" "cs" "cse" "csm" "all")
+if [[ " ${VALID_GROUPS[@]} " =~ " ${GROUP} " ]]; then
+  # Valid group, proceed with build css.
+  build_css_run $GROUP $FOLDER
+else
+  # Invalid group, print error.
+  printf "Group ${GROUP} is not a valid group.\n"
+  printf "Valid Options are: ck, cs, cse, csm and all\n"
+  exit 1;
+fi

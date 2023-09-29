@@ -1,0 +1,43 @@
+@import "cs-commonkit/src/scss/functions/color";
+@import "cs-commonkit/src/scss/settings/globals";
+@import "cs-commonkit/src/scss/atoms/mixins/button";
+@import "cs-commonkit/src/scss/atoms/mixins/link";
+
+.footer-copyright-wrapper {
+  border-top: 1px solid cs-color("grey", 30);
+}
+
+.footer-copyright {
+  padding: $cs-spacer-large 0 $cs-spacer-xlarge;
+  font-size: 11px;
+
+  .footer-copyright-links {
+    margin-bottom: $cs-spacer-base;
+    line-height: 21px;
+  }
+
+  .footer-copyright-trademark {
+    line-height: $cs-spacer-base;
+  }
+
+  a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  i {
+    padding: 0 $cs-spacer-tiny;
+    font-size: 1rem;
+    vertical-align: top;
+  }
+
+  // Needed to override OneTrust button default css
+  #ot-sdk-btn {
+    &.ot-sdk-show-settings {
+      @include cs-link;
+      height: 22px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+}

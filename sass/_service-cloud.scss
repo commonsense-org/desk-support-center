@@ -226,9 +226,9 @@ article .article-head {
 
 .cs-tpl-footer {
   margin-top: 3rem;
-  &.row {
-    margin-top: 3rem;
-  }
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1264px;
 
 	// Slick footer styles
 	.cs-slick-wrapper {
